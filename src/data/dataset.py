@@ -20,7 +20,7 @@ class Dataset:
         Initialize dataset
 
         Args:
-            name: Dataset name ('gsm8k', 'commonsenseqa', or 'combined')
+            name: Dataset name ('gsm8k', 'commonsenseqa', 'arc', or 'combined')
             data_dir: Data directory path
         """
         self.name = name.lower()
@@ -45,6 +45,31 @@ class Dataset:
         if self.name == "combined":
             self._load_combined_data()
             return
+
+        # Check for enhanced version for ARC
+        if self.name == "arc":
+            test_enhanced_path = os.path.join(
+                self.processed_dir, f"{self.name}_test_enhanced.json"
+            )
+            examples_enhanced_path = os.path.join(
+                self.examples_dir, f"{self.name}_examples_enhanced.json"
+            )
+
+            if os.path.exists(test_enhanced_path) and os.path.exists(
+                examples_enhanced_path
+            ):
+                logger.info(f"Loading enhanced version: {test_enhanced_path}")
+                with open(test_enhanced_path, "r", encoding="utf-8") as f:
+                    self.test_data = json.load(f)
+
+                logger.info(f"Loading enhanced version: {examples_enhanced_path}")
+                with open(examples_enhanced_path, "r", encoding="utf-8") as f:
+                    self.example_pool = json.load(f)
+
+                logger.info(
+                    f"Enhanced ARC dataset loaded: {len(self.test_data)} test items, {len(self.example_pool)} examples"
+                )
+                return
 
         # Check for enhanced version for CommonsenseQA
         if self.name == "commonsenseqa":
@@ -123,6 +148,8 @@ class Dataset:
             self._prepare_gsm8k()
         elif self.name == "commonsenseqa":
             self._prepare_commonsenseqa()
+        elif self.name == "arc":
+            self._prepare_arc()
         elif self.name == "combined":
             self._load_combined_data()
         else:
@@ -376,6 +403,18 @@ class Dataset:
 
         self.test_data = test_samples
         self.example_pool = example_pool
+
+    def _prepare_arc(self):
+        """Prepare ARC dataset"""
+        # ARC dataset is downloaded separately
+        # This method would be called if arc_test.json and arc_examples.json don't exist
+        # but arc_test_enhanced.json and arc_examples_enhanced.json are expected to be provided by the user
+
+        logger.error("ARC dataset requires manually prepared enhanced files")
+        raise FileNotFoundError(
+            f"ARC dataset files not found. Please provide {self.name}_test.json and {self.name}_examples.json files"
+            f" or enhanced versions in the appropriate directories."
+        )
 
     def _save_processed_data(self, test_data, example_pool):
         """Save processed data"""

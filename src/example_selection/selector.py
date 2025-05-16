@@ -155,9 +155,13 @@ class ClusteringSelector(ExampleSelector):
         self.silhouette_threshold = silhouette_threshold
         self.labels = None
         self.centroids = None
+        self.static_examples = None  # 새로 추가: 각 클러스터의 대표 예제 저장
 
         # Perform clustering
         self._perform_clustering()
+
+        # 각 클러스터의 대표 예제 미리 선택
+        self._preselect_cluster_representatives()
 
     def _perform_clustering(self):
         """Perform clustering on embedding data"""
@@ -189,6 +193,49 @@ class ClusteringSelector(ExampleSelector):
         logger.info(
             f"Clustering completed (method: {self.method}, number of clusters: {len(np.unique(self.labels))})"
         )
+
+    def _preselect_cluster_representatives(self):
+        """각 클러스터의 대표 예제를 미리 선택"""
+        if self.labels is None or self.centroids is None:
+            logger.warning("클러스터링이 수행되지 않았습니다.")
+            return
+
+        unique_clusters = np.unique(self.labels)
+        if -1 in unique_clusters:  # HDBSCAN의 경우 노이즈 포인트 제외
+            unique_clusters = unique_clusters[unique_clusters != -1]
+
+        # 각 클러스터별 대표 예제 선택
+        self.static_examples = {}
+        for cluster_idx in unique_clusters:
+            # 현재 클러스터에 속한 예제 인덱스 찾기
+            cluster_example_indices = np.where(self.labels == cluster_idx)[0]
+
+            if len(cluster_example_indices) == 0:
+                continue
+
+            # 클러스터 centroid 정규화
+            centroid = self.centroids[cluster_idx]
+            normalized_centroid = centroid / np.linalg.norm(centroid)
+
+            # 클러스터 내 예제 임베딩 정규화
+            cluster_embeddings = self.example_embeddings[cluster_example_indices]
+            normalized_embeddings = cluster_embeddings / np.linalg.norm(
+                cluster_embeddings, axis=1, keepdims=True
+            )
+
+            # centroid와의 유사도 계산
+            similarities = np.dot(normalized_embeddings, normalized_centroid)
+
+            # 유사도가 가장 높은 예제 선택
+            most_similar_idx = np.argmax(similarities)
+            representative_example = self.example_pool[
+                cluster_example_indices[most_similar_idx]
+            ]
+
+            # 클러스터별 대표 예제 저장
+            self.static_examples[cluster_idx] = representative_example
+
+        logger.info(f"각 클러스터별 대표 예제 {len(self.static_examples)}개 선택 완료")
 
     def _auto_select_k(self, max_k: int = 20, min_k: int = 2):
         """Select optimal k based on silhouette score"""
@@ -224,82 +271,52 @@ class ClusteringSelector(ExampleSelector):
     def select_examples(
         self, query_embedding: np.ndarray, n_examples: int = 5
     ) -> List[Dict]:
-        """Select examples based on clustering"""
-        if self.labels is None or self.centroids is None:
-            logger.warning("Clustering has not been performed.")
+        """정적으로 미리 선택된 클러스터 대표 예제들 반환"""
+        if self.static_examples is None or len(self.static_examples) == 0:
+            logger.warning(
+                "미리 선택된 예제가 없습니다. 무작위 선택 방법을 사용합니다."
+            )
             return RandomSelector(
                 self.example_pool, self.example_embeddings
             ).select_examples(query_embedding, n_examples)
 
-        # If number of clusters is less than requested examples, select additional from some clusters
-        num_clusters = len(np.unique(self.labels))
-        if num_clusters < 0:  # All points are noise in HDBSCAN
-            return RandomSelector(
-                self.example_pool, self.example_embeddings
-            ).select_examples(query_embedding, n_examples)
-
-        # Calculate similarity between query embedding and cluster centroids
+        # 쿼리와 각 클러스터 centroid 간의 유사도 계산
         normalized_query = query_embedding / np.linalg.norm(query_embedding)
         normalized_centroids = self.centroids / np.linalg.norm(
             self.centroids, axis=1, keepdims=True
         )
         centroid_similarities = np.dot(normalized_centroids, normalized_query)
 
-        # Sort clusters by similarity
+        # 유사도 기준으로 클러스터 인덱스 정렬
         sorted_cluster_indices = np.argsort(-centroid_similarities)
 
+        # 정렬된 클러스터 순서대로 미리 선택된 대표 예제 반환
         selected_examples = []
-        examples_needed = n_examples
-
-        # Select examples from each cluster
         for cluster_idx in sorted_cluster_indices:
-            if examples_needed <= 0:
+            if len(selected_examples) >= n_examples:
                 break
 
-            # Example indices belonging to current cluster
-            cluster_example_indices = np.where(self.labels == cluster_idx)[0]
+            if cluster_idx in self.static_examples:
+                selected_examples.append(self.static_examples[cluster_idx])
 
-            if len(cluster_example_indices) == 0:
-                continue
+        # 충분한 예제를 못 찾았다면 무작위로 추가
+        if len(selected_examples) < n_examples:
+            remaining_needed = n_examples - len(selected_examples)
+            already_selected_ids = {ex["id"] for ex in selected_examples}
 
-            # Number of examples to select from this cluster
-            n_from_cluster = min(
-                len(cluster_example_indices),
-                max(1, examples_needed // (num_clusters - len(selected_examples) + 1)),
-            )
-
-            # Calculate similarity between cluster examples and query
-            cluster_embeddings = self.example_embeddings[cluster_example_indices]
-            normalized_cluster = cluster_embeddings / np.linalg.norm(
-                cluster_embeddings, axis=1, keepdims=True
-            )
-            similarities = np.dot(normalized_cluster, normalized_query)
-
-            # Select top n_from_cluster examples by similarity
-            top_indices = np.argsort(-similarities)[:n_from_cluster]
-            selected_from_cluster = [
-                self.example_pool[cluster_example_indices[i]] for i in top_indices
+            # 중복 없이 남은 예제 풀에서 선택
+            remaining_examples = [
+                ex for ex in self.example_pool if ex["id"] not in already_selected_ids
             ]
 
-            selected_examples.extend(selected_from_cluster)
-            examples_needed -= len(selected_from_cluster)
-
-        # If we still don't have enough examples, randomly select from remaining
-        if examples_needed > 0:
-            all_selected_indices = [
-                self.example_pool.index(ex) for ex in selected_examples
-            ]
-            remaining_indices = [
-                i
-                for i in range(len(self.example_pool))
-                if i not in all_selected_indices
-            ]
-
-            if remaining_indices:
+            if remaining_examples:
                 random_indices = random.sample(
-                    remaining_indices, min(examples_needed, len(remaining_indices))
+                    range(len(remaining_examples)),
+                    min(remaining_needed, len(remaining_examples)),
                 )
-                selected_examples.extend([self.example_pool[i] for i in random_indices])
+                selected_examples.extend(
+                    [remaining_examples[i] for i in random_indices]
+                )
 
         return selected_examples
 

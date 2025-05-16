@@ -23,7 +23,7 @@ from src.utils.experiment import ExperimentManager
 
 # Configure logging
 logging.basicConfig(
-    level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument(
         "--dataset",
         type=str,
-        choices=["gsm8k", "commonsenseqa", "combined"],
+        choices=["gsm8k", "commonsenseqa", "arc", "combined"],
         default="gsm8k",
         help="Dataset to use",
     )
@@ -146,12 +146,36 @@ def evaluate_gsm8k_response(test_item: Dict, response: str) -> bool:
     answer_pattern = r"####\s*([-+]?\d*\.?\d+)"
     matches = re.search(answer_pattern, response)
 
-    # 2) Find number in the last line
+    # 2) Find number after common conclusion phrases (search from end to beginning)
+    if not matches:
+        conclusion_patterns = [
+            r"(?:final|total|answer is|result is|sum is|equals)(?:\s*:)?\s*([-+]?\d*\.?\d+)",
+            r"(?:final answer|final result|final total|the answer|the total)(?:\s*:)?\s*([-+]?\d*\.?\d+)",
+            r"(?:answer|result|total)(?:\s*:)?\s*([-+]?\d*\.?\d+)",
+            r"(?:is|=)\s*([-+]?\d*\.?\d+)(?:\s*classes|\s*dollars|\s*people|\s*students|\s*units|\s*kg|\s*miles|\s*meters)",
+        ]
+
+        # 모든 패턴에 대해 모든 매칭을 찾고 마지막 매칭을 선택
+        all_matches = []
+        for pattern in conclusion_patterns:
+            # 모든 매칭 찾기
+            pattern_matches = list(re.finditer(pattern, response.lower()))
+            if pattern_matches:
+                all_matches.extend(pattern_matches)
+
+        # 매칭이 있으면 위치가 가장 뒤에 있는 매칭 선택
+        if all_matches:
+            # 매칭의 시작 위치를 기준으로 정렬
+            all_matches.sort(key=lambda m: m.start())
+            # 가장 마지막에 있는 매칭 선택
+            matches = all_matches[-1]
+
+    # 3) Find number in the last line
     if not matches:
         last_line = response.strip().split("\n")[-1]
         matches = re.search(r"([-+]?\d*\.?\d+)", last_line)
 
-    # 3) Find any number in the response
+    # 4) Find any number in the response
     if not matches:
         matches = re.findall(r"([-+]?\d*\.?\d+)", response)
         if matches:
@@ -356,6 +380,8 @@ def evaluate_response(test_item: Dict, response: str, dataset_name: str) -> bool
         return evaluate_gsm8k_response(test_item, response)
     elif dataset_name == "commonsenseqa":
         return evaluate_commonsenseqa_response(test_item, response)
+    elif dataset_name == "arc":
+        return evaluate_arc_response(test_item, response)
     else:
         logger.warning(f"No evaluation logic for dataset: {dataset_name}")
         return False
@@ -372,9 +398,15 @@ def evaluate_arc_response(test_item: Dict, response: str) -> bool:
     Returns:
         Correctness (True/False)
     """
+    # 질문 ID 로깅 (디버깅용)
+    question_id = test_item.get("id", "unknown")
+    logger.debug(f"Evaluating ARC response for question: {question_id}")
+    logger.debug(f"Full response: {response}")
+
     # Get expected answer
     expected_answer = test_item.get("answer", "")
     if not expected_answer:
+        logger.warning(f"No expected answer for question: {question_id}")
         return False
 
     # 정답 문자열에서 숫자와 문자만 추출
@@ -400,51 +432,110 @@ def evaluate_arc_response(test_item: Dict, response: str) -> bool:
         logger.warning(f"Invalid expected answer format: {expected_answer}")
         return False
 
+    logger.debug(
+        f"Expected letter: {expected_letter}, Expected number: {expected_number}"
+    )
+
     # 다양한 패턴으로 응답에서 답변 추출
     predicted_answer = None
+    extracted_patterns = []  # 추출된 패턴들을 저장
 
-    # 1) Final answer 패턴 (####으로 표시)
-    final_answer_pattern = r"(?:final answer|answer)[\s:]*(?:is)?[\s:#]*\s*([1-4A-D])"
-    matches = re.search(final_answer_pattern, response.lower())
-    if matches:
-        predicted_answer = matches.group(1).upper()
+    # 1) #### 뒤의 패턴 (가장 높은 우선순위)
+    if "####" in response:
+        after_hash = response.split("####")[-1].strip()
+        hash_direct_pattern = r"([A-D1-4])\b"
+        hash_matches = re.search(hash_direct_pattern, after_hash)
+        if hash_matches:
+            predicted_answer = hash_matches.group(1).upper()
+            extracted_patterns.append(f"Hash pattern: {predicted_answer}")
 
-    # 2) 마지막 줄에서 숫자나 문자 찾기
+    # 2) Final answer 패턴
+    if not predicted_answer:
+        final_patterns = [
+            r"(?:final answer|answer)[\s:]*(?:is)?[\s:#]*\s*([A-D1-4])\b",
+            r"(?:final answer|answer)(?:\s*:)?\s*([A-D1-4])[^A-Za-z0-9]",
+            r"(?:final answer|answer)(?:\s*:)?\s*([A-D1-4])$",
+        ]
+
+        for pattern in final_patterns:
+            matches = re.search(pattern, response.lower())
+            if matches:
+                predicted_answer = matches.group(1).upper()
+                extracted_patterns.append(f"Final pattern: {predicted_answer}")
+                break
+
+    # 3) 마지막 줄에서 정답 패턴 찾기
     if not predicted_answer:
         last_line = response.strip().split("\n")[-1]
-        last_line_pattern = r"([1-4A-D])(?:\.|:|$|\s|,)"
-        matches = re.search(last_line_pattern, last_line)
-        if matches:
-            predicted_answer = matches.group(1).upper()
+        last_line_patterns = [
+            r"^([A-D1-4])[^A-Za-z0-9]",  # 줄 시작 부분의 A-D, 1-4
+            r"([A-D1-4])(?:\.|:|$|\s|,)",  # A-D, 1-4 다음에 구두점이나 공백
+            r"(?:option|choice)\s*([A-D1-4])\b",  # "option A" 또는 "choice 1" 형식
+            r"(?:answer|solution)[\s:]*(?:is)?[\s:]*([A-D1-4])\b",  # "answer: A" 형식
+        ]
 
-    # 3) "The answer is X" 패턴
+        for pattern in last_line_patterns:
+            matches = re.search(pattern, last_line, re.IGNORECASE)
+            if matches:
+                predicted_answer = matches.group(1).upper()
+                extracted_patterns.append(f"Last line pattern: {predicted_answer}")
+                break
+
+    # 4) 체계적인 키워드 이후의 패턴 찾기
     if not predicted_answer:
-        answer_pattern = r"the answer is\s*([1-4A-D])"
-        matches = re.search(answer_pattern, response.lower())
-        if matches:
-            predicted_answer = matches.group(1).upper()
+        keyword_patterns = [
+            r"(?:therefore|thus|so|hence)[^.!?]*(?:answer|choose|select|pick|option)[^.!?]*?([A-D1-4])\b",
+            r"(?:answer|solution|option|choice)[^.!?]*(?:is|=)[^.!?]*?([A-D1-4])\b",
+            r"(?:correct|right)[^.!?]*(?:answer|solution|option|choice)[^.!?]*?([A-D1-4])\b",
+        ]
 
-    # 4) "Option X" 패턴
+        for pattern in keyword_patterns:
+            matches = re.search(pattern, response.lower())
+            if matches:
+                predicted_answer = matches.group(1).upper()
+                extracted_patterns.append(f"Keyword pattern: {predicted_answer}")
+                break
+
+    # 5) 응답 전체에서 마지막 선택지 형식 찾기
     if not predicted_answer:
-        option_pattern = r"(?:option|choice)\s*([1-4A-D])"
-        matches = re.search(option_pattern, response.lower())
-        if matches:
-            predicted_answer = matches.group(1).upper()
+        options_pattern = r"\b([A-D])\s*(?:\)|\.)\s*([a-zA-Z].{5,})"
+        all_options = list(re.finditer(options_pattern, response))
+        if all_options:
+            last_option_discussion = response.split(all_options[-1].group(0))[-1]
+            option_conclusions = [
+                r"(?:answer|pick|choose|select)[^.!?]*?([A-D1-4])\b",
+                r"(?:option|choice)\s*([A-D1-4])\b",
+                r"(?:answer|solution)\s*(?:is|=)\s*([A-D1-4])\b",
+            ]
 
-    # 5) 응답 전체에서 [A-D] or [1-4] 형태의 문자열 찾기
+            for pattern in option_conclusions:
+                matches = re.search(pattern, last_option_discussion.lower())
+                if matches:
+                    predicted_answer = matches.group(1).upper()
+                    extracted_patterns.append(
+                        f"Option discussion pattern: {predicted_answer}"
+                    )
+                    break
+
+    # 6) 응답 전체에서 A-D, 1-4 형태의 단독 패턴 찾기 (낮은 우선순위)
     if not predicted_answer:
         all_letters = re.findall(r"\b([A-D])\b", response.upper())
         if all_letters:
             predicted_answer = all_letters[-1]  # 마지막 문자 사용
+            extracted_patterns.append(f"Last letter: {predicted_answer}")
+        else:
+            all_numbers = re.findall(r"\b([1-4])\b", response)
+            if all_numbers:
+                predicted_answer = all_numbers[-1]  # 마지막 숫자 사용
+                extracted_patterns.append(f"Last number: {predicted_answer}")
 
-    # 6) 응답 전체에서 숫자 1-4 찾기
+    # 결과 로깅
     if not predicted_answer:
-        all_numbers = re.findall(r"\b([1-4])\b", response)
-        if all_numbers:
-            predicted_answer = all_numbers[-1]  # 마지막 숫자 사용
-
-    if not predicted_answer:
+        logger.warning(f"Could not extract answer from response for {question_id}")
         return False
+
+    logger.debug(f"Extracted patterns: {extracted_patterns}")
+    logger.debug(f"Predicted answer: {predicted_answer}")
 
     # 추출된 답변이 숫자면 해당하는 알파벳으로 변환
     if predicted_answer in ["1", "2", "3", "4"]:
@@ -455,12 +546,19 @@ def evaluate_arc_response(test_item: Dict, response: str) -> bool:
         predicted_letter = predicted_answer
         predicted_number = {"A": "1", "B": "2", "C": "3", "D": "4"}[predicted_answer]
     else:
+        logger.warning(f"Invalid predicted answer format: {predicted_answer}")
         return False
 
     # 예상 답변과 실제 답변 비교 (숫자 또는 알파벳 형식 모두 고려)
-    return (expected_letter and expected_letter == predicted_letter) or (
+    is_correct = (expected_letter and expected_letter == predicted_letter) or (
         expected_number and expected_number == predicted_number
     )
+
+    logger.info(
+        f"ARC evaluation: {question_id} | Expected: {expected_answer} | Predicted: {predicted_answer} | Correct: {is_correct}"
+    )
+
+    return is_correct
 
 
 def run_experiment(args):
