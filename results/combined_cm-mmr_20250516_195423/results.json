@@ -1,0 +1,252 @@
+[
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "LEAP_2007_4_10280",
+    "question": "When Jake breathes out on a cold day, a cloud is formed. Which change occurs that lets Jake see his breath as a cloud?\nA. Gas changes to liquid.\nB. Solid changes to gas.\nC. Liquid changes to gas.\nD. Liquid changes to solid.",
+    "expected_answer": "A",
+    "response": "Let's analyze the process of Jake breathing out on a cold day. When warm, moist air from Jake's lungs is expelled into the cold air, the water vapor in his breath cools rapidly. As it cools, the water vapor condenses into tiny droplets, forming a visible cloud or mist.\n\nNow, step-by-step reasoning:\n\n1. **Identify the initial state:** The water in Jake's breath is in the form of water vapor (gas).\n\n2. **What happens when it hits the cold air?** The water vapor cools down.\n\n3. **What is the phase change?** The cooling causes water vapor to change into tiny liquid water droplets — this is condensation.\n\n4. **What is visible?** The tiny droplets form a cloud or mist, which Jake can see.\n\nTherefore, the key change is from **gas to liquid**.\n\nFinal reasoning: The process that allows Jake to see his breath as a cloud is the condensation of water vapor into liquid water droplets.\n\n**Answer:** A. Gas changes to liquid.\n\n####",
+    "selected_examples": [
+      "NYSEDREGENTS_2009_4_4",
+      "commonsenseqa_train_7454",
+      "MDSA_2008_5_41",
+      "MCAS_2003_5_24",
+      "Mercury_SC_413533"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 714,
+      "completion_tokens": 211,
+      "total_tokens": 925
+    },
+    "response_time": 9.073019027709961,
+    "selection_time": 0.0018665790557861328,
+    "total_latency": 9.074885606765747,
+    "timestamp": "2025-05-16T19:55:12.159841"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "NYSEDREGENTS_2010_8_42",
+    "question": "The force of an object, with a certain mass accelerating at a certain rate, can be determined by using the equation below. force = mass x acceleration Which object would have the greatest force?\n1. a 5-kg object accelerating at 10 m/s^2\n2. a 5-kg object accelerating at 20 m/s^2\n3. a 20-kg object accelerating at 4 m/s^2\n4. a 20-kg object accelerating at 3 m/s^2",
+    "expected_answer": "2",
+    "response": "Let's analyze each option by calculating the force using the formula:  \n**force = mass × acceleration**\n\n**Option 1:**  \nMass = 5 kg  \nAcceleration = 10 m/s²  \nForce = 5 × 10 = 50 N\n\n**Option 2:**  \nMass = 5 kg  \nAcceleration = 20 m/s²  \nForce = 5 × 20 = 100 N\n\n**Option 3:**  \nMass = 20 kg  \nAcceleration = 4 m/s²  \nForce = 20 × 4 = 80 N\n\n**Option 4:**  \nMass = 20 kg  \nAcceleration = 3 m/s²  \nForce = 20 × 3 = 60 N\n\nNow, compare the forces:  \n- Option 1: 50 N  \n- Option 2: 100 N  \n- Option 3: 80 N  \n- Option 4: 60 N\n\nThe greatest force is **100 N**, which occurs in **Option 2**.\n\n**Final answer:** #### 2",
+    "selected_examples": [
+      "VASoL_2009_3_10",
+      "Mercury_7072415",
+      "MCAS_2004_9_12",
+      "Mercury_7133368",
+      "MCAS_2005_9_19"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 972,
+      "completion_tokens": 216,
+      "total_tokens": 1188
+    },
+    "response_time": 10.826969146728516,
+    "selection_time": 0.002148151397705078,
+    "total_latency": 10.82911729812622,
+    "timestamp": "2025-05-16T19:55:23.748252"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "NYSEDREGENTS_2010_8_13",
+    "question": "What are genes composed of?\n1. offspring\n2. DNA\n3. cells\n4. traits",
+    "expected_answer": "2",
+    "response": "Let's analyze the question carefully:\n\n**Question:** What are genes composed of?\n\n**Step 1:** Recall what genes are.  \nGenes are units of heredity that carry genetic information. They are segments of DNA that code for specific proteins or traits.\n\n**Step 2:** Consider the options:  \n1. Offspring — This refers to the result of reproduction, not what genes are made of.  \n2. DNA — This is the molecule that makes up genes. Genes are segments of DNA.  \n3. Cells — Cells contain DNA, but genes themselves are not composed of cells.  \n4. Traits — Traits are characteristics, not the building blocks of genes.\n\n**Step 3:** Based on biological knowledge, genes are made of DNA.  \nTherefore, the correct answer is **2. DNA**.\n\n**Final step:** Write the answer after '####'.\n\n---\n\n### Final answer: #### 2",
+    "selected_examples": [
+      "Mercury_7282100",
+      "Mercury_7228480",
+      "MCAS_2006_8_2",
+      "NYSEDREGENTS_2014_8_9",
+      "NCEOGA_2013_5_40"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 645,
+      "completion_tokens": 182,
+      "total_tokens": 827
+    },
+    "response_time": 7.534242868423462,
+    "selection_time": 0.0015211105346679688,
+    "total_latency": 7.53576397895813,
+    "timestamp": "2025-05-16T19:55:32.457581"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "NYSEDREGENTS_2015_4_29",
+    "question": "What is the main source of energy for all of the organisms in most food chains?\nA. sunlight\nB. water\nC. green plants\nD. decomposers",
+    "expected_answer": "A",
+    "response": "This question asks about the main source of energy for organisms in most food chains. In ecological systems, the energy flow begins with the primary source that provides energy to all other organisms. \n\n- Green plants (producers) use sunlight to produce food via photosynthesis.\n- Animals (consumers) obtain energy by eating plants or other animals.\n- Decomposers break down dead matter but are not the primary energy source.\n\nSince the question asks for the main energy source for most organisms in food chains, the correct answer is the initial energy input, which is sunlight.\n\nTherefore, the reasoning is: Sunlight is the primary energy source that powers photosynthesis in green plants, which form the base of most food chains, providing energy to herbivores and, subsequently, to carnivores and other consumers.\n\nFinal answer: A\n\n####",
+    "selected_examples": [
+      "TIMSS_2007_4_pg99",
+      "NYSEDREGENTS_2009_4_19",
+      "NAEP_2011_8_S11+15",
+      "MCAS_2016_5_9",
+      "Mercury_SC_415424"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 664,
+      "completion_tokens": 169,
+      "total_tokens": 833
+    },
+    "response_time": 4.951134920120239,
+    "selection_time": 0.0012118816375732422,
+    "total_latency": 4.9523468017578125,
+    "timestamp": "2025-05-16T19:55:38.170137"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "OHAT_2010_8_8",
+    "question": "Bass tapeworms attach to the gills and intestines of bass fish. These worms survive by taking nutrients from the bass. What type of relationship does this represent?\nA. predation\nB. parasitism\nC. mutualism\nD. commensalism",
+    "expected_answer": "B",
+    "response": "Let's analyze the relationship described: Bass tapeworms attach to bass fish and take nutrients from them. This means the tapeworm benefits by feeding on the fish, while the fish is harmed because it loses nutrients and may suffer health issues.\n\n- **Predation** involves one organism hunting and killing another for food. Since the tapeworm does not kill the fish directly but lives on it, this is not predation.\n- **Parasitism** is a relationship where one organism benefits at the expense of the other, which is harmed. This matches the scenario described.\n- **Mutualism** involves both organisms benefiting, which is not the case here.\n- **Commensalism** involves one organism benefiting without harming or helping the other, which does not fit because the fish is harmed.\n\nTherefore, the correct relationship is **parasitism**.\n\nFinal answer: #### D",
+    "selected_examples": [
+      "Mercury_183138",
+      "Mercury_7284060",
+      "Mercury_7114888",
+      "Mercury_178903",
+      "Mercury_SC_407709"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 874,
+      "completion_tokens": 180,
+      "total_tokens": 1054
+    },
+    "response_time": 6.346354961395264,
+    "selection_time": 0.002021312713623047,
+    "total_latency": 6.348376274108887,
+    "timestamp": "2025-05-16T19:55:45.290562"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "Mercury_SC_400709",
+    "question": "Which statement best compares gravity on the Moon to gravity on Earth?\nA. Gravity on the Moon is greater because it is closer to the Sun.\nB. Gravity on the Moon is less because it is smaller than the Earth.\nC. Gravity on the Moon is less because it has less atmosphere than the Earth.\nD. Gravity on the Moon is greater because it has less mass than the Earth.",
+    "expected_answer": "B",
+    "response": "Let's analyze each option carefully:\n\n- Gravity depends on the mass of the celestial body and the distance from its center, not on its proximity to the Sun or its atmosphere.\n- The Moon has less mass than Earth, which results in weaker gravity on its surface.\n- The size (radius) of the Moon is smaller, and its mass is less, leading to lower gravitational acceleration.\n\nNow, evaluate each statement:\n\nA. \"Gravity on the Moon is greater because it is closer to the Sun.\"  \n- Incorrect. The Sun's distance does not directly affect the Moon's surface gravity.\n\nB. \"Gravity on the Moon is less because it is smaller than the Earth.\"  \n- Partially correct, but the key reason is the Moon's lower mass, which is related to its size, but size alone isn't the full explanation.\n\nC. \"Gravity on the Moon is less because it has less atmosphere than the Earth.\"  \n- Incorrect. Atmosphere does not influence surface gravity.\n\nD. \"Gravity on the Moon is greater because it has less mass than the Earth.\"  \n- Incorrect. Less mass means weaker gravity, not greater.\n\nThe best explanation is that the Moon's lower mass results in weaker gravity, which aligns with the principle that gravity is proportional to mass.\n\nTherefore, the correct statement is:\n\n**B. Gravity on the Moon is less because it is smaller than the Earth.**\n\nFinal answer: #### B",
+    "selected_examples": [
+      "Mercury_7072415",
+      "Mercury_7184660",
+      "Mercury_7146090",
+      "Mercury_SC_408710",
+      "Mercury_7004515"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 932,
+      "completion_tokens": 285,
+      "total_tokens": 1217
+    },
+    "response_time": 8.303717851638794,
+    "selection_time": 0.0015947818756103516,
+    "total_latency": 8.305312633514404,
+    "timestamp": "2025-05-16T19:55:54.357991"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "Mercury_SC_401629",
+    "question": "Which tools are used to determine the boiling point of water?\nA. hot plate and stopwatch\nB. thermometer and balance\nC. hot plate and thermometer\nD. balance and graduated cylinder",
+    "expected_answer": "C",
+    "response": "Let's analyze the question carefully:\n\n**Question:** Which tools are used to determine the boiling point of water?\n\n**Reasoning:**\n\n- The boiling point of water is the temperature at which water changes from liquid to gas.\n- To find this temperature, we need a tool that measures temperature accurately.\n- A hot plate can be used to heat the water, but it does not measure temperature directly.\n- A thermometer is used to measure the temperature of the water during heating.\n- The balance, stopwatch, graduated cylinder, or other tools are not directly used to measure boiling point temperature.\n\n**Step-by-step reasoning:**\n\n1. To determine boiling point, we need to heat water until it boils.\n2. During heating, we monitor the temperature of the water.\n3. The appropriate tool for measuring temperature is a thermometer.\n4. The hot plate is used to provide heat but does not measure temperature.\n5. Therefore, the combination of tools needed is a thermometer (to measure temperature) and a hot plate (to provide heat).\n\n**Conclusion:**\n\nThe best answer is **C. hot plate and thermometer**.\n\n---\n\n**Final answer: #### C**",
+    "selected_examples": [
+      "Mercury_SC_401204",
+      "NYSEDREGENTS_2004_4_28",
+      "Mercury_SC_401368",
+      "Mercury_SC_401826",
+      "Mercury_7006178"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 722,
+      "completion_tokens": 231,
+      "total_tokens": 953
+    },
+    "response_time": 4.667811632156372,
+    "selection_time": 0.0015180110931396484,
+    "total_latency": 4.669329643249512,
+    "timestamp": "2025-05-16T19:55:59.857981"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "Mercury_SC_400012",
+    "question": "Polar bears are very heavy. About half of a polar bear's mass is fat. How does this adaptation most help a polar bear as it hunts in the Arctic Ocean?\nA. Fat makes the polar bear large.\nB. Fat makes the polar bear slippery.\nC. Fat helps the polar bear run on ice.\nD. Fat helps the polar bear float in water.",
+    "expected_answer": "D",
+    "response": "Let's analyze the question carefully. It states that about half of a polar bear's mass is fat, and asks how this adaptation most helps the bear as it hunts in the Arctic Ocean.\n\nStep 1: Understand the role of fat in polar bears.\n- Fat provides insulation against the cold, which is crucial in the Arctic environment.\n- Fat also contributes to buoyancy, helping the bear float in water.\n- The options given are about size, slipperiness, running on ice, and floating.\n\nStep 2: Evaluate each option:\nA. Fat makes the polar bear large.\n- While fat does contribute to overall size, the primary benefit isn't size per se, but insulation and buoyancy.\n\nB. Fat makes the polar bear slippery.\n- Fat isn't primarily for slipperiness; this is not a key adaptation for hunting.\n\nC. Fat helps the polar bear run on ice.\n- Fat isn't directly related to running ability; polar bears are strong runners, but their speed is more due to muscle, not fat.\n\nD. Fat helps the polar bear float in water.\n- This is a well-known benefit: the thick layer of fat (blubber) provides buoyancy, aiding in swimming and hunting seals in the water.\n\nStep 3: Conclusion:\nThe most relevant and scientifically supported benefit of the fat layer for a polar bear in the Arctic Ocean is buoyancy, which helps it float while hunting.\n\nFinal answer: D\n\n####",
+    "selected_examples": [
+      "Mercury_SC_400053",
+      "NYSEDREGENTS_2007_4_16",
+      "Mercury_SC_401807",
+      "Mercury_183978",
+      "Mercury_7168648"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 769,
+      "completion_tokens": 288,
+      "total_tokens": 1057
+    },
+    "response_time": 7.980893850326538,
+    "selection_time": 0.0010538101196289062,
+    "total_latency": 7.981947660446167,
+    "timestamp": "2025-05-16T19:56:08.591831"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "Mercury_7168823",
+    "question": "Nutrient-laden waters from heavy rains flow into the Gulf of Mexico. This produces an algae bloom in the ocean environment. As the algae decays, it uses up large amounts of oxygen along the coastline. Which would most likely happen to the area as a result?\nA. Nitrogen replaces oxygen in the water.\nB. The temperature of the water increases.\nC. Wave action carries away the dead algae.\nD. Bottom dwellers die and fish swim away.",
+    "expected_answer": "D",
+    "response": "Let's analyze the scenario carefully:\n\n- Nutrient-laden waters cause an algae bloom.\n- When the algae decay, they consume oxygen.\n- The depletion of oxygen in the water leads to hypoxic conditions, which can cause the death of aquatic organisms.\n\nNow, examine each option:\n\nA. Nitrogen replaces oxygen in the water.\n- This is not accurate because nitrogen does not replace oxygen; rather, oxygen levels decrease due to decay, and nitrogen levels may increase, but \"replaces\" is misleading.\n\nB. The temperature of the water increases.\n- While temperature can influence algae blooms, the decay process itself does not directly cause an increase in water temperature.\n\nC. Wave action carries away the dead algae.\n- Wave action can disperse algae, but the question emphasizes oxygen depletion and its effects, not dispersal.\n\nD. Bottom dwellers die and fish swim away.\n- This makes sense because as oxygen levels drop (hypoxia), bottom-dwelling organisms and fish that rely on oxygen die or leave the area to find more oxygen-rich waters.\n\nTherefore, the most logical consequence of oxygen depletion due to algae decay is the death of bottom dwellers and fish swimming away.\n\nFinal reasoning: The decay of algae consumes oxygen, leading to hypoxic conditions that cause aquatic organisms to die or flee.\n\n**Answer: D**\n\n####",
+    "selected_examples": [
+      "MSA_2013_5_44",
+      "Mercury_416545",
+      "Mercury_7213150",
+      "MEA_2010_8_16-v1",
+      "Mercury_7217893"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 805,
+      "completion_tokens": 266,
+      "total_tokens": 1071
+    },
+    "response_time": 8.473175048828125,
+    "selection_time": 0.0012118816375732422,
+    "total_latency": 8.474386930465698,
+    "timestamp": "2025-05-16T19:56:17.817479"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "NYSEDREGENTS_2015_8_16",
+    "question": "Nutrients enter the bloodstream during the process of\n1. locomotion\n2. respiration\n3. elimination\n4. absorption",
+    "expected_answer": "4",
+    "response": "Let's analyze each option to determine when nutrients enter the bloodstream:\n\n1. **Locomotion**: This refers to movement of the body or parts of the body, not nutrient absorption. So, this is not correct.\n\n2. **Respiration**: This is the process of breathing and gas exchange, primarily involving oxygen intake and carbon dioxide removal, not nutrient absorption. So, this is not correct.\n\n3. **Elimination**: This involves removing waste products from the body, not absorbing nutrients. So, this is not correct.\n\n4. **Absorption**: This is the process by which nutrients from digested food pass through the walls of the intestines into the bloodstream. This matches the description of nutrients entering the bloodstream.\n\n**Therefore, the correct answer is 4. absorption.**\n\nFinal answer: ####4",
+    "selected_examples": [
+      "MCAS_2003_8_34",
+      "MSA_2012_5_31",
+      "Mercury_SC_401364",
+      "Mercury_7144148",
+      "CSZ10244"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 695,
+      "completion_tokens": 166,
+      "total_tokens": 861
+    },
+    "response_time": 15.137479066848755,
+    "selection_time": 0.0014603137969970703,
+    "total_latency": 15.138939380645752,
+    "timestamp": "2025-05-16T19:56:33.729589"
+  }
+]

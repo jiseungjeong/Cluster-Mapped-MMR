@@ -1,0 +1,13 @@
+{
+  "commonsenseqa": {
+    "mmr": {
+      "count": 100,
+      "accuracy": 0.18,
+      "tokens": {},
+      "response_time": {
+        "mean": 2.911227612495422,
+        "std": 0.8044326015373052
+      }
+    }
+  }
+}

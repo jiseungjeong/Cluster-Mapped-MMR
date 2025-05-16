@@ -1,0 +1,13 @@
+{
+  "gsm8k": {
+    "random": {
+      "count": 100,
+      "accuracy": 0.85,
+      "tokens": {},
+      "response_time": {
+        "mean": 2.198642897605896,
+        "std": 0.8705826962053157
+      }
+    }
+  }
+}

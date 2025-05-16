@@ -1,0 +1,8 @@
+num_examples,accuracy,results_file
+0,92.0,./results/fewshot_analysis_20250514_154109/gsm8k_random_0shots_20250514_154109/results.json
+1,86.0,./results/fewshot_analysis_20250514_154109/gsm8k_random_1shots_20250514_154359/results.json
+2,84.0,./results/fewshot_analysis_20250514_154109/gsm8k_random_2shots_20250514_154642/results.json
+4,90.0,./results/fewshot_analysis_20250514_154109/gsm8k_random_4shots_20250514_154932/results.json
+8,90.0,./results/fewshot_analysis_20250514_154109/gsm8k_random_8shots_20250514_155224/results.json
+16,84.0,./results/fewshot_analysis_20250514_154109/gsm8k_random_16shots_20250514_155511/results.json
+32,88.0,./results/fewshot_analysis_20250514_154109/gsm8k_random_32shots_20250514_155801/results.json

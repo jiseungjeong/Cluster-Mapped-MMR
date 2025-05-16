@@ -1,0 +1,59 @@
+{
+  "accuracy": {
+    "gsm8k": {
+      "kmeans": {
+        "accuracy": 89.0,
+        "count": 100
+      }
+    }
+  },
+  "tokens": {
+    "gsm8k": {
+      "kmeans": {
+        "tokens_prompt_tokens": {
+          "mean": 952.9,
+          "std": 158.78073948789643,
+          "median": 948.0,
+          "min": 598,
+          "max": 1343
+        },
+        "tokens_completion_tokens": {
+          "mean": 240.94,
+          "std": 114.41213999299978,
+          "median": 216.0,
+          "min": 90,
+          "max": 701
+        },
+        "tokens_total_tokens": {
+          "mean": 1193.84,
+          "std": 203.0922425645524,
+          "median": 1213.5,
+          "min": 748,
+          "max": 1666
+        }
+      }
+    }
+  },
+  "response_time": {
+    "gsm8k": {
+      "kmeans": {
+        "mean": 2.07495285987854,
+        "std": 0.8048866769866247,
+        "median": 1.9087835550308228,
+        "min": 1.0208842754364014,
+        "max": 6.561853885650635
+      }
+    }
+  },
+  "diversity": {
+    "gsm8k": {
+      "kmeans": {
+        "mean": 2.869265556335449,
+        "std": 0.43709513545036316,
+        "median": 2.8652448654174805,
+        "min": 2.0208370685577393,
+        "max": 4.170493125915527
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "commonsenseqa": {
+    "random": {
+      "count": 100,
+      "accuracy": 0.18,
+      "tokens": {},
+      "response_time": {
+        "mean": 2.961317057609558,
+        "std": 1.6375217024111097
+      }
+    }
+  }
+}

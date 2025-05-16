@@ -1,0 +1,37 @@
+[
+  {
+    "num_examples": 0,
+    "accuracy": 92.0,
+    "results_file": "./results/fewshot_analysis_20250514_154109/gsm8k_random_0shots_20250514_154109/results.json"
+  },
+  {
+    "num_examples": 1,
+    "accuracy": 86.0,
+    "results_file": "./results/fewshot_analysis_20250514_154109/gsm8k_random_1shots_20250514_154359/results.json"
+  },
+  {
+    "num_examples": 2,
+    "accuracy": 84.0,
+    "results_file": "./results/fewshot_analysis_20250514_154109/gsm8k_random_2shots_20250514_154642/results.json"
+  },
+  {
+    "num_examples": 4,
+    "accuracy": 90.0,
+    "results_file": "./results/fewshot_analysis_20250514_154109/gsm8k_random_4shots_20250514_154932/results.json"
+  },
+  {
+    "num_examples": 8,
+    "accuracy": 90.0,
+    "results_file": "./results/fewshot_analysis_20250514_154109/gsm8k_random_8shots_20250514_155224/results.json"
+  },
+  {
+    "num_examples": 16,
+    "accuracy": 84.0,
+    "results_file": "./results/fewshot_analysis_20250514_154109/gsm8k_random_16shots_20250514_155511/results.json"
+  },
+  {
+    "num_examples": 32,
+    "accuracy": 88.0,
+    "results_file": "./results/fewshot_analysis_20250514_154109/gsm8k_random_32shots_20250514_155801/results.json"
+  }
+]

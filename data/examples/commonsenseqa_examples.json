@@ -1,0 +1,3502 @@
+[
+  {
+    "id": "commonsenseqa_train_1824",
+    "question": "He fantasied about getting a what while driving to work and the pros and cons of the extra responsibilities and benefits?\nA. new car\nB. promotion\nC. boredom\nD. impatience\nE. pressure",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'promotion'입니다.",
+    "answer": "B. promotion",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_409",
+    "question": "He was good at traditional science but excelled at social science, his favorite subject was what?\nA. geography\nB. history studies\nC. math\nD. religion\nE. dancing",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'history studies'입니다.",
+    "answer": "B. history studies",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4506",
+    "question": "Jan wasn't very good at studying.  What might help him study better?\nA. having a bigger brain\nB. headaches\nC. inspiration\nD. more intelligence\nE. understanding",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'more intelligence'입니다.",
+    "answer": "D. more intelligence",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4012",
+    "question": "The cat was wild but like all others he was always read for a cat what?\nA. stealing\nB. four legs\nC. tuna fish\nD. food now\nE. nap",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'nap'입니다.",
+    "answer": "E. nap",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3657",
+    "question": "Cats are easily entertained, they love to what?\nA. need food\nB. go bowling\nC. go outside\nD. go out at night\nE. play with toys",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'play with toys'입니다.",
+    "answer": "E. play with toys",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_2286",
+    "question": "What do we feel when we run out of energy?\nA. fatigue\nB. matter\nC. weakness\nD. deprived\nE. mass",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'weakness'입니다.",
+    "answer": "C. weakness",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1679",
+    "question": "The previous hotel was bad, so what did the pleased visitor think of the hotel?\nA. badarse\nB. adequate\nC. propitious\nD. first rate\nE. manual",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'adequate'입니다.",
+    "answer": "B. adequate",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_8935",
+    "question": "What is the goal of most people playing games?\nA. conquest\nB. entertainment\nC. winning\nD. happiness\nE. stress",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'winning'입니다.",
+    "answer": "C. winning",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1424",
+    "question": "When chatting with friends you admire, what are you hoping to achieve?\nA. feel close to\nB. exchanging information\nC. love\nD. social approval\nE. exchanging smiles",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'social approval'입니다.",
+    "answer": "D. social approval",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_9674",
+    "question": "What is something that the public can go to which involves a committee?\nA. business\nB. city council meeting\nC. temple\nD. office building\nE. boardroom",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'city council meeting'입니다.",
+    "answer": "B. city council meeting",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_6912",
+    "question": "Where is a snake unlikely to be welcome?\nA. hollow log\nB. arid climate\nC. petting zoo\nD. ocean\nE. tropical forest",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'petting zoo'입니다.",
+    "answer": "C. petting zoo",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_520",
+    "question": "The animals weren't good at swimming, so it was hard for them to do what?\nA. pass water\nB. bathe\nC. listen to each other\nD. feel pleasure\nE. reproduce asexually",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'pass water'입니다.",
+    "answer": "A. pass water",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_488",
+    "question": "What European country is famous for its potato industry?\nA. idaho\nB. casserole\nC. new hampshire\nD. root cellar\nE. ireland",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'ireland'입니다.",
+    "answer": "E. ireland",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_1535",
+    "question": "Where are you likely to find a corner shop selling hats?\nA. subway\nB. street corner\nC. england\nD. town\nE. minnesota",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'england'입니다.",
+    "answer": "C. england",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3582",
+    "question": "What does lying about oneself likely to lead to?\nA. feeling guilty\nB. problems\nC. getting caught\nD. hurt feelings\nE. being fired",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'problems'입니다.",
+    "answer": "B. problems",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_3811",
+    "question": "Where do older people sometimes want to hear the singer more than the music?\nA. elevator\nB. opera\nC. carnival\nD. music hall\nE. night club",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'opera'입니다.",
+    "answer": "B. opera",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_8279",
+    "question": "If you practice answering questions, what positive thing will happen?\nA. good habits\nB. better grade\nC. sharing information\nD. getting tired\nE. correct",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'better grade'입니다.",
+    "answer": "B. better grade",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_434",
+    "question": "Where can someone view a county highway as a line?\nA. from the sky\nB. map\nC. cross counties by car\nD. country\nE. michigan",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'map'입니다.",
+    "answer": "B. map",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_9195",
+    "question": "What is a negative external consequence for someone who takes part in a killing?\nA. dies\nB. being imprisoned\nC. blood\nD. bloody mess\nE. feeling of guilt",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'being imprisoned'입니다.",
+    "answer": "B. being imprisoned",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_3257",
+    "question": "Where do you find leather horseback riding equipment?\nA. car seats\nB. department stores\nC. stable\nD. merry go round\nE. handbag",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'stable'입니다.",
+    "answer": "C. stable",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8928",
+    "question": "What happens to dogs when they want to play?\nA. many colours\nB. need food\nC. sleep soundly\nD. go outside\nE. they speak english",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'go outside'입니다.",
+    "answer": "D. go outside",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6873",
+    "question": "What is something someone driving a car needs even to begin?\nA. practice\nB. feet\nC. sight\nD. keys\nE. open car door",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'sight'입니다.",
+    "answer": "C. sight",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3611",
+    "question": "He played the bass fiddle professionally, but for his baby he used it to play a fun simple what?\nA. music\nB. jazz band\nC. orchestra\nD. nursery rhyme\nE. music store",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'nursery rhyme'입니다.",
+    "answer": "D. nursery rhyme",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_7359",
+    "question": "What can be done to ice in order to give it a desired shape?\nA. antarctica\nB. sculptured\nC. shaped\nD. melted\nE. carved",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'carved'입니다.",
+    "answer": "E. carved",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_9654",
+    "question": "The beaver swam through the country he symbolized, where was he likely to be?\nA. japan\nB. ontario\nC. washington\nD. woodlands\nE. books",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'ontario'입니다.",
+    "answer": "B. ontario",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4557",
+    "question": "Sam spent most of his time standing up.  His job was hectic and he never got any rest. But he was the best cashier at his workplace.    Where might he work?\nA. bookstore\nB. count till\nC. supermarket\nD. shop\nE. preschool",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'supermarket'입니다.",
+    "answer": "C. supermarket",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_106",
+    "question": "Where would you find a bee gathering pollen?\nA. united states\nB. sky\nC. court\nD. field of flowers\nE. orchard",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'field of flowers'입니다.",
+    "answer": "D. field of flowers",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_2615",
+    "question": "They mocked their friend for being timid, but it kept her out of the trouble they got into by being what?\nA. reckless\nB. aggressive\nC. insane\nD. bellicose\nE. dauntless",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'reckless'입니다.",
+    "answer": "A. reckless",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_6924",
+    "question": "James got a stuffed animal from a UFO catcher machine.  Where might he have done this?\nA. toy store\nB. farm\nC. children's room\nD. amusement park\nE. hall",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'amusement park'입니다.",
+    "answer": "D. amusement park",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_5574",
+    "question": "Sarah didn't even know that she was fertile. He doctor told her that procreating was impossible for her.  So she was extremely surprised when she learned that she was having what?\nA. animals\nB. children born\nC. twins\nD. population increase\nE. venereal disease",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'twins'입니다.",
+    "answer": "C. twins",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_4552",
+    "question": "The humorous is a bone located where?\nA. tomb\nB. animal\nC. arm\nD. museum\nE. comedy club",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'arm'입니다.",
+    "answer": "C. arm",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2547",
+    "question": "What geological feature is made mostly of rock?\nA. countryside\nB. ground\nC. street\nD. mountain range\nE. bridge",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'mountain range'입니다.",
+    "answer": "D. mountain range",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_3527",
+    "question": "What does an apple tree need to create new trees?\nA. new york\nB. farm yard\nC. new jersey\nD. grass\nE. flowers",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'flowers'입니다.",
+    "answer": "E. flowers",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_5514",
+    "question": "It wasn't something he had had before, but he found the chicken and grape vinaigrette what to be delicious?\nA. bowl of fruit\nB. salad\nC. table\nD. food store\nE. restaurant",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'salad'입니다.",
+    "answer": "B. salad",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1674",
+    "question": "Billy didn't know what to do.  He had just bought a huge ficus, but he has no where to put it.  It was just too gid for his house.  Right now, the ficus waited outside in something. What is the ficus in?\nA. park\nB. large pot\nC. maze\nD. green house\nE. tropical forest",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'large pot'입니다.",
+    "answer": "B. large pot",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1519",
+    "question": "What does going to party with the opposite sex lead to?\nA. get drunk\nB. meet new people\nC. drinking beer\nD. enjoy yourself\nE. having sex",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'having sex'입니다.",
+    "answer": "E. having sex",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_6224",
+    "question": "When you're driving you're what from place to place?\nA. transportation\nB. traffic jams\nC. moving\nD. dragging\nE. traffic accident",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'moving'입니다.",
+    "answer": "C. moving",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1584",
+    "question": "If I'm not free, what am I?\nA. paid for\nB. enslaved\nC. expensive\nD. imprisoned\nE. locked up",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'imprisoned'입니다.",
+    "answer": "D. imprisoned",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_5881",
+    "question": "Where would you find many tables of silverware rolled into nice displayed napkins?\nA. silver\nB. park\nC. table\nD. cupboard\nE. restaurant",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'restaurant'입니다.",
+    "answer": "E. restaurant",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_5635",
+    "question": "If I wanted to find out the hours that Marmot was open, I might look where?\nA. hiding place\nB. ocean\nC. high mountains\nD. north america\nE. yellow pages",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'yellow pages'입니다.",
+    "answer": "E. yellow pages",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_4333",
+    "question": "There was a fast food restaurant every 200 feet to help handle the foot traffic, what is this characteristic of in general?\nA. new york\nB. big cities\nC. center of town\nD. farms\nE. america",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'big cities'입니다.",
+    "answer": "B. big cities",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_711",
+    "question": "Where could you find many theater?\nA. school\nB. populated area\nC. military base\nD. opera\nE. church",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'populated area'입니다.",
+    "answer": "B. populated area",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_7527",
+    "question": "Where do you sit in bleachers and watch large men run?\nA. pharmacy\nB. baseball stadium\nC. concert\nD. football stadium\nE. soccer game",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'football stadium'입니다.",
+    "answer": "D. football stadium",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_8785",
+    "question": "If a person is accused of committing murder, who must they face in court?\nA. incarceration\nB. imprisonment\nC. prosecution\nD. benedict cumberbatch\nE. problems",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'prosecution'입니다.",
+    "answer": "C. prosecution",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2045",
+    "question": "what color are rose flowers typically?\nA. vase\nB. pink\nC. red\nD. blue\nE. fragrant",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'red'입니다.",
+    "answer": "C. red",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_6201",
+    "question": "As a human who valued privacy he asked that everybody do what so he could act without eyes upon him?\nA. have to sleep\nB. turn away\nC. look at him\nD. row boat\nE. let down",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'turn away'입니다.",
+    "answer": "B. turn away",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1291",
+    "question": "Where is refuse stored for a long time?\nA. incinerator\nB. wastebasket\nC. waste basket\nD. dump\nE. garbage can",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'dump'입니다.",
+    "answer": "D. dump",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_9044",
+    "question": "John took a carboard box and emptied his closet racks into it.  He was using the box to do what?\nA. hold secret\nB. store food\nC. store clothes\nD. store data\nE. hold things",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'store clothes'입니다.",
+    "answer": "C. store clothes",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_4803",
+    "question": "Fencing is a sport and like other sports their is a risk of what?\nA. pain\nB. small cuts\nC. competition\nD. injury\nE. puncture wound",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'injury'입니다.",
+    "answer": "D. injury",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_5925",
+    "question": "Where would you put sunglasses if you do not have anything to put them in that can be carried with you?\nA. stores along beach\nB. shirt pocket\nC. eye doctor\nD. drugstore\nE. bag",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'shirt pocket'입니다.",
+    "answer": "B. shirt pocket",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_9459",
+    "question": "The entrance hall was grandiose and had royalty inside, where was the entrance hall?\nA. house\nB. person\nC. palace\nD. school\nE. outside",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'palace'입니다.",
+    "answer": "C. palace",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3150",
+    "question": "Where would you find a single air conditioner?\nA. house\nB. in a bike\nC. car\nD. hard\nE. texas",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'car'입니다.",
+    "answer": "C. car",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1139",
+    "question": "On a family vacation, where might I visit near the shore to look for crab?\nA. cooking pot\nB. beach sand\nC. tidepools\nD. chesapeake bay\nE. fish market",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'tidepools'입니다.",
+    "answer": "C. tidepools",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_750",
+    "question": "What office furniture stores paper files?\nA. drawer\nB. filing cabinet\nC. computers\nD. desk\nE. filing cabinet",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'filing cabinet'입니다.",
+    "answer": "B. filing cabinet",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_3733",
+    "question": "Skiing can be very risky, it can be the cause of a very serious what?\nA. fall down\nB. fall in\nC. getting cold\nD. accident\nE. trip and fall",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'accident'입니다.",
+    "answer": "D. accident",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4741",
+    "question": "If you spend time finding information on math equations, what are you trying to do?\nA. solution to problem\nB. gaining knowledge\nC. know how to act\nD. understanding of\nE. being able to use",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'solution to problem'입니다.",
+    "answer": "A. solution to problem",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_1307",
+    "question": "James bought a new monitor and unpacked it.   He discarded the packaging materials and connected it.  What did he connect it to?\nA. internet cafe\nB. display images\nC. box\nD. view bluescreen\nE. desktop",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'desktop'입니다.",
+    "answer": "E. desktop",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3814",
+    "question": "Alexa needed a safe place to put her acoustic guitar when she wasn't playing it.  Where might she put it?\nA. drawer\nB. music shop\nC. house\nD. studio\nE. closet",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'closet'입니다.",
+    "answer": "E. closet",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_1654",
+    "question": "Where would you put nails to stop them from damaging other things nearby?\nA. store\nB. build doghouse\nC. cabinet\nD. hammer\nE. container",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'container'입니다.",
+    "answer": "E. container",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_6227",
+    "question": "I needed my jeans washed when my electricity was cut off, where did I go?\nA. thrift store\nB. clothing store\nC. costume shop\nD. shopping mall\nE. laundromat",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'laundromat'입니다.",
+    "answer": "E. laundromat",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_4554",
+    "question": "Where would you likely find a spa alongside similar services?\nA. sweden\nB. health centre\nC. backyard\nD. house\nE. country club",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'health centre'입니다.",
+    "answer": "B. health centre",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_7428",
+    "question": "What is a soccer field at a school next to?\nA. countryside\nB. swimming pool\nC. open place\nD. park\nE. school yard",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'school yard'입니다.",
+    "answer": "E. school yard",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_5977",
+    "question": "In what would you hear a viola along with three other instruments?\nA. string quartet\nB. string quintent\nC. symphony\nD. orchestra\nE. viola case",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'string quartet'입니다.",
+    "answer": "A. string quartet",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_2664",
+    "question": "Where do you go to find people who are active in the same field as you?\nA. conference\nB. theater\nC. supermarket\nD. town\nE. cinema",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'conference'입니다.",
+    "answer": "A. conference",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_6065",
+    "question": "Where do most people get carrots?\nA. salad\nB. store\nC. cellar\nD. supermarket\nE. field",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'store'입니다.",
+    "answer": "B. store",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5820",
+    "question": "The science major was planning on digging in the earth one day, his favorite class was what?\nA. religion\nB. faith\nC. health\nD. geography\nE. history studies",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'geography'입니다.",
+    "answer": "D. geography",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_3432",
+    "question": "James found himself watching films all the time.  He did it because he was too high strung and needed some what?\nA. like\nB. stupidity\nC. relaxation\nD. enjoyment\nE. loved",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'relaxation'입니다.",
+    "answer": "C. relaxation",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_4374",
+    "question": "Getting drunk and using stairs can be dangerous, one might find themselves what?\nA. falling down\nB. tripping\nC. death\nD. lower standards\nE. slurred speech",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'falling down'입니다.",
+    "answer": "A. falling down",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_1169",
+    "question": "Where might one find a bench of people sitting before they are taken away?\nA. car stand\nB. bus stop\nC. state park\nD. bus depot\nE. rest area",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'bus stop'입니다.",
+    "answer": "B. bus stop",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_2803",
+    "question": "Why would someone think about getting wet in the summer?\nA. cool off\nB. to have fun\nC. shrinkage\nD. shrinking\nE. get cold",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'cool off'입니다.",
+    "answer": "A. cool off",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8751",
+    "question": "What does a person in ISIS practice?\nA. boredom\nB. terrorism\nC. meanness\nD. stupidity\nE. ridiculous",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'terrorism'입니다.",
+    "answer": "B. terrorism",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4010",
+    "question": "What do you get when procreating goes awry?\nA. population increase\nB. added responsibilities\nC. quintuplets\nD. multiples\nE. large family",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'quintuplets'입니다.",
+    "answer": "C. quintuplets",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2677",
+    "question": "If one is a mechanic, what are they likely to work with?\nA. washing a car\nB. oil engine\nC. servicing airplane\nD. machine parts\nE. machine tool",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'machine tool'입니다.",
+    "answer": "E. machine tool",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7573",
+    "question": "If I want to buy a lot of crab for dinner what sort of specialty location might I visit?\nA. chesapeake bay\nB. tidepools\nC. hotels markets\nD. fish market\nE. beach sand",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'fish market'입니다.",
+    "answer": "D. fish market",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6216",
+    "question": "Densely packed trees in a forest do what in order to reach sunlight?\nA. burn\nB. wall in\nC. grown in soil\nD. covered with snow\nE. grow tall",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'grow tall'입니다.",
+    "answer": "E. grow tall",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_4422",
+    "question": "Where would you expect to see a human eye?\nA. faces\nB. potato\nC. person's head\nD. mammal\nE. skull",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'person's head'입니다.",
+    "answer": "C. person's head",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_9125",
+    "question": "The person preferred what in life rather than a hectic mess?\nA. celebrated\nB. ownhouse\nC. fulfilled\nD. simplicity\nE. headache",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'simplicity'입니다.",
+    "answer": "D. simplicity",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_3598",
+    "question": "Where would sunshine be likely to fall on a plant that a person owns?\nA. street\nB. windowsill\nC. disneyland\nD. grow lights\nE. summer",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'windowsill'입니다.",
+    "answer": "B. windowsill",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5313",
+    "question": "What do Democrats to make all learning in schools?\nA. fun\nB. free\nC. very very nice\nD. expensive\nE. very important",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'free'입니다.",
+    "answer": "B. free",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_916",
+    "question": "There are a lot of ways to relax, for this person it is simply opening one up and what?\nA. more rice\nB. own house\nC. warm coat\nD. light up\nE. read book",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'read book'입니다.",
+    "answer": "E. read book",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3752",
+    "question": "What do you read to help with at night?\nA. learn new things\nB. memorize\nC. falling asleep\nD. waking up\nE. having fun",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'falling asleep'입니다.",
+    "answer": "C. falling asleep",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_525",
+    "question": "What happens to cats every day?\nA. open doors\nB. drink water\nC. need food\nD. annoy\nE. play",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'need food'입니다.",
+    "answer": "C. need food",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_5168",
+    "question": "The home school's team was playing basketball, ever score brought what from the crowd?\nA. sweating\nB. have fun\nC. cheers\nD. dancing\nE. pain",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'cheers'입니다.",
+    "answer": "C. cheers",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_6572",
+    "question": "He felt stuffy in the shirt, he began to unfasten the what style of shirt?\nA. pull up\nB. zip up\nC. tie up\nD. do up\nE. button up",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'button up'입니다.",
+    "answer": "E. button up",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_4386",
+    "question": "The support team landed in the disaster zone, they hoped to provide what?\nA. family\nB. let down\nC. marriage\nD. aid\nE. neglect",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'aid'입니다.",
+    "answer": "D. aid",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1084",
+    "question": "She caught the first snowflake of her life on her tongue, she was naively excited to be spending a what in a region that actually had snow?\nA. cloud\nB. december\nC. air\nD. africa\nE. winter",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'winter'입니다.",
+    "answer": "E. winter",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3456",
+    "question": "You can find cards all sorts of places, but if you want to bet on them in all sorts of games where should you go?\nA. toy store\nB. casino\nC. table\nD. table play\nE. deck",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'casino'입니다.",
+    "answer": "B. casino",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_9292",
+    "question": "If you're found responsible for intentionally starting a fire what will happen?\nA. warmth\nB. die\nC. feel cold\nD. death\nE. going to jail",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'going to jail'입니다.",
+    "answer": "E. going to jail",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_5155",
+    "question": "What can someone do to end relaxing?\nA. feeling better\nB. invigorating\nC. sleeping\nD. stress\nE. deep breathing",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'invigorating'입니다.",
+    "answer": "B. invigorating",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_3483",
+    "question": "The scientists thought it was an impossibility, but with new evidence there was a chance it was a what?\nA. inevitability\nB. certainty\nC. possibility\nD. possible\nE. possibility",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'possibility'입니다.",
+    "answer": "E. possibility",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_8179",
+    "question": "Many powers that be are fighting inflation to avoid what?\nA. not noticeable\nB. economic instability\nC. war\nD. problems\nE. rising interest rates",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'economic instability'입니다.",
+    "answer": "B. economic instability",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_6482",
+    "question": "James hated baseball. Seeing people play a game wasn't fun to him. It only filled him with what?\nA. longing\nB. enjoyable\nC. grief\nD. boredom\nE. stress",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'boredom'입니다.",
+    "answer": "D. boredom",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_7517",
+    "question": "If you buying a potato, carrots, strawberries and bananas, how would you carry them home?\nA. restaurants\nB. shopping bags\nC. two wheels\nD. vegetable soup\nE. exhaust pipe",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'shopping bags'입니다.",
+    "answer": "B. shopping bags",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_2340",
+    "question": "Greg couldn't pay the cash advance fee, and thus was dinged for what?\nA. late payment\nB. going backward\nC. retreat\nD. late payment\nE. basic",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'late payment'입니다.",
+    "answer": "A. late payment",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_4339",
+    "question": "What would you have if you poured water on yourself?\nA. thin blood\nB. room temperature\nC. start melting\nD. spring forth\nE. wet clothes",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'wet clothes'입니다.",
+    "answer": "E. wet clothes",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_2287",
+    "question": "Mildew is a type of fungus you most often find where?\nA. toenails\nB. shower stall\nC. mushroom\nD. cave\nE. basement",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'shower stall'입니다.",
+    "answer": "B. shower stall",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4040",
+    "question": "If you're releasing energy with another person and you're both naked, what are you likely to be having?\nA. sex\nB. movement\nC. exercising\nD. swimming\nE. sweat",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'sex'입니다.",
+    "answer": "A. sex",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9197",
+    "question": "The snake was cold, what did it seek?\nA. warm place\nB. wooded area\nC. blanket\nD. sleeping bag\nE. tropical forest",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'warm place'입니다.",
+    "answer": "A. warm place",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8830",
+    "question": "Sarah didn't own a computer or a monitor.  Instead she just used something connected to her TV.  How would she describe the thing connected to her TV?\nA. box\nB. internet cafe\nC. view bluescreen\nD. desktop\nE. display images",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'box'입니다.",
+    "answer": "A. box",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_4304",
+    "question": "If you're talking to something then you probable hope that you're also doing what?\nA. dry mouth\nB. eye contact\nC. being heard\nD. not listening\nE. conversation",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'being heard'입니다.",
+    "answer": "C. being heard",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_9577",
+    "question": "If the recipe called for a potato, where could you get one along with other ingredients?\nA. pantry\nB. farmer's field\nC. cellar\nD. food market\nE. soil",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'food market'입니다.",
+    "answer": "D. food market",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_7019",
+    "question": "Where do you get clothes in a shopping bag?\nA. retail store\nB. grocery store\nC. pharmacy\nD. supermarket\nE. restaurant",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'retail store'입니다.",
+    "answer": "A. retail store",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9560",
+    "question": "If you get too drunk and make a mess with your own liquids what have you likely done?\nA. vomit\nB. fall down\nC. stagger\nD. spill gasoline\nE. get arrested",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'vomit'입니다.",
+    "answer": "A. vomit",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_6543",
+    "question": "While in the process of heading home he realized at the last moment he hadn't gotten a souvenir from the trip, luckily the what had a gift shop?\nA. museum\nB. airport\nC. hotel\nD. shop\nE. disneyland",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'airport'입니다.",
+    "answer": "B. airport",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5930",
+    "question": "Someone who is selfish wouldn't share a sandwich with their hungry friend, someone who is what might though?\nA. philanthropic\nB. unselfish\nC. selfless\nD. altruistic\nE. not hungry",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'selfless'입니다.",
+    "answer": "C. selfless",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3593",
+    "question": "He had just drank poison, and the man who had given it to him was now mockingly showing the what?\nA. consumable\nB. medicine\nC. nutrient\nD. dosage\nE. antidote",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'antidote'입니다.",
+    "answer": "E. antidote",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_2266",
+    "question": "How does a bishop move from one place to another?\nA. chess game\nB. church\nC. in a car\nD. queen\nE. cathedral",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'chess game'입니다.",
+    "answer": "A. chess game",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8348",
+    "question": "Where will you find eggs before the farmer collects them?\nA. supermarket\nB. inside chicken\nC. omletts\nD. chicken coop\nE. egg carton",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'chicken coop'입니다.",
+    "answer": "D. chicken coop",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_8085",
+    "question": "What will you accomplish by standing in line?\nA. fatigue\nB. success\nC. wait turn\nD. anger\nE. pain",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'wait turn'입니다.",
+    "answer": "C. wait turn",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1489",
+    "question": "What would a person do if they saw a bully make a person cry but they wanted no trouble?\nA. courageous\nB. step up\nC. keep walking\nD. cross street\nE. do nothing",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'do nothing'입니다.",
+    "answer": "E. do nothing",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_771",
+    "question": "The clothing was extremely expensive compared to other places, where was it likely purchased?\nA. cinema hall\nB. mall\nC. department store\nD. closet\nE. shop",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'mall'입니다.",
+    "answer": "B. mall",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1796",
+    "question": "The woman let her son play with it in his room.  She did not do what?\nA. forbid\nB. annoy\nC. prohibit\nD. stop\nE. disallow",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'forbid'입니다.",
+    "answer": "A. forbid",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_2504",
+    "question": "Where would you put a book after you buy it?\nA. discount store\nB. ground\nC. university\nD. house\nE. antique store",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'house'입니다.",
+    "answer": "D. house",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_2621",
+    "question": "The rug saw a lot of foot traffic and had popcorn strewn about, where was it likely?\nA. backyard\nB. bedroom\nC. desk\nD. table\nE. living room",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'living room'입니다.",
+    "answer": "E. living room",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_6916",
+    "question": "Alabama has to consider a hurricane once in awhile as it is one of the whats?\nA. gulf states\nB. united states\nC. seaport\nD. alabama\nE. deep south",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'gulf states'입니다.",
+    "answer": "A. gulf states",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_1040",
+    "question": "Where can you keep a fire extinguisher in the house if it's really big?\nA. school bus\nB. car\nC. garage\nD. stairwell\nE. hospital",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'garage'입니다.",
+    "answer": "C. garage",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_6304",
+    "question": "They had just gotten their first house and needed a washer and dryer, they walked up and down the showroom where?\nA. electronics store\nB. vegas\nC. theater\nD. appliance store\nE. country",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'appliance store'입니다.",
+    "answer": "D. appliance store",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6252",
+    "question": "Where would you put a telephone after you bought it?\nA. hospital\nB. party\nC. desktop\nD. hotel\nE. wires",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'desktop'입니다.",
+    "answer": "C. desktop",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_7668",
+    "question": "What is a genius likely to be in all subjects?\nA. virtuous\nB. exceptional\nC. ordinary\nD. advantageous\nE. sufficient",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'exceptional'입니다.",
+    "answer": "B. exceptional",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_8669",
+    "question": "What gathering of loved ones follows your final birthday?\nA. new age\nB. burial\nC. die\nD. funeral\nE. happy",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'funeral'입니다.",
+    "answer": "D. funeral",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4119",
+    "question": "What  is necessary to have when going fishing?\nA. fishing rod\nB. access to water\nC. bate\nD. three hands\nE. tackle",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'fishing rod'입니다.",
+    "answer": "A. fishing rod",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9064",
+    "question": "God didn't kill off everyone in the flood, so what does that suggest he has?\nA. everything\nB. imagination\nC. compassion\nD. strength\nE. heaven",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'compassion'입니다.",
+    "answer": "C. compassion",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_188",
+    "question": "The people in class were instructed to brainstorm ideas, how would they use their minds for this?\nA. shake hands\nB. control events\nC. talk to each other\nD. think creatively\nE. dress themselves",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'think creatively'입니다.",
+    "answer": "D. think creatively",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1876",
+    "question": "I was depressed and my friends threw me a party, why did they do that?\nA. reciprocity\nB. make happy\nC. make money\nD. get drunk\nE. embarrassing yourself",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'make happy'입니다.",
+    "answer": "B. make happy",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_8797",
+    "question": "What could happen immediately after sadness?\nA. get drunk\nB. take phone call\nC. listen to music\nD. take phone call\nE. cry",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'cry'입니다.",
+    "answer": "E. cry",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_4371",
+    "question": "Where is a student likely to keep their notebook?\nA. backpack\nB. bookstore\nC. pocket\nD. office\nE. classroom",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'backpack'입니다.",
+    "answer": "A. backpack",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_5573",
+    "question": "Where might someone find a very nice flat?\nA. city\nB. shoes\nC. apartment building\nD. town\nE. london",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'london'입니다.",
+    "answer": "E. london",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_1827",
+    "question": "Where is the best place to put shoes?\nA. closet\nB. table\nC. box\nD. bed\nE. park",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'closet'입니다.",
+    "answer": "A. closet",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_4808",
+    "question": "James loved to play violin.  He did it in his spare time because he found it what?\nA. practise\nB. relaxing\nC. romantic\nD. take lessons\nE. tune",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'relaxing'입니다.",
+    "answer": "B. relaxing",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_7123",
+    "question": "What does a police car often cause other cars to do?\nA. pit\nB. slow down\nC. cost money\nD. get to town\nE. move people",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'slow down'입니다.",
+    "answer": "B. slow down",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_2591",
+    "question": "What would happen in a country if everyone is loving another?\nA. peace\nB. marriage\nC. satisfaction\nD. heartache\nE. happiness",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'peace'입니다.",
+    "answer": "A. peace",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_7433",
+    "question": "What do you do to weapons when you want to gather them?\nA. stockpile\nB. buy\nC. plentitude\nD. superabundance\nE. oversupply",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'stockpile'입니다.",
+    "answer": "A. stockpile",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_53",
+    "question": "The body guard was good at his duties, he made the person who hired him what?\nA. better job\nB. irritated\nC. feel safe\nD. save money\nE. headache",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'feel safe'입니다.",
+    "answer": "C. feel safe",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_4315",
+    "question": "Today was beautiful, clear blue skies are nice but there's nothing to look at up there if it isn't a little what?\nA. cloudy\nB. hideous\nC. grotesque\nD. ugly\nE. rain",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'cloudy'입니다.",
+    "answer": "A. cloudy",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8201",
+    "question": "What must elementary school students do when they are going into class?\nA. think for himself\nB. answer question\nC. wait in line\nD. speak a foreign language\nE. cross road",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'wait in line'입니다.",
+    "answer": "C. wait in line",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2927",
+    "question": "Billy was smart but inexperienced.  In many ways he was what?\nA. garish\nB. bright\nC. ignorant\nD. make invisible\nE. backward",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'ignorant'입니다.",
+    "answer": "C. ignorant",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8317",
+    "question": "If you're removing dirt from a carpet while doing housework what do you need?\nA. broom\nB. effort\nC. vacuuming\nD. boredom\nE. mop",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'vacuuming'입니다.",
+    "answer": "C. vacuuming",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1743",
+    "question": "John cared for Sally, but Sally couldn't return his feelings. She only felt what?\nA. unfeeling\nB. being mean\nC. field\nD. disinterest\nE. negligence",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'disinterest'입니다.",
+    "answer": "D. disinterest",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4889",
+    "question": "He was back in his hometown, he was planning on having fun and doing what?\nA. being understood\nB. hug\nC. rambling\nD. kiss\nE. visiting friends",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'visiting friends'입니다.",
+    "answer": "E. visiting friends",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3258",
+    "question": "Why do people want to keep working?\nA. frustration\nB. make money\nC. boredom\nD. being paid\nE. blisters",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'being paid'입니다.",
+    "answer": "D. being paid",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6126",
+    "question": "They made rules to bar any smoking in the building, if you wanted to do it you had to what?\nA. go outside\nB. unhealthy\nC. coughing\nD. foolish\nE. inhale",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'go outside'입니다.",
+    "answer": "A. go outside",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_2646",
+    "question": "What country can a marmot be found?\nA. american forest\nB. north america\nC. switzerland\nD. northern climates\nE. new zealand",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'switzerland'입니다.",
+    "answer": "C. switzerland",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8837",
+    "question": "What state has a county called columbia and is the furthest in the direction that the sun sets?\nA. tennessee\nB. missouri\nC. washington\nD. canada\nE. south carolina",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'washington'입니다.",
+    "answer": "C. washington",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8689",
+    "question": "She thought she had some old clothes that might work for the costume, she went to retrieve them down in the what?\nA. basement\nB. box\nC. trunk\nD. store\nE. attic",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'basement'입니다.",
+    "answer": "A. basement",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9",
+    "question": "Where is a business restaurant likely to be located?\nA. town\nB. at hotel\nC. mall\nD. business sector\nE. yellow pages",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'business sector'입니다.",
+    "answer": "D. business sector",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_5310",
+    "question": "A hard piece of rubber deflected off a stick and flew up and struck a fan, this could only happen at a what?\nA. sporting event\nB. hockey game\nC. living room\nD. soccer game\nE. football stadium",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'hockey game'입니다.",
+    "answer": "B. hockey game",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_8005",
+    "question": "He had decent disdain for the pop band, but that wasn't going to stop him from taking his daughter to see them because she absolutely what them?\nA. honor\nB. adore\nC. revere\nD. require\nE. admire",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'adore'입니다.",
+    "answer": "B. adore",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_319",
+    "question": "The spoiled child's playroom was massive, but only one of many rooms in the what?\nA. big house\nB. nursery school\nC. preschool\nD. building\nE. retirement home",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'big house'입니다.",
+    "answer": "A. big house",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_1832",
+    "question": "The people were confused by the words being spoken, why would this be?\nA. hurt people\nB. mean many things\nC. hurtful\nD. hurt feelings\nE. unclear",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'mean many things'입니다.",
+    "answer": "B. mean many things",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5947",
+    "question": "James needed storage for 500 tons o beans in crates.  What sort of facility might he use?\nA. attic\nB. garage\nC. building\nD. warehouse\nE. michigan",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'warehouse'입니다.",
+    "answer": "D. warehouse",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_5038",
+    "question": "What does someone who has a greed for energy do?\nA. cause businesses to grow\nB. get\nC. lie\nD. buy food\nE. win",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'buy food'입니다.",
+    "answer": "D. buy food",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_3923",
+    "question": "What handle did the man grab to when he wanted a snack?\nA. fridge\nB. hardware store\nC. frying pan\nD. water fountain\nE. drawer",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'fridge'입니다.",
+    "answer": "A. fridge",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_949",
+    "question": "People were talking on the corner, who were they talking with?\nA. god\nB. mix\nC. with people\nD. have friends\nE. see people",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'with people'입니다.",
+    "answer": "C. with people",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3946",
+    "question": "What shoots water up someones butt?\nA. thunderstorm\nB. restaurant\nC. surface of earth\nD. enema\nE. glass of water",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'enema'입니다.",
+    "answer": "D. enema",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_9295",
+    "question": "What could have tens of thousands of paper clips?\nA. university\nB. work\nC. desktop\nD. fashioned into simple tools\nE. drawer",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'university'입니다.",
+    "answer": "A. university",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_1290",
+    "question": "He was hiking for miles, what did he suffer from?\nA. sweating\nB. cramps\nC. physical exertion\nD. smile\nE. deliriousness",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'cramps'입니다.",
+    "answer": "B. cramps",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1403",
+    "question": "The drawing room was one of fifty rooms, where was it located?\nA. kid's house\nB. studio\nC. large house\nD. house in england\nE. mansion",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'large house'입니다.",
+    "answer": "C. large house",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_7962",
+    "question": "Where is generally a good place to store papers?\nA. drawer\nB. table\nC. garage\nD. meeting\nE. reciepts",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'drawer'입니다.",
+    "answer": "A. drawer",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_1133",
+    "question": "Contemplating a concept can lead to what?\nA. revelations\nB. action\nC. understanding\nD. discovery\nE. wisdom",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'understanding'입니다.",
+    "answer": "C. understanding",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8727",
+    "question": "Why do people take up running?\nA. shortness of breath\nB. weight loss\nC. faster travel\nD. stitches\nE. heart attack",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'weight loss'입니다.",
+    "answer": "B. weight loss",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_2060",
+    "question": "If a politician is poor and doesn't take bribes because he wants to serve his constitutions well he is doing it to be what?\nA. adequate\nB. rich\nC. good\nD. honest\nE. poormouth",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'good'입니다.",
+    "answer": "C. good",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2103",
+    "question": "He was ready to bike home, he got out his key and began to what?\nA. turn lock\nB. pocket\nC. solution to problem\nD. pocket\nE. open doors",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'turn lock'입니다.",
+    "answer": "A. turn lock",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_7787",
+    "question": "James didn't know what drugs he did.  They were being passed around and he just took one.  It was the last time he would go to such a wild what?\nA. school\nB. doctor\nC. concert\nD. university\nE. show",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'concert'입니다.",
+    "answer": "C. concert",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_9007",
+    "question": "What country is the native home of lemurs?\nA. india\nB. field\nC. belarus\nD. russia\nE. heaven",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'russia'입니다.",
+    "answer": "D. russia",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_2705",
+    "question": "Dave didn't mind that Josh was punishing him, because he was experiencing what emotion?\nA. feel sorry for\nB. hatred\nC. feel guilty\nD. retribution\nE. worried",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'feel guilty'입니다.",
+    "answer": "C. feel guilty",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_4342",
+    "question": "The man immediately recognized his picture opposite the crossword section, what was he reading?\nA. table\nB. art show\nC. newspaper\nD. desktop\nE. biology book",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'newspaper'입니다.",
+    "answer": "C. newspaper",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8645",
+    "question": "Where would you put a wooden rod after buying it if you do not have any clocks?\nA. hardware store\nB. old houses\nC. clock shop\nD. connecting pieces of wood\nE. old clock",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'old houses'입니다.",
+    "answer": "B. old houses",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_6932",
+    "question": "Even though they were never told or forced to obey, the people still fashionably claimed they what?\nA. resist\nB. respect\nC. violate\nD. defy\nE. rebel",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'resist'입니다.",
+    "answer": "A. resist",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3470",
+    "question": "Drinking alcohol should be avoided. In addition to making you sick, it can cause what?\nA. accidents\nB. have fun\nC. vomiting\nD. wicked\nE. frequent urination",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'accidents'입니다.",
+    "answer": "A. accidents",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8835",
+    "question": "You might find a dirt highway out where?\nA. atlas\nB. repairs\nC. countryside\nD. in the city\nE. united states",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'countryside'입니다.",
+    "answer": "C. countryside",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3295",
+    "question": "What kind of feeling can sex lead to?\nA. bliss\nB. aids\nC. getting pregnant\nD. orgasm\nE. educations",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'bliss'입니다.",
+    "answer": "A. bliss",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_5107",
+    "question": "If you're caught committing murder, an injection can lead to your own what?\nA. own death\nB. die\nC. great sorrow\nD. fear\nE. banquet",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'own death'입니다.",
+    "answer": "A. own death",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_6537",
+    "question": "When is a garden the most beautiful?\nA. backyard\nB. own yard\nC. full of mud\nD. full bloom\nE. back yard",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'full bloom'입니다.",
+    "answer": "D. full bloom",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6118",
+    "question": "What is the legal consequence of killing likely to be?\nA. being imprisoned\nB. no longer live\nC. dies\nD. fine\nE. feeling of guilt",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'being imprisoned'입니다.",
+    "answer": "A. being imprisoned",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_7177",
+    "question": "The round piece of road did well to slow down traffic versus the long what to a stop?\nA. square\nB. roundleaf\nC. flat\nD. winding\nE. straight",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'straight'입니다.",
+    "answer": "E. straight",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_8479",
+    "question": "Where could you find thousands of chair?\nA. friend's house\nB. neighbor's house\nC. office\nD. school room\nE. earth",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'school room'입니다.",
+    "answer": "D. school room",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_7397",
+    "question": "Where can a child get a wagon?\nA. field\nB. garage\nC. bookstore\nD. backyard\nE. toy store",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'toy store'입니다.",
+    "answer": "E. toy store",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_1982",
+    "question": "what is a type of science?\nA. space lab\nB. nanotechnology\nC. university\nD. methodology\nE. school",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'nanotechnology'입니다.",
+    "answer": "B. nanotechnology",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4061",
+    "question": "The weasel had stolen the chicken eggs from the farm, it made it's escape through the tall what?\nA. chicken coop\nB. children's story\nC. corn fields\nD. animated film\nE. chicken coop",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'corn fields'입니다.",
+    "answer": "C. corn fields",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3681",
+    "question": "Everybody is their own, all people are what?\nA. hurt\nB. human\nC. innocent until proven guilty\nD. different\nE. smile",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'different'입니다.",
+    "answer": "D. different",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1049",
+    "question": "The introduction of industry greatly expanded human what?\nA. big city\nB. factory\nC. machinery\nD. poverty\nE. civilization",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'civilization'입니다.",
+    "answer": "E. civilization",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_5539",
+    "question": "What does a farmer wanting to make a maze do?\nA. farm land\nB. grow chinese gooseberries\nC. grow corn\nD. raise cattle\nE. supply food",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'grow corn'입니다.",
+    "answer": "C. grow corn",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_344",
+    "question": "After going for run you have a sense of what?\nA. satisfaction\nB. flying\nC. sweating\nD. falling down\nE. trip",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'satisfaction'입니다.",
+    "answer": "A. satisfaction",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9638",
+    "question": "What could have an iron in some areas of it but not in other areas?\nA. hematite\nB. linen closet\nC. house\nD. laundry room\nE. chemistry lab",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'house'입니다.",
+    "answer": "C. house",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_9075",
+    "question": "What would happen to someone when he or she is finished going somewhere?\nA. going back somewhere.\nB. getting there\nC. having to travel\nD. being there\nE. get excited",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'being there'입니다.",
+    "answer": "D. being there",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_3770",
+    "question": "Why could someone fall down after eating lunch?\nA. drowsiness\nB. late for work\nC. feel full\nD. lethargy\nE. feel sleepy",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'feel sleepy'입니다.",
+    "answer": "E. feel sleepy",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_9641",
+    "question": "What continent  has a country with a historical wall?\nA. asia\nB. canada\nC. africa\nD. great outdoors\nE. region",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'asia'입니다.",
+    "answer": "A. asia",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3608",
+    "question": "If you're moving, the people here will forward your letters for you.\nA. envelopes\nB. post office\nC. mailbox\nD. mail box\nE. front door",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'post office'입니다.",
+    "answer": "B. post office",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_117",
+    "question": "I'm looking for alcohol and fried foods, any suggestions?\nA. pub\nB. plane\nC. beer\nD. store\nE. fraternity house",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'pub'입니다.",
+    "answer": "A. pub",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_1163",
+    "question": "There was an attendant at the door to keep light from coming in during the show, it was a big premiere night at the what?\nA. theater\nB. building\nC. office\nD. neighbor's house\nE. funeral",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'theater'입니다.",
+    "answer": "A. theater",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_964",
+    "question": "Along what feature will you find a rosebush?\nA. park\nB. in the ground\nC. hedgerow\nD. temperate climate\nE. botanical gardens",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'hedgerow'입니다.",
+    "answer": "C. hedgerow",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3750",
+    "question": "How might I procure what I need to eat?\nA. make food\nB. find food\nC. prepare food\nD. buy food\nE. check your cat's mouth",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'buy food'입니다.",
+    "answer": "D. buy food",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1104",
+    "question": "What is likely the result of falling from a height?\nA. pain\nB. broken bones\nC. going down\nD. diving\nE. injuries",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'broken bones'입니다.",
+    "answer": "B. broken bones",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_514",
+    "question": "Where is a lion likely to live?\nA. veldt\nB. ocean\nC. savannah\nD. africa\nE. jungle",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'africa'입니다.",
+    "answer": "D. africa",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_5413",
+    "question": "What kind of pain can be caused my watching television too much?\nA. fatigue\nB. addiction\nC. power gains\nD. entertainment\nE. headaches",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'headaches'입니다.",
+    "answer": "E. headaches",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_1160",
+    "question": "His long walk home wasn't over, he lived on the tenth storey of a walk up what?\nA. skyscraper\nB. book of stories\nC. tall building\nD. apartment building\nE. mall",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'apartment building'입니다.",
+    "answer": "D. apartment building",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_8423",
+    "question": "Where would you go if you need an eraser?\nA. desk drawer\nB. schools\nC. pencil box\nD. principal\nE. office supply store",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'office supply store'입니다.",
+    "answer": "E. office supply store",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3899",
+    "question": "What does a projectile pass through?\nA. battle field\nB. air\nC. gun\nD. weapon\nE. baseball",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'air'입니다.",
+    "answer": "B. air",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4562",
+    "question": "Why might someone be going into a trance?\nA. disorientation\nB. loss of control\nC. closed eyes\nD. hallucination\nE. confusion",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'loss of control'입니다.",
+    "answer": "B. loss of control",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_7953",
+    "question": "What kind of box does a fish live in?\nA. aquarium\nB. ocean\nC. pond\nD. bay\nE. river",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'aquarium'입니다.",
+    "answer": "A. aquarium",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3510",
+    "question": "Where is a dining area likely to be extravagant?\nA. cruise ship\nB. coming together\nC. restaurant\nD. mall\nE. home",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'cruise ship'입니다.",
+    "answer": "A. cruise ship",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8834",
+    "question": "If your shoes are too tight what will you get on your feet after jogging?\nA. exhaustion\nB. shortness of breath\nC. knee pain\nD. blisters\nE. lose weight",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'blisters'입니다.",
+    "answer": "D. blisters",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_2167",
+    "question": "She was known for be soft and sensitive, but when all their wills were tested she was the only one who stood what?\nA. non sensitive\nB. resistant\nC. stoic\nD. hardened\nE. uncaring",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'stoic'입니다.",
+    "answer": "C. stoic",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_9355",
+    "question": "Joe wants to have a relationship with someone.  He thinks that loving another will bring him what?\nA. wonderful\nB. enjoyment\nC. jealousy\nD. satisfaction\nE. happiness",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'satisfaction'입니다.",
+    "answer": "D. satisfaction",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_9440",
+    "question": "The aboriginal people ended up being displaced by settlers who justified themselves with the fact that the displaced people didn't have a formal system to do what?\nA. fight back\nB. spend time\nC. own home\nD. talk to each other\nE. own land",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'own land'입니다.",
+    "answer": "E. own land",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7744",
+    "question": "Why do you need faith in religion?\nA. unknowable\nB. confusing\nC. wars\nD. both positive and negative\nE. afterlife",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'unknowable'입니다.",
+    "answer": "A. unknowable",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3981",
+    "question": "There was a surplus of condos due to the overuse of space in the area, where were the condos located?\nA. central park\nB. milwaukee\nC. city\nD. vacation spot\nE. suburbia",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'suburbia'입니다.",
+    "answer": "E. suburbia",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7749",
+    "question": "Having lunch seemed like the logically thing to do, this was because he was feeling what?\nA. good mood\nB. hunger\nC. food\nD. eating\nE. anger",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'hunger'입니다.",
+    "answer": "B. hunger",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_6669",
+    "question": "The man had much to do, but was using television, what was his problem?\nA. boredom\nB. tv shows\nC. eye strain\nD. falling asleep\nE. laziness",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'laziness'입니다.",
+    "answer": "E. laziness",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3119",
+    "question": "The police didn't pay any favors, their job was to what?\nA. force law\nB. board vessels\nC. arrest\nD. arm weapons\nE. direct traffic",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'force law'입니다.",
+    "answer": "A. force law",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_1545",
+    "question": "How does a maid start her work?\nA. cleaning house\nB. bathroom\nC. clean room\nD. clean house\nE. airing sleeping room",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'clean room'입니다.",
+    "answer": "C. clean room",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1588",
+    "question": "The toddler is awaking from a nap, what doesn't he feel anymore?\nA. nervous\nB. eyes opening\nC. getting out of bed\nD. tiredness\nE. discomfort",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'tiredness'입니다.",
+    "answer": "D. tiredness",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_7062",
+    "question": "What does being fat lead a person to want to do in the gym?\nA. lose weight\nB. workout\nC. eat healthily\nD. look better\nE. get in shape",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'get in shape'입니다.",
+    "answer": "E. get in shape",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_5804",
+    "question": "What does Discovery have a number of, starring a shark?\nA. open ocean\nB. gulf of mexico\nC. tornado\nD. television program\nE. coral reef",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'television program'입니다.",
+    "answer": "D. television program",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6939",
+    "question": "What kind of business would you make if you want to help people?\nA. nonprofit\nB. art\nC. pyramid scheme\nD. pleasure\nE. personal",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'nonprofit'입니다.",
+    "answer": "A. nonprofit",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_6735",
+    "question": "When people in trance are trying to calm themselves what do they do?\nA. run\nB. confusion\nC. meditate\nD. epilepsy\nE. hallucination",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'meditate'입니다.",
+    "answer": "C. meditate",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_7651",
+    "question": "What might someone not wanting to have someone talking to them have to a talkative person.?\nA. increased understanding\nB. rumors spread\nC. boredom\nD. adverse reaction\nE. headache",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'adverse reaction'입니다.",
+    "answer": "D. adverse reaction",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_887",
+    "question": "The mother was worried about all the spills, so she bought a rug for under the what?\nA. persia\nB. table\nC. living room\nD. house\nE. desk",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'table'입니다.",
+    "answer": "B. table",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1612",
+    "question": "How might we get so far up into the air around Earth, we cannot be seen?\nA. balloon\nB. space shuttle\nC. supermarket\nD. house\nE. rocket",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'space shuttle'입니다.",
+    "answer": "B. space shuttle",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_993",
+    "question": "When she went to examine the thing, what was she considering doing with it?\nA. eat cake\nB. buy\nC. interests\nD. complex\nE. learn about",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'buy'입니다.",
+    "answer": "B. buy",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_6596",
+    "question": "The man suffered from beef allergies, what did he suffer from as a result of eating hamburger?\nA. death\nB. gas\nC. gain weight\nD. a meal\nE. satisfaction",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'gas'입니다.",
+    "answer": "B. gas",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5559",
+    "question": "The roadway  led away from town and towards what?\nA. neighborhood\nB. city\nC. environment\nD. metropolis\nE. countryside",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'countryside'입니다.",
+    "answer": "E. countryside",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_1790",
+    "question": "The hamburger were frozen from exposure, where were they?\nA. hockey game\nB. fast food restaurant\nC. burger king\nD. made from beef\nE. cooked on grill",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'hockey game'입니다.",
+    "answer": "A. hockey game",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_4073",
+    "question": "Where is a bird likely to feel free?\nA. forest\nB. ocean\nC. roof\nD. nest\nE. sky",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'sky'입니다.",
+    "answer": "E. sky",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3139",
+    "question": "What kind of object would you need to see something dirty underground?\nA. bed\nB. ground\nC. bright\nD. clean\nE. sportsmanlike",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'bright'입니다.",
+    "answer": "C. bright",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3116",
+    "question": "A big fountain was the center piece of the renovation, it had all been paid for by a grant to the what?\nA. city\nB. state\nC. front of casino\nD. rome\nE. public place",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'city'입니다.",
+    "answer": "A. city",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8786",
+    "question": "Where is an expressway likely to be crowded?\nA. country\nB. canada\nC. michigan\nD. michigan\nE. large city",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'large city'입니다.",
+    "answer": "E. large city",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7350",
+    "question": "Where might I find a mailbox and also buy stamps?\nA. front yard\nB. street corner\nC. post office\nD. school\nE. apartment complex",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'post office'입니다.",
+    "answer": "C. post office",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2296",
+    "question": "The membrane could be observed through magnification, it protected the what?\nA. protect\nB. cell\nC. filtration\nD. animal\nE. fresh egg",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'cell'입니다.",
+    "answer": "B. cell",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_3006",
+    "question": "As in part of string theory, what particle makes up hadrons?\nA. quark\nB. guitar\nC. bird's nest\nD. kite\nE. beads",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'quark'입니다.",
+    "answer": "A. quark",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_4563",
+    "question": "What does someone need when they're feeling hunger?\nA. starvation\nB. eat hamburger\nC. eating\nD. pizza\nE. discomfort",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'eating'입니다.",
+    "answer": "C. eating",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_7579",
+    "question": "If you're going out often and talking to a lot of people you have an active what?\nA. get tired of\nB. social life\nC. friendship\nD. talking\nE. eye contact",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'social life'입니다.",
+    "answer": "B. social life",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4092",
+    "question": "Where do people go to shop for fruit?\nA. have money\nB. get money\nC. go to market\nD. use money\nE. car lot",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'go to market'입니다.",
+    "answer": "C. go to market",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1235",
+    "question": "Where would you find pamphlets when they're delivered to your home?\nA. drawer\nB. health department\nC. library\nD. mail box\nE. on the floor",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'mail box'입니다.",
+    "answer": "D. mail box",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_7260",
+    "question": "100 centavos make a?\nA. mexican peso\nB. colon\nC. good time\nD. cordoba\nE. austral",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'cordoba'입니다.",
+    "answer": "D. cordoba",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_9016",
+    "question": "James was from out of town. He lose his keep to his room where?\nA. pocket\nB. at hotel\nC. bus depot\nD. pub\nE. own home",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'at hotel'입니다.",
+    "answer": "B. at hotel",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1604",
+    "question": "How does water become ice?\nA. become water\nB. cool drink\nC. cool off\nD. melt\nE. form crystals",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'form crystals'입니다.",
+    "answer": "E. form crystals",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_828",
+    "question": "I was shopping at a car dealership, what did a salesman do?\nA. appear suddenly\nB. bottom out\nC. go downtown\nD. scream\nE. roll over",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'appear suddenly'입니다.",
+    "answer": "A. appear suddenly",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8856",
+    "question": "Where are there millions of marmoset sitting in trees?\nA. france\nB. latin america\nC. columbia\nD. underground\nE. dictionary",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'latin america'입니다.",
+    "answer": "B. latin america",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_241",
+    "question": "The man was cleaning clothes for his date, what was he looking to achieve?\nA. ruined\nB. clean clothes\nC. sadness\nD. attractive appearance\nE. look better",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'attractive appearance'입니다.",
+    "answer": "D. attractive appearance",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1528",
+    "question": "Where would a dance club be the furthest in the same direction as the side that won the Civil War?\nA. ohio\nB. downtown area\nC. michigan\nD. south\nE. united states",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'michigan'입니다.",
+    "answer": "C. michigan",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3872",
+    "question": "What could a real estate agent do if his or her customer wants to get a house?\nA. misrepresent\nB. cover up\nC. offer price\nD. deceive\nE. leave town",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'offer price'입니다.",
+    "answer": "C. offer price",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2724",
+    "question": "The fat man wanted to make a change in his life and make sure it stayed what?\nA. concretely\nB. permanent\nC. remain stable\nD. stagnant\nE. constant",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'permanent'입니다.",
+    "answer": "B. permanent",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_6658",
+    "question": "She was beginning to age, an early sign of her memory problems was showing short term what?\nA. increase in emotional resonance\nB. forgetting\nC. brainless\nD. take shape\nE. forgetfulness",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'forgetfulness'입니다.",
+    "answer": "E. forgetfulness",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7956",
+    "question": "Why wouldn't someone want to work in an office?\nA. blisters\nB. frustration\nC. being paid\nD. making shareholders richer\nE. making money",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'frustration'입니다.",
+    "answer": "B. frustration",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_7886",
+    "question": "What would happen to airplanes before they start falling down?\nA. stall\nB. taxi\nC. crash\nD. slow down\nE. halt",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'stall'입니다.",
+    "answer": "A. stall",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3502",
+    "question": "The weasel was scavenging in the cold winter on a farmer's land, where was he likely?\nA. fairytale\nB. mountain\nC. great outdoors\nD. corn fields\nE. chicken coop",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'corn fields'입니다.",
+    "answer": "D. corn fields",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6570",
+    "question": "James and Lilly have strong feelings for each other.  To express those feelings they kiss. What else might they do?\nA. shake hands\nB. fall in love\nC. smile\nD. embrace\nE. falling in love",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'embrace'입니다.",
+    "answer": "D. embrace",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_960",
+    "question": "How do you indicate that you agree wtih someone?\nA. like more\nB. nodding\nC. by wearing rings\nD. concordance\nE. shake hands",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'nodding'입니다.",
+    "answer": "B. nodding",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_2697",
+    "question": "What is the way that couples like to have fun?\nA. laughter\nB. have sex\nC. crying\nD. spontaneous\nE. enjoy yourself",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'have sex'입니다.",
+    "answer": "B. have sex",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_6209",
+    "question": "The temperature was inadequate for cooking turkey, what did it need to do?\nA. drop rapidly\nB. increase\nC. heat up\nD. lower temperature\nE. drop to zero",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'increase'입니다.",
+    "answer": "B. increase",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_35",
+    "question": "Mark's semen was very thick, but after his vasectomy it was also what?\nA. blank\nB. sparse\nC. thin\nD. clear\nE. free flowing",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'clear'입니다.",
+    "answer": "D. clear",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6396",
+    "question": "Before the party, what did the staff need to attend?\nA. ocean\nB. studying\nC. celebrating birthday\nD. meeting\nE. stay home",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'meeting'입니다.",
+    "answer": "D. meeting",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4345",
+    "question": "From where can you take home a highlight?\nA. case\nB. office drawer\nC. marker store\nD. desk drawer\nE. office supply store",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'office supply store'입니다.",
+    "answer": "E. office supply store",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7454",
+    "question": "What would you use to find out if there will be a cloud in the sky?\nA. night or day\nB. atmosphere\nC. car\nD. murky liquid\nE. weather report",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'weather report'입니다.",
+    "answer": "E. weather report",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_4673",
+    "question": "Where are pictures kept with magnets?\nA. bedroom wall\nB. newspaper\nC. suitcase\nD. attic\nE. fridge",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'fridge'입니다.",
+    "answer": "E. fridge",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_6930",
+    "question": "John was working late at night in a Casino.  When he got off work, he looked for a bar but couldn't find one.  Where might he go instead?\nA. restaurant\nB. nightclub\nC. las vegas\nD. atlantic city\nE. new york city",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'nightclub'입니다.",
+    "answer": "B. nightclub",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_9105",
+    "question": "Nasa floods the immediate area when what takes off?\nA. disneyland\nB. electrical circuit\nC. space shuttle\nD. washing machine\nE. sink",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'space shuttle'입니다.",
+    "answer": "C. space shuttle",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_7973",
+    "question": "Where in America is known for theaters?\nA. new york city\nB. shopping mall\nC. downtown area\nD. skating rink\nE. military base",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'new york city'입니다.",
+    "answer": "A. new york city",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_2536",
+    "question": "Jenny answered the telephone because she couldn't stand the ringing. She shouldn't have though, because it wasn't here place.  She was just visiting. Where might she be?\nA. party\nB. hotel\nC. friend's house\nD. office\nE. bedroom",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'friend's house'입니다.",
+    "answer": "C. friend's house",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3111",
+    "question": "If you see a policeman in the street waving flashlights what are they there to do?\nA. jump\nB. arrest criminals\nC. book robber\nD. direct traffic\nE. wave on",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'direct traffic'입니다.",
+    "answer": "D. direct traffic",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4861",
+    "question": "A marmot is an animal that is normally found in what type of environment?\nA. american forest\nB. african desert\nC. northern hemisphere\nD. switzerland\nE. northern climates",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'american forest'입니다.",
+    "answer": "A. american forest",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3566",
+    "question": "The journalist had a simple approach, see story; do what?\nA. sit down\nB. would read\nC. reading\nD. remember\nE. write down",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'write down'입니다.",
+    "answer": "E. write down",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_958",
+    "question": "When having food at a formal place, what do you usually do?\nA. sit\nB. being sociable\nC. talk\nD. drinking\nE. medium",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'sit'입니다.",
+    "answer": "A. sit",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9489",
+    "question": "The comforter was missing from the couples' sleep the other night and they were cold, where should it have been?\nA. livingroom\nB. linen closet\nC. bedroom\nD. at the cleaners\nE. washing machine",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'bedroom'입니다.",
+    "answer": "C. bedroom",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8883",
+    "question": "It was very humid and he wasn't hydrated, so when he was running he was stricken with what?\nA. becoming tired\nB. sore feet\nC. tiredness\nD. leg cramps\nE. headache",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'leg cramps'입니다.",
+    "answer": "D. leg cramps",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_998",
+    "question": "It was breakfast time.  Brad ordered eggs, toast, and something to drink. What might he drink?\nA. coffee\nB. throw up\nC. food\nD. getting drunk\nE. wine",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'coffee'입니다.",
+    "answer": "A. coffee",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_5138",
+    "question": "John thought that it was a mistake to pick A.  He meant to choose B put picked A by accident. He was relieved when he learned that A was what?\nA. on purpose\nB. correction\nC. good\nD. correct answer\nE. success",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'correct answer'입니다.",
+    "answer": "D. correct answer",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_936",
+    "question": "What is a convenient place for a bus station?\nA. maps\nB. street\nC. catch bus\nD. city centre\nE. school",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'city centre'입니다.",
+    "answer": "D. city centre",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_821",
+    "question": "What would happen to you if you are not good at playing violin?\nA. happiness\nB. relaxation\nC. create music\nD. sadness\nE. loud noises",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'sadness'입니다.",
+    "answer": "D. sadness",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_9571",
+    "question": "Where would a beauty parlor be?\nA. georgian houses\nB. city\nC. building\nD. victorian house\nE. underwater",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'building'입니다.",
+    "answer": "C. building",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_7811",
+    "question": "The person worked hard and achieved his goals and got to feel what?\nA. headache\nB. disappointed\nC. celebrated\nD. simplicity\nE. fulfilled",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'fulfilled'입니다.",
+    "answer": "E. fulfilled",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_8238",
+    "question": "Exercising daily requires a lot of what mental toughness?\nA. effort\nB. exercise\nC. discipline\nD. muscles\nE. run",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'discipline'입니다.",
+    "answer": "C. discipline",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8701",
+    "question": "What do women wear on their legs that is made of nylon?\nA. many products\nB. stockings\nC. clothing\nD. drawer\nE. rope",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'stockings'입니다.",
+    "answer": "B. stockings",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_2579",
+    "question": "If I wanted to play poker, where should I put the table?\nA. demonstration\nB. card room\nC. rug\nD. neighbor's house\nE. middle of the road",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'card room'입니다.",
+    "answer": "B. card room",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_931",
+    "question": "Where could you find a theater which only has unpaid actors?\nA. shopping mall\nB. hospitals\nC. populated area\nD. school\nE. military base",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'school'입니다.",
+    "answer": "D. school",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_8320",
+    "question": "Going public about a controversial issue is likely to get what?\nA. wide acceptance\nB. consequences\nC. getting high\nD. media attention\nE. press coverage",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'press coverage'입니다.",
+    "answer": "E. press coverage",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_1312",
+    "question": "Sean wanted to go to the Met, so he took a subway stop in what city?\nA. new york city\nB. toronto\nC. large city\nD. large city\nE. metropolis",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'new york city'입니다.",
+    "answer": "A. new york city",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3044",
+    "question": "When you see new people move in next door you might find it what?\nA. new friends\nB. new experience\nC. look around\nD. change of surroundings\nE. interesting",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'interesting'입니다.",
+    "answer": "E. interesting",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_1122",
+    "question": "Where would you find a playroom with very young children just starting their education?\nA. preschool\nB. playground\nC. big house\nD. building\nE. grandma's house",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'preschool'입니다.",
+    "answer": "A. preschool",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_1113",
+    "question": "Where was he one speaker of many?\nA. drive in movie\nB. shelf\nC. conference\nD. lecture hall\nE. demonstration",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'conference'입니다.",
+    "answer": "C. conference",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3853",
+    "question": "What does someone want to do fast when they complete something in a perfunctory way?\nA. careful\nB. complete\nC. thoughtful\nD. thorough\nE. go on",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'complete'입니다.",
+    "answer": "B. complete",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_6615",
+    "question": "The child had never seen a jellyfish in real life, he had only seen them in a what?\nA. pacific ocean\nB. shore\nC. tank\nD. movie\nE. sea",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'movie'입니다.",
+    "answer": "D. movie",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1964",
+    "question": "What place has many coasts and is a place where you could find a sloth?\nA. commercial\nB. costa rica\nC. dictionary\nD. civil service\nE. paraguay",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'costa rica'입니다.",
+    "answer": "B. costa rica",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_9333",
+    "question": "Joe didn't have any concern for small things.   Some people thought that he was irresponsible, but Sarah insisted he was just what?\nA. uncaring\nB. indifference\nC. arrogant\nD. carefree\nE. carelessness",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'carefree'입니다.",
+    "answer": "D. carefree",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4033",
+    "question": "Where might baggage be searched?\nA. airports\nB. helicopter\nC. cruise ship\nD. train station\nE. room",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'airports'입니다.",
+    "answer": "A. airports",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9485",
+    "question": "If you aren't in a jewelry store or looking in a jewelry box where might you find a choker?\nA. boutique\nB. kennel\nC. jewelry box\nD. pet store\nE. jewelry store",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'boutique'입니다.",
+    "answer": "A. boutique",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9740",
+    "question": "I forgot to pay the electricity bill, now what can't I do with my ground pump?\nA. put in to the water\nB. cause fire\nC. produce heat\nD. short fuse\nE. shock",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'produce heat'입니다.",
+    "answer": "C. produce heat",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_651",
+    "question": "What is a parents primary duty?\nA. speak freely\nB. happiness of a child\nC. care for children\nD. school child\nE. control children",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'care for children'입니다.",
+    "answer": "C. care for children",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1343",
+    "question": "Sam thought that his efforts were necessary, but in reality the accomplished nothing.  They were what?\nA. superfluous\nB. useless\nC. swap cs\nD. unneeded\nE. useless",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'useless'입니다.",
+    "answer": "E. useless",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_6868",
+    "question": "Where could you find one booking office?\nA. city\nB. bank\nC. building\nD. mall\nE. england",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'building'입니다.",
+    "answer": "C. building",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_9562",
+    "question": "What can you put in a parking lot?\nA. car\nB. town\nC. circus\nD. city\nE. business district",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'car'입니다.",
+    "answer": "A. car",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9260",
+    "question": "What activity should I partake in to have fun?\nA. spontaneous\nB. work less\nC. do enjoy\nD. death\nE. do like",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'do like'입니다.",
+    "answer": "E. do like",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_8565",
+    "question": "Where are peas likely to be freshest?\nA. farmer's market\nB. supermarket\nC. freezer\nD. microwave\nE. grocery store",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'farmer's market'입니다.",
+    "answer": "A. farmer's market",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_5183",
+    "question": "If you believe something but then you begin getting and understanding new information you may come to a what?\nA. disappointment\nB. new realization\nC. heat wave\nD. joy\nE. wanting more",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'new realization'입니다.",
+    "answer": "B. new realization",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4272",
+    "question": "What would happen if you are sleeping well?\nA. sweat\nB. nightmares\nC. dreams\nD. have fun\nE. relaxation",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'relaxation'입니다.",
+    "answer": "E. relaxation",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3346",
+    "question": "What might lock after someone drives in?\nA. mouths\nB. doorknob\nC. gate\nD. entrance\nE. front door",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'gate'입니다.",
+    "answer": "C. gate",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_5147",
+    "question": "Why might someone go to an office building?\nA. advertising company\nB. project\nC. new york\nD. city\nE. work",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'work'입니다.",
+    "answer": "E. work",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3910",
+    "question": "Sean was an honest person, but his married June, who wasn't honest at all. In fact, who was very what?\nA. untruthful\nB. liar\nC. untrustworthy\nD. disloyal\nE. deceitful",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'deceitful'입니다.",
+    "answer": "E. deceitful",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_4351",
+    "question": "When frozen it showed solidity, but as it thawed and melted it showed what?\nA. fluidity\nB. hollowness\nC. openness\nD. weakness\nE. instability",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'fluidity'입니다.",
+    "answer": "A. fluidity",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_6484",
+    "question": "What accused of committing a murder what is a person facing?\nA. feeling of guilt\nB. jail time\nC. being rewarded\nD. fear\nE. going to prison",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'jail time'입니다.",
+    "answer": "B. jail time",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_2144",
+    "question": "The comforter was used constantly and treaded upon by everyone, where should it be placed?\nA. garbage\nB. linen closet\nC. bedroom\nD. washing machine\nE. livingroom",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'washing machine'입니다.",
+    "answer": "D. washing machine",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4915",
+    "question": "The child was suffering from neglect, luckily the teach took what?\nA. regard\nB. taking care\nC. consideration\nD. assumed\nE. notice",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'notice'입니다.",
+    "answer": "E. notice",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7491",
+    "question": "What does a prisoner likely have?\nA. do time\nB. dream of freedom\nC. chains\nD. fast for days\nE. attempt to escape",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'dream of freedom'입니다.",
+    "answer": "B. dream of freedom",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5180",
+    "question": "She found the housing option in the midwest were plain, where should she look for houses for less plain architecture?\nA. landscape\nB. azawakh\nC. middle america\nD. georgia\nE. countryside",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'georgia'입니다.",
+    "answer": "D. georgia",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1188",
+    "question": "Billy thought that there wasn't any point to hunting foxes. Besides, it was too dry to find many.  Where might he have been?\nA. hen house\nB. florida\nC. new hampshire\nD. north dakota\nE. arkansas",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'arkansas'입니다.",
+    "answer": "E. arkansas",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_152",
+    "question": "Where do you put a new dining table?\nA. cafeteria\nB. arranging papers\nC. in the park\nD. formal dining room\nE. house",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'house'입니다.",
+    "answer": "E. house",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7508",
+    "question": "What does a person begin to do after a deer has eaten their rosebush?\nA. flower garden\nB. delaware\nC. planting\nD. lawn\nE. playground",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'planting'입니다.",
+    "answer": "C. planting",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_9224",
+    "question": "What is a likely result of returning to work?\nA. earn money\nB. depression\nC. work overload\nD. stress\nE. sobering",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'earn money'입니다.",
+    "answer": "A. earn money",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_1638",
+    "question": "Where might someone have a statement printed?\nA. mail\nB. newspaper\nC. smartphone\nD. press release\nE. letter",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'newspaper'입니다.",
+    "answer": "B. newspaper",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1200",
+    "question": "Where in your shirt can you keep your plane ticket?\nA. terrorists hands\nB. pocket\nC. airport\nD. back pocket\nE. briefcase",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'pocket'입니다.",
+    "answer": "B. pocket",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_8808",
+    "question": "What contains a company of people?\nA. yellow pages\nB. market place\nC. newspaper\nD. city\nE. armed forces",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'armed forces'입니다.",
+    "answer": "E. armed forces",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3492",
+    "question": "Where would a rosebush be most likely to die due to lack of water?\nA. canada\nB. the desert\nC. indiana\nD. california\nE. backyard",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'california'입니다.",
+    "answer": "D. california",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_8288",
+    "question": "Where would you play with a toy that fires a projectile ball and coin operated machines?\nA. tennis court\nB. baseball thrower\nC. motion\nD. flintlock\nE. arcade",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'arcade'입니다.",
+    "answer": "E. arcade",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_2170",
+    "question": "If your opponents in a marathon is very fast it is easy to fall what?\nA. lightly\nB. behind\nC. train\nD. slowly\nE. sitfast",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'behind'입니다.",
+    "answer": "B. behind",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5718",
+    "question": "The executives talked strategy walking through the lobby, what were they likely discussing?\nA. opera\nB. office building\nC. receptionist\nD. business plan\nE. game plan",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'business plan'입니다.",
+    "answer": "D. business plan",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1127",
+    "question": "Man probably invented sports because of its instinctual need to be what?\nA. recreational\nB. competitive\nC. good looking\nD. fun\nE. violent",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'competitive'입니다.",
+    "answer": "B. competitive",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4002",
+    "question": "How would an artist create a fox?\nA. painting\nB. england\nC. wooded areas\nD. ask them first\nE. chicken coop",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'painting'입니다.",
+    "answer": "A. painting",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_6054",
+    "question": "Something you do requires effort and what else?\nA. make progress\nB. make peace\nC. make war\nD. take time\nE. kindness",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'take time'입니다.",
+    "answer": "D. take time",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4669",
+    "question": "What place of worship often has a lot of candles?\nA. dark\nB. shelf\nC. church\nD. birthday cake\nE. bar",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'church'입니다.",
+    "answer": "C. church",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2584",
+    "question": "The person had no car, but needed to get somewhere, where should he go?\nA. carpark\nB. hospital\nC. building\nD. garage\nE. bus stop",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'bus stop'입니다.",
+    "answer": "E. bus stop",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7179",
+    "question": "The difficulty of life was killing him, so what did he decide to do?\nA. suicide\nB. grief\nC. going to jail\nD. not living\nE. wrote his congressman",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'suicide'입니다.",
+    "answer": "A. suicide",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8900",
+    "question": "What is a human adapted to handle?\nA. co2\nB. community\nC. population\nD. diverse situations\nE. school",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'diverse situations'입니다.",
+    "answer": "D. diverse situations",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4956",
+    "question": "To where do apple trees drop their fruit?\nA. the ground\nB. outside\nC. park\nD. ground\nE. uzbekistan",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'ground'입니다.",
+    "answer": "D. ground",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_8666",
+    "question": "It was time for a harvest, you could find potato after potato in the what?\nA. food market\nB. soil\nC. farmer's field\nD. ireland\nE. garden",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'soil'입니다.",
+    "answer": "B. soil",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_128",
+    "question": "There weren't potatoes but actually a snake in his what?\nA. burlap sack\nB. hot country\nC. purse\nD. pet shops\nE. deep grass",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'burlap sack'입니다.",
+    "answer": "A. burlap sack",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9086",
+    "question": "What might learning about science  lead to?\nA. new ideas\nB. experiments\nC. invent\nD. accidents\nE. atheism",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'new ideas'입니다.",
+    "answer": "A. new ideas",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_4905",
+    "question": "The day was over and the teeth filled, the dentist had to put all his metal what away?\nA. ore\nB. badges\nC. instruments\nD. junkyard\nE. metalworks",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'instruments'입니다.",
+    "answer": "C. instruments",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1697",
+    "question": "When you love someone, what will that person most likely do?\nA. give money\nB. cost nothing\nC. bring joy\nD. last forever\nE. hurt",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'bring joy'입니다.",
+    "answer": "C. bring joy",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2200",
+    "question": "WHat is the central bank responding to when they are fighting inflation?\nA. deflation\nB. problems\nC. spend more\nD. people\nE. not noticeable",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'problems'입니다.",
+    "answer": "B. problems",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1891",
+    "question": "Where would you buy candy and other foods?\nA. movies\nB. supermarket\nC. mall\nD. jar\nE. television",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'supermarket'입니다.",
+    "answer": "B. supermarket",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1753",
+    "question": "The roommates were young and irresponsible, it was always a mess at their what?\nA. apartment\nB. table\nC. office\nD. desk\nE. closet",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'apartment'입니다.",
+    "answer": "A. apartment",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_2546",
+    "question": "Where could she go to find a big cat to see?\nA. front door\nB. residence\nC. zoo\nD. restaurant\nE. barn",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'zoo'입니다.",
+    "answer": "C. zoo",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_4462",
+    "question": "What kind of playing game could result in you winning?\nA. having fun\nB. competition\nC. entertain\nD. checkers\nE. injury",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'competition'입니다.",
+    "answer": "B. competition",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4616",
+    "question": "You don't usually find a mall in what areas outside big groups of people?\nA. downtown\nB. large city\nC. montana\nD. urban area\nE. suburbs",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'suburbs'입니다.",
+    "answer": "E. suburbs",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3450",
+    "question": "If you're doing some typing, what is one thing you could be creating?\nA. letter\nB. a birthday card\nC. pain\nD. printed word\nE. carpal tunnel syndrome",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'letter'입니다.",
+    "answer": "A. letter",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_5617",
+    "question": "What would you do to numbers that are positive integers to get a smaller result?\nA. written down\nB. added up\nC. start number game\nD. divided\nE. multiplied",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'divided'입니다.",
+    "answer": "D. divided",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_3335",
+    "question": "The cow was a star.  Everyone knew it from the what?\nA. wisconsin\nB. fairy tale\nC. nebraska\nD. advertisement\nE. countryside",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'advertisement'입니다.",
+    "answer": "D. advertisement",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4325",
+    "question": "Billy wanted to see a Forrest. Where might he go?\nA. national park\nB. temperate zone\nC. the forest\nD. countryside\nE. amazon basin",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'national park'입니다.",
+    "answer": "A. national park",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8280",
+    "question": "North america has winter to start the year because it is where?\nA. america\nB. western hemisphere\nC. northern hemisphere\nD. occident\nE. north america is the world’s third-largest continent – 24",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'northern hemisphere'입니다.",
+    "answer": "C. northern hemisphere",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8004",
+    "question": "The cow farm was free range, it provided all the quality meat to t he bay area of where?\nA. slaughter house\nB. rural area\nC. nursery rhyme\nD. northern california\nE. farmyard",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'northern california'입니다.",
+    "answer": "D. northern california",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4114",
+    "question": "What type of people get books written about them?\nA. entertaining\nB. important\nC. written on paper\nD. engaging\nE. rich people",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'important'입니다.",
+    "answer": "B. important",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_832",
+    "question": "In what place could you find air that has been breathed by many people recently?\nA. charming\nB. space shuttle\nC. house\nD. train station\nE. surface of earth",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'train station'입니다.",
+    "answer": "D. train station",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1512",
+    "question": "Where does the red cross respond to a storm?\nA. summer\nB. tropics\nC. blue shield\nD. weather report\nE. america",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'america'입니다.",
+    "answer": "E. america",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_4533",
+    "question": "Where is music likely to be playing in a elevator?\nA. at hotel\nB. apartment\nC. mall\nD. park\nE. building",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'at hotel'입니다.",
+    "answer": "A. at hotel",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_722",
+    "question": "The friends loved competing against one another, it was a good way to work their what?\nA. friendship\nB. aggression\nC. defeat\nD. winning or losing\nE. sweat",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'aggression'입니다.",
+    "answer": "B. aggression",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_58",
+    "question": "What would you do if you want to be able to earn money?\nA. apply for job\nB. stand in line\nC. take care of proposals\nD. pass course\nE. play the lottery",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'apply for job'입니다.",
+    "answer": "A. apply for job",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_5464",
+    "question": "Where do you get a table?\nA. demonstration\nB. kitchen\nC. furniture store\nD. hallway\nE. apartment",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'furniture store'입니다.",
+    "answer": "C. furniture store",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2143",
+    "question": "What is it called when the police take a suspect in to custody?\nA. arrest\nB. force law\nC. board vessels\nD. direct traffic\nE. raid",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'arrest'입니다.",
+    "answer": "A. arrest",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_4291",
+    "question": "The woman was watching TV instead of going to the gym, what was she at risk of doing?\nA. entertainment\nB. get fat\nC. arguments\nD. break couch\nE. wasting time",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'get fat'입니다.",
+    "answer": "B. get fat",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_2647",
+    "question": "Where can you borrow magazines?\nA. library\nB. bookstore\nC. friends\nD. table\nE. doctor",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'library'입니다.",
+    "answer": "A. library",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_7239",
+    "question": "How would one describe the effects of a hurricane?\nA. horrendous\nB. disaster\nC. bring destruction\nD. tornadoes\nE. tremendous",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'horrendous'입니다.",
+    "answer": "A. horrendous",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9038",
+    "question": "The item didn't sound right because one of it's legs were uneven.  What might the item be?\nA. spinning wheel\nB. grand piano\nC. legroom\nD. hospital bed\nE. office chair",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'grand piano'입니다.",
+    "answer": "B. grand piano",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_7007",
+    "question": "A card slot for casino member points adorns each of what one-appendage devices?\nA. machine\nB. automated teller\nC. atm machine\nD. telephone\nE. slot machine",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'slot machine'입니다.",
+    "answer": "E. slot machine",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_9189",
+    "question": "What happens when someone is driving their car for a long time?\nA. wheels turning\nB. lack of fuel\nC. tire wear\nD. low on gas\nE. transportation",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'tire wear'입니다.",
+    "answer": "C. tire wear",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_158",
+    "question": "John and Jane were a couple.  They were dating for a while and wanted to be together for even longer. For this reason, they did what?\nA. make sex\nB. plan to marry\nC. dance\nD. electrical circuit\nE. row about",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'plan to marry'입니다.",
+    "answer": "B. plan to marry",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1232",
+    "question": "The dental office handled a lot of patients who experienced traumatic mouth injury, where were these patients coming from?\nA. town\nB. michigan\nC. office building\nD. schools\nE. hospital",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'hospital'입니다.",
+    "answer": "E. hospital",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_2442",
+    "question": "Where would you find a computer near very young people learning?\nA. apartment\nB. house\nC. classroom\nD. hallway\nE. demonstration",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'classroom'입니다.",
+    "answer": "C. classroom",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8938",
+    "question": "Where is an adult collector of toy cars likely to keep them?\nA. toy store\nB. block of flats\nC. own home\nD. childs bedroom\nE. child's room",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'own home'입니다.",
+    "answer": "C. own home",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_590",
+    "question": "After attending school for twelve years what do you do?\nA. inspiration\nB. much work\nC. boredom\nD. graduate\nE. degree",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'graduate'입니다.",
+    "answer": "D. graduate",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6049",
+    "question": "Australia is a country and also a what?\nA. america\nB. continent\nC. great outdoors\nD. friend\nE. world",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'continent'입니다.",
+    "answer": "B. continent",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_9543",
+    "question": "What does a person do in a dirty kitchen?\nA. wash dishes\nB. cook dinner\nC. thank god\nD. mop\nE. cook food",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'wash dishes'입니다.",
+    "answer": "A. wash dishes",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9052",
+    "question": "The hikers were suffering from fatigue on the steep trail, they decided to stop and what?\nA. sit down\nB. go to bed\nC. sleep\nD. have rest\nE. nap",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'have rest'입니다.",
+    "answer": "D. have rest",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_2426",
+    "question": "The key to living life and not just existing is what?\nA. acquiring knowledge\nB. happiness\nC. purpose\nD. existing\nE. joy",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'happiness'입니다.",
+    "answer": "B. happiness",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_7041",
+    "question": "What is the biological purpose of eating breakfast?\nA. halitosis\nB. fullness\nC. overeating\nD. gas\nE. gain energy",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'gain energy'입니다.",
+    "answer": "E. gain energy",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_2088",
+    "question": "If you cannot see a cloud because it is too dark, what can you distinguish?\nA. night or day\nB. weather report\nC. rain or sun light\nD. atmosphere\nE. blue sky",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'night or day'입니다.",
+    "answer": "A. night or day",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_685",
+    "question": "What is the result of instituting civil action?\nA. bad feelings\nB. confusion\nC. going to court\nD. hurt feelings\nE. sandwiches",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'going to court'입니다.",
+    "answer": "C. going to court",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_5050",
+    "question": "The narrator explained the behaviors of the gazelle, sitting on the couch he was enjoying the what?\nA. window\nB. television program\nC. open plain\nD. great outdoors\nE. eastern hemisphere",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'television program'입니다.",
+    "answer": "B. television program",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5974",
+    "question": "The ranch house is common in what northwestern Rocky Mountains state\nA. countryside\nB. montana\nC. british columbia\nD. california\nE. desert",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'montana'입니다.",
+    "answer": "B. montana",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_653",
+    "question": "Where can you find a place to eat and places to buy items of many different kinds?\nA. city\nB. downtown\nC. own house\nD. bar\nE. shopping center",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'shopping center'입니다.",
+    "answer": "E. shopping center",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_5862",
+    "question": "What would one like to do with friends when there is no agenda?\nA. hang out\nB. talking about\nC. bond with each other\nD. meet for lunch\nE. side with",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'hang out'입니다.",
+    "answer": "A. hang out",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3441",
+    "question": "The class was clear, and that made it almost what?\nA. murky\nB. confusing\nC. invisible\nD. misunderstood\nE. teacher",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'invisible'입니다.",
+    "answer": "C. invisible",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_4088",
+    "question": "Marmot's don't uisually live in buildings.They're most likely to be found where?\nA. tree\nB. rocky hillside\nC. park\nD. outside\nE. vancouver island",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'outside'입니다.",
+    "answer": "D. outside",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1684",
+    "question": "She was going to barbecue some kangaroo meat while camping in the outback, where was she?\nA. retail store\nB. detroit\nC. wyoming\nD. australia\nE. michigan park",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'australia'입니다.",
+    "answer": "D. australia",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_5794",
+    "question": "He promised he would fight enemy over the transgression, even if it was to the what?\nA. victory\nB. casualties\nC. death\nD. eat\nE. dying",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'death'입니다.",
+    "answer": "C. death",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_9173",
+    "question": "Where might a small dog spend a nice day?\nA. backyard\nB. own home\nC. basket\nD. bed room\nE. dog show",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'backyard'입니다.",
+    "answer": "A. backyard",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_2532",
+    "question": "What does it mean when I have to do something not optional\nA. mandatory\nB. nonelective\nC. obligatory\nD. lazy\nE. compulsory",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'mandatory'입니다.",
+    "answer": "A. mandatory",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3878",
+    "question": "What is the easiest place for a human or another animal to live?\nA. workplace\nB. gravesite\nC. shelter\nD. interesting place\nE. temperate climate",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'temperate climate'입니다.",
+    "answer": "E. temperate climate",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_2662",
+    "question": "Where does confetti float?\nA. streets\nB. big cities\nC. air\nD. water\nE. shredder",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'air'입니다.",
+    "answer": "C. air",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2900",
+    "question": "What happens when I make a pig of myself eating breakfast?\nA. full stomach\nB. gain energy\nC. dieting\nD. have energy\nE. feeling satisfied",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'full stomach'입니다.",
+    "answer": "A. full stomach",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_6755",
+    "question": "What does a shareholder own?\nA. building\nB. large company\nC. headache\nD. financial trouble\nE. factory",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'large company'입니다.",
+    "answer": "B. large company",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_406",
+    "question": "What would you do if you have curiosity about something but cannot leave your house?\nA. hear testimony\nB. go somewhere\nC. see exhibits\nD. outdoor concert\nE. surf net",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'surf net'입니다.",
+    "answer": "E. surf net",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_2938",
+    "question": "He had chosen to live a fulfilling life, he was content in the end and died with no regrets as he took his last what?\nA. read book\nB. go to school\nC. breathing\nD. breathe\nE. journey",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'breathe'입니다.",
+    "answer": "D. breathe",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_5442",
+    "question": "The shark realized it was in northern california, where was it likely?\nA. sea world\nB. tropical waters\nC. tomales bay\nD. aquarium\nE. great oceans",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'tomales bay'입니다.",
+    "answer": "C. tomales bay",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_6745",
+    "question": "Where should a blank sheet of paper be?\nA. printer\nB. box\nC. office\nD. add numbers\nE. in a binder",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'printer'입니다.",
+    "answer": "A. printer",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_4065",
+    "question": "What structure had to use a launching platform many times to escape the Earth's gravity?\nA. large open area\nB. space\nC. space station\nD. aircraft carrier\nE. circus",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'space station'입니다.",
+    "answer": "C. space station",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2608",
+    "question": "If someone spends too much time buying products what are they likely to experience?\nA. debt\nB. empty pockets\nC. loss of money\nD. being able to use\nE. economic boom",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'loss of money'입니다.",
+    "answer": "C. loss of money",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1771",
+    "question": "Why do children usually like jumping rope?\nA. increased heart rate\nB. smiling\nC. sweating\nD. having fun\nE. jumping",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'having fun'입니다.",
+    "answer": "D. having fun",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6267",
+    "question": "Sally was a real estate agent but she was a bad one.  She didn't do well because people knew that she would oversell some features of the homes she sold. They assumed that she was always doing what?\nA. cover up\nB. lie\nC. manipulate\nD. exaggerate\nE. incompetent",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'exaggerate'입니다.",
+    "answer": "D. exaggerate",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_634",
+    "question": "Where do fish spend the majority of their time?\nA. body of water\nB. lake superior\nC. underwater\nD. toilet\nE. aquarium",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'underwater'입니다.",
+    "answer": "C. underwater",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_7711",
+    "question": "Where do you use a ball for exercise?\nA. playground\nB. toy store\nC. bank\nD. bowling alley\nE. gymnasium",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'gymnasium'입니다.",
+    "answer": "E. gymnasium",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3644",
+    "question": "What feature can a river flow through?\nA. valley\nB. wisconsin\nC. wilderness\nD. bridge\nE. waterfall",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'valley'입니다.",
+    "answer": "A. valley",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3269",
+    "question": "Who would you go to if you wanted a picture of a thermometer?\nA. cabinet\nB. doctor's office\nC. hospital\nD. drawer\nE. camera",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'drawer'입니다.",
+    "answer": "D. drawer",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_7541",
+    "question": "Sam felt that he only had the power to destroy.  He was scared when he learned that Jane was pregnant.  He was surprised that he could do what?\nA. create\nB. rebuild\nC. repair\nD. draw\nE. construct",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'create'입니다.",
+    "answer": "A. create",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_5728",
+    "question": "If they weren't sightseeing, why were they diving through the cave?\nA. wetness\nB. get wet\nC. exhilaration\nD. going somewhere\nE. to get to the other side",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'going somewhere'입니다.",
+    "answer": "D. going somewhere",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_5000",
+    "question": "I love to see an idea become a reality.  In order to accomplish that, I must do what?\nA. think\nB. work hard\nC. do about\nD. study\nE. patent",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'work hard'입니다.",
+    "answer": "B. work hard",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_3728",
+    "question": "How do single cell animals create new generations?\nA. reproduce asexually\nB. procreate\nC. need to eat\nD. bite\nE. feel pain",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'reproduce asexually'입니다.",
+    "answer": "A. reproduce asexually",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3652",
+    "question": "The hard working man was stuck at home after his injury, he tried to keep bust doing housework but it caused what?\nA. get tired\nB. pain and suffering\nC. fatigue\nD. coughing\nE. tiredness",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'pain and suffering'입니다.",
+    "answer": "B. pain and suffering",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_387",
+    "question": "What could be happening near you if the ground is getting wet?\nA. solidifying\nB. melting\nC. getting cold\nD. feeling cold\nE. skin rash",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'melting'입니다.",
+    "answer": "B. melting",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_3164",
+    "question": "If a bum wanted to ride for free, where might he go?\nA. bus depot\nB. train station\nC. beach\nD. bridge\nE. taxi",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'train station'입니다.",
+    "answer": "B. train station",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_6528",
+    "question": "What's a good solution for being bored?\nA. use television\nB. entertain\nC. read a book\nD. play chess\nE. go somewhere",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'go somewhere'입니다.",
+    "answer": "E. go somewhere",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_5378",
+    "question": "Where can leaves slide from and end up in a gutter?\nA. trees\nB. spout\nC. roof\nD. ground\nE. street",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'roof'입니다.",
+    "answer": "C. roof",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_4564",
+    "question": "Sally went out to look for a stepladder.  Where might she have gone?\nA. construction worker's vehicle\nB. tool shed\nC. hardware store\nD. elevator\nE. store room",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'tool shed'입니다.",
+    "answer": "B. tool shed",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1137",
+    "question": "If you find a bone wrapped in clothe, where are you?\nA. tomb\nB. museum\nC. arm\nD. human body\nE. hospital",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'tomb'입니다.",
+    "answer": "A. tomb",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_4573",
+    "question": "What can he do to eliminate his ignorance?\nA. find information\nB. judge\nC. do some research\nD. find truth\nE. learn new",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'learn new'입니다.",
+    "answer": "E. learn new",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_5753",
+    "question": "What type of exertion do you utilize when hiking?\nA. mountain\nB. physical exertion\nC. adventure\nD. exercise\nE. shin splints",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'physical exertion'입니다.",
+    "answer": "B. physical exertion",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_8346",
+    "question": "In order to pass a class you will need to finish all of what which are assignments to complete away from school?\nA. sleep\nB. graduate school\nC. study hard\nD. smart\nE. homework",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'homework'입니다.",
+    "answer": "E. homework",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_6548",
+    "question": "The baboon is a species of monkey native to where?\nA. amazon basin\nB. rain forest\nC. zoological gardens\nD. jungle\nE. african continent",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'african continent'입니다.",
+    "answer": "E. african continent",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_5425",
+    "question": "What area with trees experiences heavy rain?\nA. sahara\nB. disneyland\nC. seattle\nD. street\nE. forest",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'forest'입니다.",
+    "answer": "E. forest",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_452",
+    "question": "Billy bounced the ball off the wall.  There was a target on the wall for him to bounce against.  Where might he be?\nA. pool table\nB. toy box\nC. playroom\nD. park\nE. closet",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'playroom'입니다.",
+    "answer": "C. playroom",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1889",
+    "question": "Where might someone drive through rows of apple tree?\nA. countryside\nB. mountains\nC. front yard\nD. wisconsin\nE. washington state",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'countryside'입니다.",
+    "answer": "A. countryside",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_4279",
+    "question": "She needed a diaphragm, she went to buy one where?\nA. valve\nB. drugstore\nC. human\nD. organ\nE. person's chest",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'drugstore'입니다.",
+    "answer": "B. drugstore",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_2925",
+    "question": "Like all mammals, cats smell with what?\nA. eyes\nB. four legs\nC. litter of kittens\nD. tail\nE. nose",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'nose'입니다.",
+    "answer": "E. nose",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_9512",
+    "question": "After running twenty six miles he felt like he had lost twenty six pounds, this was from all the what?\nA. exercise\nB. sweat\nC. pass out\nD. collapse\nE. drink water",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'sweat'입니다.",
+    "answer": "B. sweat",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4349",
+    "question": "They wanted to put on a show about being human beings, which ironically worked because none of them could do what well?\nA. behave well\nB. question authority\nC. melt\nD. act\nE. read newspapers",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'act'입니다.",
+    "answer": "D. act",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_626",
+    "question": "Where does a shadow usually appear?\nA. suface of moon\nB. building\nC. bridge\nD. ground\nE. bright light",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'ground'입니다.",
+    "answer": "D. ground",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1776",
+    "question": "For what reason did he commit the killing?\nA. investigation\nB. disease\nC. punishment\nD. retribution\nE. going to jail",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'retribution'입니다.",
+    "answer": "D. retribution",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_7119",
+    "question": "What could cast a shadow?\nA. walking man\nB. bridge\nC. bright light\nD. ground\nE. daytime",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'bridge'입니다.",
+    "answer": "B. bridge",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5663",
+    "question": "The mom knew she would need to do another wash as she watched her children playing in the rain and what?\nA. getting wet\nB. getting dirty\nC. being dirty\nD. get messy\nE. get dirty",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'getting dirty'입니다.",
+    "answer": "B. getting dirty",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5139",
+    "question": "What is a social benefit of going to party?\nA. getting drunk\nB. food\nC. plan\nD. having fun\nE. meeting new people",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'meeting new people'입니다.",
+    "answer": "E. meeting new people",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7149",
+    "question": "The student chefs were instructed to start the tacos with the main ingredient, adding it to a hot pan to do what?\nA. stir the water\nB. prepare food\nC. brown meat\nD. prepare meals\nE. make food",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'brown meat'입니다.",
+    "answer": "C. brown meat",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8379",
+    "question": "What does a ferret like to crawl up?\nA. great britain\nB. mother's hair\nC. petting zoo\nD. building\nE. trouser leg",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'trouser leg'입니다.",
+    "answer": "E. trouser leg",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_1894",
+    "question": "What was the practical husband concerned most about when house shopping?\nA. arriving\nB. location\nC. excitement\nD. movement\nE. expense",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'expense'입니다.",
+    "answer": "E. expense",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_6311",
+    "question": "What is a child likely hoping to achieve by going to play?\nA. have fun\nB. enjoyment\nC. rush\nD. being entertained\nE. get hungry",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'have fun'입니다.",
+    "answer": "A. have fun",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_9446",
+    "question": "He enjoyed attending lecture, it was his favorite way of what?\nA. applaud\nB. take notes\nC. learning\nD. going online\nE. taking notes",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'learning'입니다.",
+    "answer": "C. learning",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3114",
+    "question": "What is often an outward expression of happiness?\nA. love\nB. laughter\nC. spread\nD. tears\nE. limp",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'laughter'입니다.",
+    "answer": "B. laughter",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4173",
+    "question": "The heater broke down before the city's Christmas party, so they could no longer host the party in the what?\nA. automobile\nB. public building\nC. house\nD. home\nE. train",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'public building'입니다.",
+    "answer": "B. public building",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_727",
+    "question": "What could someone be doing while performing that cannot be enjoyed by deaf people?\nA. smile\nB. singing\nC. sweat\nD. act\nE. dance",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'singing'입니다.",
+    "answer": "B. singing",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_7144",
+    "question": "What can you get after drinking too much alcohol?\nA. become drunk\nB. have fun\nC. active\nD. frequent urination\nE. sickness",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'sickness'입니다.",
+    "answer": "E. sickness",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_27",
+    "question": "Too many people want exotic snakes.  The demand is driving what to carry them?\nA. ditch\nB. shop\nC. north america\nD. pet shops\nE. outdoors",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'pet shops'입니다.",
+    "answer": "D. pet shops",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_8518",
+    "question": "Sam couldn't turn off his computer and it was stuck.  He didn't know why, but he called tech support because he was sure of what?\nA. make decisions\nB. reason exists\nC. control model\nD. power down\nE. believe in satan",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'reason exists'입니다.",
+    "answer": "B. reason exists",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_8821",
+    "question": "If you ate some spicy food, what could happen to you?\nA. medium\nB. illness\nC. throwing up\nD. heartburn\nE. sleepiness",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'heartburn'입니다.",
+    "answer": "D. heartburn",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_3228",
+    "question": "What would you put in a teakettle?\nA. england\nB. tea\nC. cupboard\nD. water\nE. japanese tea room",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'water'입니다.",
+    "answer": "D. water",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_5967",
+    "question": "What happens to kids when visiting museums of old dinosaur bones?\nA. crowding\nB. retrospection\nC. amazement\nD. being bored\nE. excited",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'amazement'입니다.",
+    "answer": "C. amazement",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_7066",
+    "question": "Where is a tree hugger likely to reside?\nA. forest\nB. rainforest\nC. san francisco\nD. state park\nE. university",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'san francisco'입니다.",
+    "answer": "C. san francisco",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_1146",
+    "question": "Where do you get a new shopping bag?\nA. garage\nB. retail store\nC. storage cabinet\nD. supermarket\nE. car trunk",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'retail store'입니다.",
+    "answer": "B. retail store",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5409",
+    "question": "Grandma always had baked cookies, all you had to do was look in the what?\nA. mouth\nB. jar\nC. fridge\nD. house\nE. plate",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'jar'입니다.",
+    "answer": "B. jar",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_5143",
+    "question": "What is likely to run high when two people are competing against each other?\nA. pride\nB. frustration\nC. emotions\nD. encouraging\nE. tensions",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'emotions'입니다.",
+    "answer": "C. emotions",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2041",
+    "question": "Diligently taking care of proposals got him good what?\nA. paper work\nB. getting work done\nC. marriage\nD. results\nE. efficiency",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'results'입니다.",
+    "answer": "D. results",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4920",
+    "question": "Where are people likely to leave a car in a parking lot for an extended time?\nA. shopping center\nB. airport\nC. business district\nD. city\nE. swimming pool",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'airport'입니다.",
+    "answer": "B. airport",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_8308",
+    "question": "Sally loves learning.  It's difficult, arduous, and long process, but in the end, it gives her something special.  What does learning do for someone?\nA. take long time\nB. read a book\nC. require time\nD. increase knowledge\nE. take time",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'increase knowledge'입니다.",
+    "answer": "D. increase knowledge",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_5067",
+    "question": "What will the student have to do on the test?\nA. finish college\nB. begin teaching\nC. write\nD. answer question\nE. solve equation",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'solve equation'입니다.",
+    "answer": "E. solve equation",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_6691",
+    "question": "Seeing someone open a gift after buying christmas presents causes what for the gift giver?\nA. stress\nB. understand themselves\nC. pleasure\nD. sense of joy\nE. debt",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'pleasure'입니다.",
+    "answer": "C. pleasure",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_5344",
+    "question": "Where does the cuisine from a mexican restaurant originate?\nA. texmex\nB. san diego\nC. southern california\nD. tijuana\nE. mexico",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'mexico'입니다.",
+    "answer": "E. mexico",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_6592",
+    "question": "The college student wanted to meet people, but he didn't really like to what?\nA. take class\nB. friendly\nC. go to parties\nD. go outside\nE. go outside",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'go to parties'입니다.",
+    "answer": "C. go to parties",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_4844",
+    "question": "Where could a marmot go to try to escape from you?\nA. in wild\nB. north america\nC. colorado\nD. hide\nE. tree",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'tree'입니다.",
+    "answer": "E. tree",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_9083",
+    "question": "If there are a lot of people waiting to order at the fast food restaurant where you decided to have lunch what must you do before you get to order?\nA. grab the food\nB. get full\nC. pouring coffee\nD. getting in line\nE. eath",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'getting in line'입니다.",
+    "answer": "D. getting in line",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_2085",
+    "question": "Denny couldn't find his hairbrush.  He looked everywhere for it.  Under and over, up and down, it was not where he thought it would be.  So he closed the door behind him and continued his systematic search.  Where might Denny have looked first?\nA. house\nB. kitchen\nC. car\nD. drugstore\nE. bedroom",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'bedroom'입니다.",
+    "answer": "E. bedroom",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3143",
+    "question": "In any city you usually see a high rise where?\nA. residential area\nB. san francisco\nC. downtown\nD. suburbs\nE. detroit",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'downtown'입니다.",
+    "answer": "C. downtown",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_6888",
+    "question": "Jenny was stuck at home most of the time without anyone to talk to.  She went dancing because she wanted to do what?\nA. meeting people\nB. fatigue\nC. having fun\nD. intercourse\nE. pick up her next victim",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'meeting people'입니다.",
+    "answer": "A. meeting people",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_6211",
+    "question": "Sally was watching from near the orchestra pit as the players came on stage.  What sort of building is she in?\nA. opera house\nB. butt\nC. auditorium\nD. music hall\nE. theatre",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'theatre'입니다.",
+    "answer": "E. theatre",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_2851",
+    "question": "Where must a car park be?\nA. city\nB. shopping centre\nC. downtown\nD. outside\nE. city center",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'outside'입니다.",
+    "answer": "D. outside",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_9324",
+    "question": "Where might sheep go to a show?\nA. walmart\nB. wolf\nC. farm\nD. meadow\nE. fairgrounds",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'fairgrounds'입니다.",
+    "answer": "E. fairgrounds",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_4930",
+    "question": "Why do people want to swim in the heat?\nA. wear bathing suit\nB. fun\nC. excercise\nD. cool down\nE. exercise",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'cool down'입니다.",
+    "answer": "D. cool down",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6653",
+    "question": "Where is a beaver unlikely to be found?\nA. strip club\nB. helm of ship\nC. ontario\nD. lake or river\nE. millpond",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'strip club'입니다.",
+    "answer": "A. strip club",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8977",
+    "question": "The people changed their plans after watching the morning news.  What were they going to do?\nA. drink coffee\nB. go hiking\nC. group objects\nD. make babies\nE. pay bills",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'go hiking'입니다.",
+    "answer": "B. go hiking",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_6",
+    "question": "The only baggage the woman checked was a drawstring bag, where was she heading with it?\nA. garbage can\nB. military\nC. jewelry store\nD. safe\nE. airport",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'airport'입니다.",
+    "answer": "E. airport",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_4978",
+    "question": "What class activity is unlikely to cause boredom?\nA. play cards\nB. surf net\nC. play chess\nD. play games\nE. watch film",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'watch film'입니다.",
+    "answer": "E. watch film",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_4700",
+    "question": "The judge had to hear testimony from everybody who would what that day?\nA. go into court\nB. appear in court\nC. go to church\nD. in the jury\nE. believe",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'appear in court'입니다.",
+    "answer": "B. appear in court",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_3443",
+    "question": "What could have a knob and emits light and sound?\nA. television\nB. doorway\nC. uncle fred\nD. hardware store\nE. control panel",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'television'입니다.",
+    "answer": "A. television",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_7043",
+    "question": "What does going jogging help prevent?\nA. language barrier\nB. heart attacks\nC. heart rate increases\nD. feel pride\nE. sweating",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'heart attacks'입니다.",
+    "answer": "B. heart attacks",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_9502",
+    "question": "She was hitting bottle to the point that doing what would seem like sobering up even though it wasn't?\nA. buying beer\nB. table\nC. alcoholism\nD. aim\nE. michigan",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'buying beer'입니다.",
+    "answer": "A. buying beer",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_5279",
+    "question": "James took his duffle bag with him when he walked to a place in order to go to another place.  Where did he walk to?\nA. store\nB. transit\nC. sporting goods store\nD. locker room\nE. bus station",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'bus station'입니다.",
+    "answer": "E. bus station",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7618",
+    "question": "He called his friend to go fishing, but his friend surprised him by saying he was already out there what?\nA. catching fish\nB. catch fish\nC. driving\nD. wade in\nE. buy bait",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'catching fish'입니다.",
+    "answer": "A. catching fish",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_7238",
+    "question": "The fencing he had worked hard on provided him with what?\nA. protection\nB. competition\nC. sword\nD. dexterity\nE. obesity",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'protection'입니다.",
+    "answer": "A. protection",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_7244",
+    "question": "Billy wanted to return home, but his mother told him to do what?\nA. run away\nB. leave\nC. going away\nD. backspace\nE. go away",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'go away'입니다.",
+    "answer": "E. go away",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3501",
+    "question": "The man was disheveled and wanted to clean clothes, so what was he hoping to achieve?\nA. attractive appearance\nB. look better\nC. sanitation\nD. clean clothes\nE. laundromat",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'look better'입니다.",
+    "answer": "B. look better",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_8375",
+    "question": "What wet vehicle do you steer with a wheel?\nA. bicycle shop\nB. medium\nC. michigan\nD. boat\nE. trunk of car",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'boat'입니다.",
+    "answer": "D. boat",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_7752",
+    "question": "Randy was not doing housework.   His wife was raising two children, and this only increased her workload. It put her under a lot of stress.  What might this lead to?\nA. asthma\nB. more\nC. boredom\nD. headache\nE. arguments",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'arguments'입니다.",
+    "answer": "E. arguments",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_2780",
+    "question": "The children had been using television all Saturday morning, their parents made them go outside and play before they all suffered what?\nA. entertained\nB. visual\nC. boredom\nD. eye strain\nE. laziness boredom",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'eye strain'입니다.",
+    "answer": "D. eye strain",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1389",
+    "question": "Where might a motionless horse be?\nA. washington\nB. painting\nC. race track\nD. safari\nE. farmyard",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'painting'입니다.",
+    "answer": "B. painting",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_4649",
+    "question": "If someone is a drunkard, what kind of person is he or she not?\nA. teetotaller\nB. pioneer\nC. abstain\nD. pioneer\nE. temperance",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'teetotaller'입니다.",
+    "answer": "A. teetotaller",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_8445",
+    "question": "She needed cabbage and make-up, so where did she go to buy both?\nA. freezer\nB. refrigerator\nC. plate\nD. grocery store\nE. supermarket",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'supermarket'입니다.",
+    "answer": "E. supermarket",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_5491",
+    "question": "What might help someone locate the United States?\nA. north america\nB. northern hemisphere\nC. western hemisphere\nD. magnets\nE. map",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'map'입니다.",
+    "answer": "E. map",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_1530",
+    "question": "When you swimming underwater you must come to the surface so you can do what?\nA. dive\nB. breathe air\nC. tread water\nD. breath control\nE. understand themselves",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'breathe air'입니다.",
+    "answer": "B. breathe air",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_3848",
+    "question": "When not playing your mandolin, where would you store it?\nA. closet\nB. musical instrument store\nC. instrument case\nD. music shop\nE. music store",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'instrument case'입니다.",
+    "answer": "C. instrument case",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_5085",
+    "question": "Where would a captain be on the sea?\nA. military\nB. bridge of ship\nC. battleship\nD. basketball team\nE. cruise ship",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'battleship'입니다.",
+    "answer": "C. battleship",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3680",
+    "question": "Where would you kick a ball that has grass?\nA. toy store\nB. pool table\nC. soccer field\nD. golf course\nE. street",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'soccer field'입니다.",
+    "answer": "C. soccer field",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_3262",
+    "question": "After I urinate and flush the toilet and wash my hands, what should I do next?\nA. flush toilet\nB. dry hands\nC. zip pants\nD. eat\nE. wash hands",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'eat'입니다.",
+    "answer": "D. eat",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_2414",
+    "question": "WHat do you need to do when you buy something so you dont overspend?\nA. paying\nB. spend money\nC. have in mind\nD. get money\nE. make list",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'have in mind'입니다.",
+    "answer": "C. have in mind",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_400",
+    "question": "The lady was getting worked up about the article explaining the uptick in accidents in their area, but her husband was dismissive of it stating that accidents what?\nA. happen to people\nB. hurt people\nC. happen anytime\nD. happen often\nE. happen anywhere",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'happen anywhere'입니다.",
+    "answer": "E. happen anywhere",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_757",
+    "question": "A person is alone in the woods and wounded, what should he do?\nA. amount to nothing\nB. visit relatives\nC. charming\nD. doctor himself\nE. cross street",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'doctor himself'입니다.",
+    "answer": "D. doctor himself",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_4011",
+    "question": "The mail fell out of my box and scattered in the win, where did it land?\nA. mailcatcher\nB. post office\nC. usps\nD. neighbor's house\nE. table",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'neighbor's house'입니다.",
+    "answer": "D. neighbor's house",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_7784",
+    "question": "An employer would prefer your planning vacation take place during what?\nA. organization\nB. free time\nC. imagination\nD. meetings\nE. money",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'free time'입니다.",
+    "answer": "B. free time",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_1193",
+    "question": "Where would using a boat require navigation skills?\nA. boattail\nB. river\nC. indiana\nD. garage\nE. ocean",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'ocean'입니다.",
+    "answer": "E. ocean",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_7461",
+    "question": "Every dribble echoed loudly, it was part of the experience of playing basketball in an empty what?\nA. sporting goods store\nB. loud\nC. boys hands\nD. park\nE. gymnasium",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'gymnasium'입니다.",
+    "answer": "E. gymnasium",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_6790",
+    "question": "Where could you find a very large amount of air?\nA. park\nB. surface of earth\nC. train station\nD. space shuttle\nE. house",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'surface of earth'입니다.",
+    "answer": "B. surface of earth",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_9431",
+    "question": "Jane bought a small dog half way through her trip while driving back home to Toronto from Mexico.   Where might she have bought the dog?\nA. canada\nB. illinois\nC. basket\nD. ball stopped\nE. person's house",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'illinois'입니다.",
+    "answer": "B. illinois",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_3185",
+    "question": "James took the junk off of the place where he sleeps and threw it into what?\nA. attic\nB. garage\nC. bed\nD. drawer\nE. television",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'drawer'입니다.",
+    "answer": "D. drawer",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6291",
+    "question": "The selfish man liked to take food from potlucks, but what didn't he do with food?\nA. give\nB. swim\nC. bring\nD. drop\nE. eat",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'bring'입니다.",
+    "answer": "C. bring",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_8099",
+    "question": "Why would a person drop out of school?\nA. successful in life\nB. done learning\nC. own house\nD. more leisure time\nE. not feel pain",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'more leisure time'입니다.",
+    "answer": "D. more leisure time",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_6547",
+    "question": "The players got chills and goosebumps as the went through the central passage into the what?\nA. arena\nB. tomb\nC. water\nD. public building\nE. connecting two different locations",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'arena'입니다.",
+    "answer": "A. arena",
+    "answerKey": "A"
+  },
+  {
+    "id": "commonsenseqa_train_3997",
+    "question": "What is covered in plants?\nA. greenhouse\nB. surface of earth\nC. television\nD. windowsill\nE. garden",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'surface of earth'입니다.",
+    "answer": "B. surface of earth",
+    "answerKey": "B"
+  },
+  {
+    "id": "commonsenseqa_train_2417",
+    "question": "There was only one room in the place where Bill slept.  It had a bed, a fridge, a stove, a couch, and a television.  Where might he be?\nA. motel\nB. school\nC. hotel\nD. apartment\nE. friend's house",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'apartment'입니다.",
+    "answer": "D. apartment",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_90",
+    "question": "Where do bees congregate with red flowerS?\nA. trash can\nB. honey\nC. bouquet of flowers\nD. rose garden\nE. field of flowers",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'rose garden'입니다.",
+    "answer": "D. rose garden",
+    "answerKey": "D"
+  },
+  {
+    "id": "commonsenseqa_train_1746",
+    "question": "Where is a tin likely to be stored?\nA. shopping bag\nB. kitchen\nC. hardware store\nD. grocery store\nE. cupboard",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'cupboard'입니다.",
+    "answer": "E. cupboard",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_6965",
+    "question": "Billy was searching for leaves to add to his collection.  Where might he have looked for them?\nA. compost pile\nB. floral arrangement\nC. trees\nD. bathroom\nE. forrest",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'forrest'입니다.",
+    "answer": "E. forrest",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_3585",
+    "question": "Where can you work on needlepoint near the entrance of you home?\nA. sewing\nB. frame\nC. livingroom\nD. sewing\nE. artscraft store",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'livingroom'입니다.",
+    "answer": "C. livingroom",
+    "answerKey": "C"
+  },
+  {
+    "id": "commonsenseqa_train_2881",
+    "question": "When a kid is ready for school, what do admissions counselors say about him?\nA. student\nB. leave home\nC. register\nD. see work\nE. old enough",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'old enough'입니다.",
+    "answer": "E. old enough",
+    "answerKey": "E"
+  },
+  {
+    "id": "commonsenseqa_train_8486",
+    "question": "What kind of store does a merchant have if they sell produce?\nA. the sun\nB. market\nC. business\nD. mall\nE. shopping center",
+    "reasoning": "이 질문에서 가장 상식적인 답변은 'market'입니다.",
+    "answer": "B. market",
+    "answerKey": "B"
+  }
+]
