@@ -23,7 +23,7 @@ from src.utils.experiment import ExperimentManager
 
 # Configure logging
 logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
@@ -182,39 +182,149 @@ def evaluate_commonsenseqa_response(test_item: Dict, response: str) -> bool:
     Returns:
         Correctness (True/False)
     """
-    # Extract answer label
+    # 질문 ID 로깅 (디버깅용)
+    question_id = test_item.get("id", "unknown")
+
+    # 1. answerKey 필드에서 정답 레이블 추출
     expected_key = test_item.get("answerKey", "")
+
+    # 2. answerKey가 없다면 answer 필드에서 추출 시도
+    if not expected_key and "answer" in test_item:
+        answer_text = test_item.get("answer", "")
+        # "B. concentration" 형식에서 "B"만 추출
+        if answer_text and len(answer_text) >= 1:
+            expected_key = answer_text[0]
+
+    # 3. 여전히 정답이 없으면 False 반환
     if not expected_key:
+        logger.warning(f"No answer key found for question: {question_id}")
         return False
 
-    # Try to extract label from response
-    # 1) Direct label matching
-    label_pattern = r"([A-E])[.:]"
-    matches = re.search(label_pattern, response)
+    # 정답 키를 대문자로 변환하고 필요 없는 문자 제거
+    expected_key = expected_key.strip().upper()
+    if expected_key not in "ABCDE":
+        logger.warning(f"Invalid answer key: {expected_key}")
+        return False
 
-    # 2) Search for "the answer is A" format
-    if not matches:
-        answer_pattern = r"the answer is\s*([A-E])"
-        matches = re.search(answer_pattern, response)
+    # 디버깅을 위한 로깅
+    logger.debug(f"Evaluating {question_id}: Expected key = {expected_key}")
 
-    # 3) Search for "The answer is A" format (case insensitive)
-    if not matches:
-        english_pattern = r"[Tt]he answer is\s*([A-E])"
-        matches = re.search(english_pattern, response)
+    # 추출된 패턴들을 저장할 변수
+    extracted_patterns = []
+    predicted_key = None
 
-    # 4) Last method: find any A-E label in the response
-    if not matches:
+    # 가장 높은 우선순위: #### 기호 이후의 답변
+    if "####" in response:
+        after_hash = response.split("####")[-1].strip()
+        # 직접적인 레이블 찾기 (A-E)
+        hash_labels = re.findall(r"\b([A-E])\b", after_hash)
+        if hash_labels:
+            predicted_key = hash_labels[0].upper()
+            extracted_patterns.append(f"After hash direct label: {predicted_key}")
+        # 레이블이 없으면 "final answer: X" 패턴 찾기
+        elif not predicted_key and re.search(
+            r"final answer:?\s*([A-E])", after_hash, re.IGNORECASE
+        ):
+            matches = re.search(r"final answer:?\s*([A-E])", after_hash, re.IGNORECASE)
+            predicted_key = matches.group(1).upper()
+            extracted_patterns.append(f"After hash final answer: {predicted_key}")
+
+    # 다음 우선순위: "Final answer:" 패턴 변형들
+    if not predicted_key:
+        final_patterns = [
+            r"final answer:?\s*([A-E])[\.\s]",
+            r"final answer:?\s*([A-E])\.",
+            r"final answer:?\s*([A-E])$",
+            r"final answer:?\s*\*\*([A-E])[.\s]",
+            r"final answer:?\s*\*\*([A-E])\*\*",
+            r"final answer:?\s*([A-E])[,;]",
+            r"final answer:?\s*option\s+([A-E])",
+            r"final answer:?\s*is\s+([A-E])",
+        ]
+
+        for pattern in final_patterns:
+            matches = re.search(pattern, response, re.IGNORECASE)
+            if matches:
+                predicted_key = matches.group(1).upper()
+                extracted_patterns.append(f"Final pattern: {predicted_key}")
+                break
+
+    # 다음 우선순위: "The answer is X" 패턴 변형들
+    if not predicted_key:
+        answer_patterns = [
+            r"the answer is:?\s*([A-E])[\.\s]",
+            r"the answer is:?\s*([A-E])\.",
+            r"the answer is:?\s*([A-E])$",
+            r"the answer is:?\s*\*\*([A-E])[.\s]",
+            r"the answer is:?\s*\*\*([A-E])\*\*",
+            r"the answer is:?\s*([A-E])[,;]",
+            r"the answer is:?\s*option\s+([A-E])",
+            r"my answer is:?\s*([A-E])",
+        ]
+
+        for pattern in answer_patterns:
+            matches = re.search(pattern, response, re.IGNORECASE)
+            if matches:
+                predicted_key = matches.group(1).upper()
+                extracted_patterns.append(f"Answer pattern: {predicted_key}")
+                break
+
+    # 다음 우선순위: 마크다운 포맷된 응답(**X**)
+    if not predicted_key:
+        markdown_patterns = [
+            r"\*\*([A-E])\*\*",
+            r"\*\*([A-E])[\.\s]",
+            r"\*\*\s*([A-E])\s*\*\*",
+        ]
+
+        for pattern in markdown_patterns:
+            matches = re.search(pattern, response)
+            if matches:
+                predicted_key = matches.group(1).upper()
+                extracted_patterns.append(f"Markdown pattern: {predicted_key}")
+                break
+
+    # 마지막 부분에서 "X. 텍스트" 패턴 찾기
+    if not predicted_key:
+        # 마지막 5줄로 제한
+        last_lines = "\n".join(response.strip().split("\n")[-5:])
+
+        choice_patterns = [r"([A-E])\.\s*\w+", r"option\s+([A-E])"]
+
+        for pattern in choice_patterns:
+            matches = re.findall(pattern, last_lines, re.IGNORECASE)
+            if matches:
+                predicted_key = matches[-1].upper()
+                extracted_patterns.append(f"Last lines choice pattern: {predicted_key}")
+                break
+
+    # 마지막 시도: 응답에서 A-E 레이블 찾기 (뒤에서 앞으로)
+    if not predicted_key:
         all_labels = re.findall(r"\b([A-E])\b", response)
         if all_labels:
-            # Use the first label
-            predicted_key = all_labels[0]
-        else:
-            return False
-    else:
-        predicted_key = matches.group(1)
+            # 마지막 레이블 사용
+            predicted_key = all_labels[-1].upper()
+            extracted_patterns.append(f"Last resort: {predicted_key}")
 
-    # Compare labels
-    return predicted_key == expected_key
+    # 패턴 중 하나라도 찾았는지 확인
+    if not predicted_key:
+        logger.warning(f"Could not extract answer from response for {question_id}")
+        # 전체 응답 내용 로깅
+        logger.debug(f"Full response for {question_id}: {response}")
+        return False
+
+    # 디버깅 로깅
+    logger.debug(f"Extracted patterns for {question_id}: {extracted_patterns}")
+    logger.debug(f"Predicted key: {predicted_key}, Expected key: {expected_key}")
+
+    # 답변 비교
+    is_correct = predicted_key == expected_key
+    if not is_correct:
+        logger.warning(
+            f"Incorrect answer for {question_id}: extracted {predicted_key} != expected {expected_key}"
+        )
+
+    return is_correct
 
 
 def evaluate_response(test_item: Dict, response: str, dataset_name: str) -> bool:
@@ -267,34 +377,90 @@ def evaluate_arc_response(test_item: Dict, response: str) -> bool:
     if not expected_answer:
         return False
 
-    # Try to extract answer from response
-    # 1) Direct letter matching (A-D)
-    answer_pattern = r"([A-D])[.:]"
-    matches = re.search(answer_pattern, response)
+    # 정답 문자열에서 숫자와 문자만 추출
+    expected_answer = re.sub(r"[^A-D0-9]", "", expected_answer).upper()
 
-    # 2) Search for "the answer is X" format
-    if not matches:
-        answer_pattern = r"the answer is\s*([A-D])"
-        matches = re.search(answer_pattern, response.lower())
-
-    # 3) Look for numbers (1-4) as possible answer choices
-    if not matches:
-        num_pattern = r"answer\s*(?:is|:)?\s*([1-4])"
-        matches = re.search(num_pattern, response.lower())
-
-        if matches:
-            # Convert number to letter
-            num_answer = matches.group(1)
-            letter_map = {"1": "A", "2": "B", "3": "C", "4": "D"}
-            predicted_answer = letter_map.get(num_answer)
-        else:
-            # Try to find any standalone A, B, C, D in the response
-            all_letters = re.findall(r"\b([A-D])\b", response)
-            predicted_answer = all_letters[0] if all_letters else None
+    # 숫자로 된 정답을 알파벳으로 변환 (필요한 경우)
+    if expected_answer in ["1", "2", "3", "4"]:
+        expected_letter = {"1": "A", "2": "B", "3": "C", "4": "D"}[expected_answer]
     else:
-        predicted_answer = matches.group(1)
+        expected_letter = (
+            expected_answer if expected_answer in ["A", "B", "C", "D"] else None
+        )
 
-    return predicted_answer == expected_answer
+    # 알파벳으로 된 정답을 숫자로 변환 (필요한 경우)
+    if expected_answer in ["A", "B", "C", "D"]:
+        expected_number = {"A": "1", "B": "2", "C": "3", "D": "4"}[expected_answer]
+    else:
+        expected_number = (
+            expected_answer if expected_answer in ["1", "2", "3", "4"] else None
+        )
+
+    if not expected_letter and not expected_number:
+        logger.warning(f"Invalid expected answer format: {expected_answer}")
+        return False
+
+    # 다양한 패턴으로 응답에서 답변 추출
+    predicted_answer = None
+
+    # 1) Final answer 패턴 (####으로 표시)
+    final_answer_pattern = r"(?:final answer|answer)[\s:]*(?:is)?[\s:#]*\s*([1-4A-D])"
+    matches = re.search(final_answer_pattern, response.lower())
+    if matches:
+        predicted_answer = matches.group(1).upper()
+
+    # 2) 마지막 줄에서 숫자나 문자 찾기
+    if not predicted_answer:
+        last_line = response.strip().split("\n")[-1]
+        last_line_pattern = r"([1-4A-D])(?:\.|:|$|\s|,)"
+        matches = re.search(last_line_pattern, last_line)
+        if matches:
+            predicted_answer = matches.group(1).upper()
+
+    # 3) "The answer is X" 패턴
+    if not predicted_answer:
+        answer_pattern = r"the answer is\s*([1-4A-D])"
+        matches = re.search(answer_pattern, response.lower())
+        if matches:
+            predicted_answer = matches.group(1).upper()
+
+    # 4) "Option X" 패턴
+    if not predicted_answer:
+        option_pattern = r"(?:option|choice)\s*([1-4A-D])"
+        matches = re.search(option_pattern, response.lower())
+        if matches:
+            predicted_answer = matches.group(1).upper()
+
+    # 5) 응답 전체에서 [A-D] or [1-4] 형태의 문자열 찾기
+    if not predicted_answer:
+        all_letters = re.findall(r"\b([A-D])\b", response.upper())
+        if all_letters:
+            predicted_answer = all_letters[-1]  # 마지막 문자 사용
+
+    # 6) 응답 전체에서 숫자 1-4 찾기
+    if not predicted_answer:
+        all_numbers = re.findall(r"\b([1-4])\b", response)
+        if all_numbers:
+            predicted_answer = all_numbers[-1]  # 마지막 숫자 사용
+
+    if not predicted_answer:
+        return False
+
+    # 추출된 답변이 숫자면 해당하는 알파벳으로 변환
+    if predicted_answer in ["1", "2", "3", "4"]:
+        predicted_letter = {"1": "A", "2": "B", "3": "C", "4": "D"}[predicted_answer]
+        predicted_number = predicted_answer
+    # 추출된 답변이 알파벳이면 해당하는 숫자로 변환
+    elif predicted_answer in ["A", "B", "C", "D"]:
+        predicted_letter = predicted_answer
+        predicted_number = {"A": "1", "B": "2", "C": "3", "D": "4"}[predicted_answer]
+    else:
+        return False
+
+    # 예상 답변과 실제 답변 비교 (숫자 또는 알파벳 형식 모두 고려)
+    return (expected_letter and expected_letter == predicted_letter) or (
+        expected_number and expected_number == predicted_number
+    )
 
 
 def run_experiment(args):

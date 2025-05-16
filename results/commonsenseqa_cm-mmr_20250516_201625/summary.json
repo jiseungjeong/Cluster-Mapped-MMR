@@ -1,0 +1,21 @@
+{
+  "commonsenseqa": {
+    "cm-mmr": {
+      "count": 10,
+      "accuracy": 0.1,
+      "tokens": {},
+      "response_time": {
+        "mean": 3.2129508018493653,
+        "std": 1.2869990284814612
+      },
+      "selection_time": {
+        "mean": 0.0007556438446044922,
+        "std": 0.0001953598145103385
+      },
+      "total_latency": {
+        "mean": 3.21370644569397,
+        "std": 1.2869569439456279
+      }
+    }
+  }
+}

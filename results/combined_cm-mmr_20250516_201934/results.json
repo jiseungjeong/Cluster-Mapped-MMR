@@ -1,0 +1,117 @@
+[
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "LEAP_2007_4_10280",
+    "question": "When Jake breathes out on a cold day, a cloud is formed. Which change occurs that lets Jake see his breath as a cloud?\nA. Gas changes to liquid.\nB. Solid changes to gas.\nC. Liquid changes to gas.\nD. Liquid changes to solid.",
+    "expected_answer": "A",
+    "response": "Let's analyze the question carefully.\n\nQuestion: When Jake breathes out on a cold day, a cloud is formed. Which change occurs that lets Jake see his breath as a cloud?\n\nStep 1: Understand what happens when Jake breathes out on a cold day.\n\n- His warm, moist air is expelled from his lungs.\n- When this warm, moist air encounters the cold air outside, the temperature drops rapidly.\n\nStep 2: Think about the phase change involved.\n\n- The moisture in his breath (water vapor) cools down quickly.\n- As it cools, the water vapor condenses into tiny water droplets or ice crystals, forming a visible cloud or mist.\n\nStep 3: Identify the scientific process.\n\n- The key process here is condensation: water vapor changing into liquid water droplets.\n\nStep 4: Match this with the options.\n\nA. Gas changes to liquid. — This describes condensation, which matches our understanding.\n\nB. Solid changes to gas. — Sublimation in reverse, not relevant here.\n\nC. Liquid changes to gas. — Evaporation or vaporization, opposite of what happens when cooling occurs.\n\nD. Liquid changes to solid. — Freezing, not relevant here.\n\nFinal reasoning: The process that makes his breath visible is the condensation of water vapor into tiny liquid droplets.\n\nTherefore, the correct answer is:\n\n**A. Gas changes to liquid.**\n\n####\n\nFinal answer: A",
+    "selected_examples": [
+      "NYSEDREGENTS_2009_4_4",
+      "commonsenseqa_train_7454",
+      "MDSA_2008_5_41"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 491,
+      "completion_tokens": 285,
+      "total_tokens": 776
+    },
+    "response_time": 3.544851064682007,
+    "selection_time": 0.0016999244689941406,
+    "total_latency": 3.546550989151001,
+    "timestamp": "2025-05-16T20:19:41.552555"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "NYSEDREGENTS_2010_8_42",
+    "question": "The force of an object, with a certain mass accelerating at a certain rate, can be determined by using the equation below. force = mass x acceleration Which object would have the greatest force?\n1. a 5-kg object accelerating at 10 m/s^2\n2. a 5-kg object accelerating at 20 m/s^2\n3. a 20-kg object accelerating at 4 m/s^2\n4. a 20-kg object accelerating at 3 m/s^2",
+    "expected_answer": "2",
+    "response": "Let's analyze each option step-by-step using the formula:  \n**Force = mass × acceleration**\n\n**Option 1:**  \nMass = 5 kg  \nAcceleration = 10 m/s²  \nForce = 5 × 10 = 50 N\n\n**Option 2:**  \nMass = 5 kg  \nAcceleration = 20 m/s²  \nForce = 5 × 20 = 100 N\n\n**Option 3:**  \nMass = 20 kg  \nAcceleration = 4 m/s²  \nForce = 20 × 4 = 80 N\n\n**Option 4:**  \nMass = 20 kg  \nAcceleration = 3 m/s²  \nForce = 20 × 3 = 60 N\n\nNow, compare the forces:  \n- Option 1: 50 N  \n- Option 2: 100 N  \n- Option 3: 80 N  \n- Option 4: 60 N\n\nThe greatest force is **100 N**, which occurs in **Option 2**.\n\n**Final answer:** #### 2",
+    "selected_examples": [
+      "VASoL_2009_3_10",
+      "Mercury_7072415",
+      "MCAS_2004_9_12"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 568,
+      "completion_tokens": 215,
+      "total_tokens": 783
+    },
+    "response_time": 2.7203969955444336,
+    "selection_time": 0.0018320083618164062,
+    "total_latency": 2.72222900390625,
+    "timestamp": "2025-05-16T20:19:44.934486"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "NYSEDREGENTS_2010_8_13",
+    "question": "What are genes composed of?\n1. offspring\n2. DNA\n3. cells\n4. traits",
+    "expected_answer": "2",
+    "response": "Let's analyze the question carefully:\n\n**Question:** What are genes composed of?\n\n**Options:**\n1. offspring\n2. DNA\n3. cells\n4. traits\n\n**Step 1: Understand what genes are.**  \nGenes are units of heredity that carry information from parent to offspring. They determine traits and are made up of a specific type of molecule.\n\n**Step 2: Recall the composition of genes.**  \nGenes are segments of DNA that contain the instructions for building proteins and determining traits.\n\n**Step 3: Match options to this understanding.**  \n- Offspring: Not correct; offspring are the result of reproduction, not what genes are made of.  \n- DNA: Correct; genes are segments of DNA.  \n- Cells: Not correct; cells contain DNA, but genes are not composed of cells.  \n- Traits: Not correct; traits are characteristics, not the composition of genes.\n\n**Conclusion:**  \nThe correct answer is **2. DNA**.\n\n---\n\n**Final answer:** ####2",
+    "selected_examples": [
+      "Mercury_7282100",
+      "Mercury_7228480",
+      "MCAS_2006_8_2"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 414,
+      "completion_tokens": 208,
+      "total_tokens": 622
+    },
+    "response_time": 3.1472079753875732,
+    "selection_time": 0.001119852066040039,
+    "total_latency": 3.1483278274536133,
+    "timestamp": "2025-05-16T20:19:48.766118"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "NYSEDREGENTS_2015_4_29",
+    "question": "What is the main source of energy for all of the organisms in most food chains?\nA. sunlight\nB. water\nC. green plants\nD. decomposers",
+    "expected_answer": "A",
+    "response": "Let's analyze the question carefully:\n\n**Question:** What is the main source of energy for all of the organisms in most food chains?\n\n**Step 1:** Understand what a food chain is.  \nA food chain shows how energy and nutrients flow from one organism to another. Typically, it starts with a primary source of energy.\n\n**Step 2:** Identify the primary source of energy in most food chains.  \n- Green plants (producers) use sunlight to make their own food through photosynthesis.  \n- Animals (consumers) eat plants or other animals, relying ultimately on the energy captured by plants.  \n- Decomposers break down dead matter but are not the primary energy source.\n\n**Step 3:** Consider the options:  \nA. **Sunlight** — the original energy source for most ecosystems.  \nB. Water — essential for life but not the primary energy source.  \nC. Green plants — they convert sunlight into food, but they are not the energy source themselves; they are the producers.  \nD. Decomposers — they recycle nutrients but are not the main energy source.\n\n**Step 4:** Clarify the distinction:  \n- The question asks for the *main source of energy* for all organisms in most food chains.  \n- While green plants are the producers, they get their energy from sunlight.  \n- Therefore, the ultimate energy source for most organisms in the food chain is sunlight.\n\n**Conclusion:**  \nThe correct answer is **A. sunlight**.\n\n---\n\n**Final answer: ####**",
+    "selected_examples": [
+      "TIMSS_2007_4_pg99",
+      "NYSEDREGENTS_2009_4_19",
+      "NAEP_2011_8_S11+15"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 430,
+      "completion_tokens": 312,
+      "total_tokens": 742
+    },
+    "response_time": 5.856943130493164,
+    "selection_time": 0.0008330345153808594,
+    "total_latency": 5.857776165008545,
+    "timestamp": "2025-05-16T20:19:55.308992"
+  },
+  {
+    "dataset": "combined",
+    "method": "cm-mmr",
+    "question_id": "OHAT_2010_8_8",
+    "question": "Bass tapeworms attach to the gills and intestines of bass fish. These worms survive by taking nutrients from the bass. What type of relationship does this represent?\nA. predation\nB. parasitism\nC. mutualism\nD. commensalism",
+    "expected_answer": "B",
+    "response": "Let's analyze the relationship described: Bass tapeworms attach to the gills and intestines of bass fish and survive by taking nutrients from the bass. This indicates that the tapeworm benefits by feeding on the fish, while the fish is harmed because it loses nutrients and may suffer health issues.\n\n- **Predation** involves one organism hunting and killing another for food. Since the tapeworm does not kill the fish outright but harms it by feeding on it, this is not predation.\n- **Parasitism** is a relationship where one organism benefits at the expense of the other, which is harmed. This matches the scenario described.\n- **Mutualism** involves both organisms benefiting, which is not the case here.\n- **Commensalism** involves one organism benefiting while the other is unaffected. Since the fish is harmed, this is not commensalism.\n\nTherefore, the correct relationship is **parasitism**.\n\n#### Final answer: D",
+    "selected_examples": [
+      "Mercury_183138",
+      "Mercury_7284060",
+      "Mercury_7114888"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 580,
+      "completion_tokens": 196,
+      "total_tokens": 776
+    },
+    "response_time": 2.2903881072998047,
+    "selection_time": 0.0009930133819580078,
+    "total_latency": 2.2913811206817627,
+    "timestamp": "2025-05-16T20:19:58.265085"
+  }
+]

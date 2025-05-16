@@ -1,0 +1,252 @@
+[
+  {
+    "dataset": "commonsenseqa",
+    "method": "cm-mmr",
+    "question_id": "commonsenseqa_dev_951",
+    "question": "Working on the elaborate task was taxing, it require extreme what?\nA. holding\nB. concentration\nC. energy\nD. job\nE. energh",
+    "expected_answer": "B. concentration",
+    "response": "Let's analyze the question carefully:\n\n\"Working on the elaborate task was taxing, it require extreme what?\"\n\n- The sentence indicates that the task was difficult or demanding (\"taxing\").\n- The phrase \"it require extreme\" suggests that the missing word should describe a quality or resource needed to handle a demanding task.\n\nNow, let's consider each option:\n\nA. holding — doesn't fit well with the context of a demanding task.\nB. concentration — makes sense because complex or elaborate tasks often require intense focus.\nC. energy — also makes sense because demanding tasks typically require a lot of energy.\nD. job — doesn't fit grammatically or contextually.\nE. energh — appears to be a typo or misspelling of \"energy.\"\n\nBetween options B and C, both are plausible. However, the phrase \"extreme concentration\" is a common collocation, especially when describing demanding tasks. \"Extreme energy\" is also possible, but \"concentration\" more directly relates to mental effort required for elaborate tasks.\n\nGiven the context and common usage, the best fit is:\n\n**\"extreme concentration\"**\n\n**Reasoning:** Since the task is elaborate and taxing, it likely demands intense mental focus.\n\n**Final answer:** B. concentration\n\n####",
+    "selected_examples": [
+      "commonsenseqa_train_8238",
+      "commonsenseqa_train_6054",
+      "commonsenseqa_train_8346",
+      "commonsenseqa_train_2286",
+      "commonsenseqa_train_3258"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 392,
+      "completion_tokens": 249,
+      "total_tokens": 641
+    },
+    "response_time": 2.898228883743286,
+    "selection_time": 0.001055002212524414,
+    "total_latency": 2.8992838859558105,
+    "timestamp": "2025-05-16T20:16:32.526229"
+  },
+  {
+    "dataset": "commonsenseqa",
+    "method": "cm-mmr",
+    "question_id": "commonsenseqa_dev_102",
+    "question": "When learning about the world and different cultures, what is important if you are committed to eliminating preconceived notions\nA. newness\nB. loss of innocence\nC. enlightenment\nD. open mind\nE. smartness",
+    "expected_answer": "D. open mind",
+    "response": "Let's analyze the question carefully:\n\nQuestion: When learning about the world and different cultures, what is important if you are committed to eliminating preconceived notions?\n\nStep 1: Understand the key idea.\n- The question emphasizes learning about the world and cultures.\n- It mentions the goal of eliminating preconceived notions, which suggests openness and avoiding biases.\n\nStep 2: Consider each option:\nA. newness – While learning can involve new information, \"newness\" doesn't directly relate to eliminating preconceived notions.\nB. loss of innocence – This is more about a change in perspective, but not specifically about eliminating biases.\nC. enlightenment – This can be related to gaining insight, but it's broader and not specifically about eliminating preconceived notions.\nD. open mind – An open mind is essential for challenging and removing preconceived notions.\nE. smartness – Being smart doesn't necessarily relate to eliminating biases.\n\nStep 3: Determine the most fitting answer.\n- The phrase \"if you are committed to eliminating preconceived notions\" strongly aligns with having an \"open mind,\" which allows one to accept new ideas and challenge existing biases.\n\nFinal reasoning: The most appropriate answer is D. open mind.\n\n####\n\nFinal answer: D",
+    "selected_examples": [
+      "commonsenseqa_train_1133",
+      "commonsenseqa_train_5313",
+      "commonsenseqa_train_8308",
+      "commonsenseqa_train_7744",
+      "commonsenseqa_train_8900"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 422,
+      "completion_tokens": 244,
+      "total_tokens": 666
+    },
+    "response_time": 2.5235509872436523,
+    "selection_time": 0.0010037422180175781,
+    "total_latency": 2.52455472946167,
+    "timestamp": "2025-05-16T20:16:35.727462"
+  },
+  {
+    "dataset": "commonsenseqa",
+    "method": "cm-mmr",
+    "question_id": "commonsenseqa_dev_1141",
+    "question": "What might result in an unsuccessful suicide attempt?\nA. die\nB. interruption\nC. bleed\nD. hatred\nE. dying",
+    "expected_answer": "B. interruption",
+    "response": "Let's analyze the question carefully:\n\n**Question:** What might result in an unsuccessful suicide attempt?\n\n**Options:**\nA. die  \nB. interruption  \nC. bleed  \nD. hatred  \nE. dying\n\n**Step-by-step reasoning:**\n\n1. The question asks about the outcome of an attempt at suicide that is *unsuccessful*.  \n2. If the attempt is unsuccessful, the person does not die.  \n3. \"Die\" and \"dying\" both imply death, which would be the result of a *successful* attempt, not an unsuccessful one. So options A and E are unlikely.  \n4. \"Bleed\" could be part of an attempt, but it doesn't necessarily indicate success or failure directly; it could happen in both cases.  \n5. \"Hatred\" is an emotion, not a direct result of the attempt.  \n6. \"Interruption\" makes sense as a possible outcome: the attempt could be stopped or interrupted before it results in death.  \n7. Therefore, the most logical answer is **B. interruption**, as it reflects a scenario where the attempt was halted before it could succeed.\n\n**Final answer:** B. interruption\n\n####\n\n**Answer: B**",
+    "selected_examples": [
+      "commonsenseqa_train_5107",
+      "commonsenseqa_train_8099",
+      "commonsenseqa_train_4374",
+      "commonsenseqa_train_8797",
+      "commonsenseqa_train_4339"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 404,
+      "completion_tokens": 246,
+      "total_tokens": 650
+    },
+    "response_time": 2.7874951362609863,
+    "selection_time": 0.0009732246398925781,
+    "total_latency": 2.788468360900879,
+    "timestamp": "2025-05-16T20:16:39.180795"
+  },
+  {
+    "dataset": "commonsenseqa",
+    "method": "cm-mmr",
+    "question_id": "commonsenseqa_dev_510",
+    "question": "Everybody seemed to be crying at the holy site, the tour guide explained that this was what?\nA. profane\nB. halibut\nC. damaged\nD. common\nE. halibut",
+    "expected_answer": "D. common",
+    "response": "Let's analyze the question carefully:\n\n**Question:** Everybody seemed to be crying at the holy site, the tour guide explained that this was what?\n\n**Options:**\nA. profane  \nB. halibut  \nC. damaged  \nD. common  \nE. halibut\n\n**Step 1: Understand the context**  \nPeople crying at a holy site suggests an emotional or spiritual reason. The tour guide explains that \"this\" (the crying) was what? So, we're looking for a word that explains why people are crying or what the crying signifies.\n\n**Step 2: Examine each option**  \n- **A. profane:** Means disrespectful or irreverent, which doesn't directly relate to crying at a holy site.  \n- **B. halibut:** A type of fish; seems unrelated.  \n- **C. damaged:** Could refer to physical damage, but doesn't fit the context of crying.  \n- **D. common:** Means usual or ordinary; crying at a holy site might be considered common, but that doesn't explain the reason for crying.  \n- **E. halibut:** Repeated, likely a distractor or typo; same as B.\n\n**Step 3: Consider the most logical answer**  \nThe most fitting answer is **D. common**, because if people are crying at a holy site, the tour guide might be explaining that such emotional reactions are **common** in such settings.\n\n**Step 4: Final reasoning**  \nGiven the context, the tour guide explaining that the crying is \"what\" suggests that crying is a common occurrence at the site.\n\n**Final answer:** D. common\n\n---\n\n### **Final answer: #### D**",
+    "selected_examples": [
+      "commonsenseqa_train_3593",
+      "commonsenseqa_train_4905",
+      "commonsenseqa_train_1832",
+      "commonsenseqa_train_1679",
+      "commonsenseqa_train_993"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 438,
+      "completion_tokens": 344,
+      "total_tokens": 782
+    },
+    "response_time": 3.4322457313537598,
+    "selection_time": 0.0007550716400146484,
+    "total_latency": 3.4330008029937744,
+    "timestamp": "2025-05-16T20:16:43.286868"
+  },
+  {
+    "dataset": "commonsenseqa",
+    "method": "cm-mmr",
+    "question_id": "commonsenseqa_dev_248",
+    "question": "The painter started to edge the room with tape, he always took extra care to make the lines clean and crisp when working with an what?\nA. triangle\nB. middle\nC. corner\nD. center\nE. interior",
+    "expected_answer": "E. interior",
+    "response": "Let's analyze the question carefully:\n\n**Question:** The painter started to edge the room with tape, he always took extra care to make the lines clean and crisp when working with an what?\n\n**Reasoning:**  \nWhen a painter is edging a room with tape, the goal is to create clean, straight lines along the edges, especially where walls meet ceilings, baseboards, or other surfaces. To achieve this, painters often use tools that help create precise, straight lines. Among the options:\n\n- **A. triangle:** A triangle could be a tool like a painter's triangle or a set square, which helps in making straight lines and right angles.\n- **B. middle:** Doesn't relate to a tool or object used for edging.\n- **C. corner:** While corners are important in painting, the question emphasizes the tool used to make lines clean and crisp, not the location.\n- **D. center:** Not relevant here.\n- **E. interior:** Refers to a space, not a tool.\n\nThe most logical choice is **A. triangle**, as a painter's triangle or a set square is used to ensure straight, crisp lines when taping and painting.\n\n**Final reasoning:** The painter uses a triangle (or a similar straight-edging tool) to make clean lines.\n\n**Answer:** A. triangle\n\n---\n\n### Final answer: #### A",
+    "selected_examples": [
+      "commonsenseqa_train_1403",
+      "commonsenseqa_train_9571",
+      "commonsenseqa_train_3923",
+      "commonsenseqa_train_2621",
+      "commonsenseqa_train_4342"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 421,
+      "completion_tokens": 273,
+      "total_tokens": 694
+    },
+    "response_time": 2.341402053833008,
+    "selection_time": 0.0006730556488037109,
+    "total_latency": 2.3420751094818115,
+    "timestamp": "2025-05-16T20:16:46.301898"
+  },
+  {
+    "dataset": "commonsenseqa",
+    "method": "cm-mmr",
+    "question_id": "commonsenseqa_dev_934",
+    "question": "What could happen to you after you are cleaning house for a long time?\nA. neatness\nB. tiredness\nC. order\nD. exhaustion\nE. sneezing",
+    "expected_answer": "D. exhaustion",
+    "response": "Let's analyze the question carefully:\n\n**Question:** What could happen to you after you are cleaning house for a long time?\n\n**Step 1:** Think about the effects of prolonged house cleaning. It involves physical activity, which can lead to fatigue.\n\n**Step 2:** Consider the options:\n\n- A. neatness — This is a result of cleaning, not a consequence of doing it for a long time.\n- B. tiredness — Possible, as physical exertion can cause tiredness.\n- C. order — Similar to neatness, more of an outcome than a consequence.\n- D. exhaustion — Also a plausible result of prolonged physical activity.\n- E. sneezing — Possible if dust or allergens are involved, but less directly related to the duration of cleaning.\n\n**Step 3:** Between \"tiredness\" and \"exhaustion,\" \"exhaustion\" indicates a more extreme state after long, continuous effort.\n\n**Step 4:** The question emphasizes \"after you are cleaning house for a long time,\" which suggests a significant physical toll.\n\n**Conclusion:** The most fitting answer is **D. exhaustion** because prolonged cleaning can lead to physical exhaustion.\n\n---\n\n**Final answer:** #### D",
+    "selected_examples": [
+      "commonsenseqa_train_7752",
+      "commonsenseqa_train_8317",
+      "commonsenseqa_train_4272",
+      "commonsenseqa_train_9543",
+      "commonsenseqa_train_7144"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 419,
+      "completion_tokens": 244,
+      "total_tokens": 663
+    },
+    "response_time": 2.4627599716186523,
+    "selection_time": 0.00078582763671875,
+    "total_latency": 2.463545799255371,
+    "timestamp": "2025-05-16T20:16:49.460833"
+  },
+  {
+    "dataset": "commonsenseqa",
+    "method": "cm-mmr",
+    "question_id": "commonsenseqa_dev_273",
+    "question": "What will god never do according to religion?\nA. anything\nB. judge people\nC. work miracles\nD. judge men\nE. everywhere",
+    "expected_answer": "B. judge people",
+    "response": "Let's analyze the question carefully:\n\nQuestion: What will god never do according to religion?\n\nFirst, consider the options:\n\nA. anything — This is too broad; generally, religions attribute many actions to God, so \"never do anything\" is unlikely.\n\nB. judge people — Many religions depict God as a judge, so this is unlikely.\n\nC. work miracles — Religions often describe God performing miracles, so this is unlikely.\n\nD. judge men — Similar to B, \"judge men\" is often associated with divine judgment, so unlikely.\n\nE. everywhere — This is about omnipresence; many religions describe God as omnipresent, so this is unlikely.\n\nNow, think about what is commonly believed in many religions: God is often considered omniscient, omnipotent, and omnipresent, but also merciful and forgiving. The phrase \"God will never\" is often associated with the idea that God will never do something contrary to divine nature.\n\nHowever, the most common religious teaching is that God will never do something that contradicts divine justice or mercy. But among the options, the one that is most consistent with common religious doctrine is that God will never \"judge men\" in a certain sense, because in some beliefs, only God judges, not humans.\n\nBut the question asks: \"What will God never do according to religion?\" and the options are about actions.\n\nGiven the options, the most fitting answer is:\n\n**A. anything** — because it's too broad and unlikely.\n\nBut that seems too general.\n\nAlternatively, considering common religious teachings, perhaps the intended answer is:\n\n**D. judge men** — because in some interpretations, humans judge others, but God is the ultimate judge.\n\nBut the question says \"according to religion,\" and many religions teach that God is the ultimate judge, so God does judge men.\n\nSimilarly, \"work miracles\" is something God does, so unlikely.\n\n\"Judge people\" and \"judge men\" are similar; perhaps \"judge men\" is more precise.\n\n\"Everywhere\" is about omnipresence, which is a characteristic of God, so unlikely to be something God will never do.\n\nGiven the options, the most logical answer is:\n\n**A. anything** — but that seems too broad.\n\nAlternatively, perhaps the intended answer is:\n\n**E. everywhere** — but that is about omnipresence, which God is believed to have.\n\nGiven the options and common religious teachings, the best fit is:\n\n**D. judge men** — because in some religious views, humans judge others, but God is the ultimate judge, so perhaps God will never judge \"men\" in the sense of humans judging others.\n\nBut the question is about what God will never do, so perhaps the answer is:\n\n**A. anything** — implying that God will never do anything contrary to divine nature.\n\nHowever, the reasoning is missing.\n\nSince the reasoning is not provided, but based on common religious teachings, the most fitting answer is:\n\n**E. everywhere** — because God is omnipresent, so he is everywhere, not \"never\" do that.\n\nAlternatively, perhaps the question is about divine attributes: what God will never do? For example, \"God will never lie\" or \"God will never change.\"\n\nBut these are not options.\n\nGiven all this, the most logical answer, considering typical religious beliefs, is:\n\n**D. judge men**\n\nBecause in many religious contexts, humans judge others, but God is the ultimate judge, so perhaps God will never judge \"men\" in the sense of humans judging others.\n\n**Final reasoning:** The question asks what God will never do according to religion. The most common belief is that God will never do something contrary to divine nature, such as \"judge men\" (humans judge others, but God is the ultimate judge). So, the answer is:\n\n**Answer: D. judge men**\n\n---\n\n**Final answer: #### D**",
+    "selected_examples": [
+      "commonsenseqa_train_9064",
+      "commonsenseqa_train_4700",
+      "commonsenseqa_train_6201",
+      "commonsenseqa_train_5794",
+      "commonsenseqa_train_4573"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 421,
+      "completion_tokens": 794,
+      "total_tokens": 1215
+    },
+    "response_time": 6.670854091644287,
+    "selection_time": 0.0006551742553710938,
+    "total_latency": 6.671509265899658,
+    "timestamp": "2025-05-16T20:16:56.813327"
+  },
+  {
+    "dataset": "commonsenseqa",
+    "method": "cm-mmr",
+    "question_id": "commonsenseqa_dev_1087",
+    "question": "Where can one obtain a bass fiddle?\nA. jazz band\nB. string quartet\nC. group band\nD. nursery rhyme\nE. music store",
+    "expected_answer": "E. music store",
+    "response": "Let's analyze the question carefully:\n\n**Question:** Where can one obtain a bass fiddle?\n\n**Options:**\nA. jazz band  \nB. string quartet  \nC. group band  \nD. nursery rhyme  \nE. music store\n\n**Step 1: Understand what a bass fiddle is.**  \nA bass fiddle, also known as a double bass, is a large string instrument used in various musical settings.\n\n**Step 2: Consider where you can get a bass fiddle.**  \n- You might find a bass fiddle in a music store where instruments are sold.  \n- It is unlikely to be obtained directly from a jazz band, string quartet, or nursery rhyme, as these are groups or songs, not places to acquire instruments.  \n- \"Group band\" is also a type of ensemble, not a place to buy instruments.\n\n**Step 3: Eliminate unlikely options.**  \n- B (string quartet): a group, not a place to buy instruments.  \n- C (group band): same reasoning.  \n- D (nursery rhyme): a song or rhyme, not a place.  \n- A (jazz band): a group, not a place.\n\n**Step 4: The most logical answer is E. music store.**  \nA music store sells instruments, including bass fiddles.\n\n**Final step:**  \nThe reasoning aligns with the idea that you obtain a bass fiddle from a music store.\n\n**Answer:** E. music store\n\n---\n\n### Final answer: #### E",
+    "selected_examples": [
+      "commonsenseqa_train_5464",
+      "commonsenseqa_train_3848",
+      "commonsenseqa_train_9485",
+      "commonsenseqa_train_2647",
+      "commonsenseqa_train_8645"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 402,
+      "completion_tokens": 304,
+      "total_tokens": 706
+    },
+    "response_time": 2.374454975128174,
+    "selection_time": 0.0005121231079101562,
+    "total_latency": 2.374967098236084,
+    "timestamp": "2025-05-16T20:16:59.878606"
+  },
+  {
+    "dataset": "commonsenseqa",
+    "method": "cm-mmr",
+    "question_id": "commonsenseqa_dev_1144",
+    "question": "Bob stands in the grass surrounded by trees and nature, where is Bob?\nA. rest area\nB. desert\nC. state park\nD. fairgrounds\nE. soccer game",
+    "expected_answer": "C. state park",
+    "response": "Let's analyze each option carefully based on the scenario: Bob is standing in the grass surrounded by trees and nature.\n\nOption A: **rest area**  \n- Rest areas are typically along highways and may have grass and trees, but they are often more developed and less natural. Not the most specific or fitting for \"surrounded by trees and nature.\"\n\nOption B: **desert**  \n- Deserts generally have sparse vegetation and are not characterized by lush grass and abundant trees. So, this is unlikely.\n\nOption C: **state park**  \n- State parks are natural areas with grass, trees, and abundant nature. This fits well with the description of being surrounded by trees and nature.\n\nOption D: **fairgrounds**  \n- Fairgrounds are usually open, developed areas with rides and stalls, not necessarily surrounded by trees and natural grass.\n\nOption E: **soccer game**  \n- A soccer game is played on a field, but it is not typically surrounded by trees and nature; it's a sports setting.\n\n**Reasoning:** The most fitting and logical choice, given the description, is **state park** because it is a natural setting with grass and trees.\n\n**Final answer:** C. state park\n\n####\n\nFinal answer: C",
+    "selected_examples": [
+      "commonsenseqa_train_4325",
+      "commonsenseqa_train_1389",
+      "commonsenseqa_train_3502",
+      "commonsenseqa_train_90",
+      "commonsenseqa_train_1139"
+    ],
+    "correct": false,
+    "tokens": {
+      "prompt_tokens": 423,
+      "completion_tokens": 251,
+      "total_tokens": 674
+    },
+    "response_time": 3.097090005874634,
+    "selection_time": 0.0005640983581542969,
+    "total_latency": 3.097654104232788,
+    "timestamp": "2025-05-16T20:17:03.551451"
+  },
+  {
+    "dataset": "commonsenseqa",
+    "method": "cm-mmr",
+    "question_id": "commonsenseqa_dev_1219",
+    "question": "Setting up framing, truss and beam are some of the first steps in what?\nA. new construction\nB. warehouse\nC. driving\nD. ceiling\nE. bridge",
+    "expected_answer": "A. new construction",
+    "response": "Let's analyze the question carefully:\n\n**Question:** Setting up framing, truss, and beam are some of the first steps in what?\n\n**Step 1:** Understand the terms:\n- **Framing:** The basic structure or skeleton of a building.\n- **Truss:** A framework, typically consisting of rafters, posts, and struts, used to support a roof or bridge.\n- **Beam:** A horizontal structural element that supports loads.\n\n**Step 2:** Think about the context:\n- These elements are fundamental in constructing the structural framework of a building or similar structure.\n\n**Step 3:** Evaluate the options:\n- **A. new construction:** This is a broad term that includes the entire process of building something new.\n- **B. warehouse:** A type of building, but not a process.\n- **C. driving:** Not related to framing or structural setup.\n- **D. ceiling:** Part of a building, but setting up framing, truss, and beam are initial steps, not specifically the ceiling.\n- **E. bridge:** While trusses are used in bridges, the question mentions \"setting up framing, truss, and beam\" as initial steps, which is more characteristic of building construction than bridge construction specifically.\n\n**Step 4:** Determine the most fitting answer:\n- Since framing, truss, and beam are fundamental steps in constructing the skeleton of a building, the best fit is **\"new construction\"**.\n\n**Step 5:** Final check:\n- The question asks about the initial steps involving framing, truss, and beam, which are typical in **building construction**.\n\n**Conclusion:** The most logical answer is **A. new construction**.\n\n---\n\n**Final answer:** A. new construction\n\n####",
+    "selected_examples": [
+      "commonsenseqa_train_1545",
+      "commonsenseqa_train_4065",
+      "commonsenseqa_train_5947",
+      "commonsenseqa_train_5147",
+      "commonsenseqa_train_3346"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 400,
+      "completion_tokens": 354,
+      "total_tokens": 754
+    },
+    "response_time": 3.541426181793213,
+    "selection_time": 0.0005791187286376953,
+    "total_latency": 3.5420053005218506,
+    "timestamp": "2025-05-16T20:17:07.780662"
+  }
+]

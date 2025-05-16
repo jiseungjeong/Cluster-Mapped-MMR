@@ -46,6 +46,32 @@ class Dataset:
             self._load_combined_data()
             return
 
+        # Check for enhanced version for CommonsenseQA
+        if self.name == "commonsenseqa":
+            test_enhanced_path = os.path.join(
+                self.processed_dir, f"{self.name}_test_enhanced.json"
+            )
+            examples_enhanced_path = os.path.join(
+                self.examples_dir, f"{self.name}_examples_enhanced.json"
+            )
+
+            if os.path.exists(test_enhanced_path) and os.path.exists(
+                examples_enhanced_path
+            ):
+                logger.info(f"Loading enhanced version: {test_enhanced_path}")
+                with open(test_enhanced_path, "r", encoding="utf-8") as f:
+                    self.test_data = json.load(f)
+
+                logger.info(f"Loading enhanced version: {examples_enhanced_path}")
+                with open(examples_enhanced_path, "r", encoding="utf-8") as f:
+                    self.example_pool = json.load(f)
+
+                logger.info(
+                    f"Enhanced dataset loaded: {len(self.test_data)} test items, {len(self.example_pool)} examples"
+                )
+                return
+
+        # Normal dataset loading
         test_path = os.path.join(self.processed_dir, f"{self.name}_test.json")
         examples_path = os.path.join(self.examples_dir, f"{self.name}_examples.json")
 
