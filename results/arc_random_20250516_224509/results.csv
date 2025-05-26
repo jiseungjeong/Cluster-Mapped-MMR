@@ -1,0 +1,133 @@
+dataset,method,question_id,question,expected_answer,response,selected_examples,correct,tokens_prompt_tokens,tokens_completion_tokens,tokens_total_tokens,response_time,selection_time,total_latency,timestamp
+arc,random,LEAP_2007_4_10280,"When Jake breathes out on a cold day, a cloud is formed. Which change occurs that lets Jake see his breath as a cloud?
+A. Gas changes to liquid.
+B. Solid changes to gas.
+C. Liquid changes to gas.
+D. Liquid changes to solid.",A,"Let's analyze the process step-by-step:
+
+1. When Jake exhales, he releases warm, moist air into the colder outside air.
+2. The cold temperature causes the water vapor in his breath to cool rapidly.
+3. As the water vapor cools, it condenses into tiny water droplets or ice crystals, forming a visible cloud.
+4. This process is a phase change from gas (water vapor) to liquid (water droplets) or sometimes directly to solid (ice crystals), but in typical breath clouds, it's condensation into liquid droplets.
+
+Now, considering the options:
+
+A. Gas changes to liquid. — This describes condensation, which is what happens when water vapor cools and forms droplets.
+B. Solid changes to gas. — Sublimation, not relevant here.
+C. Liquid changes to gas. — Evaporation or vaporization, which occurs when water heats up, not when it cools.
+D. Liquid changes to solid. — Freezing, which is not the typical process in breath clouds.
+
+Therefore, the change that occurs is from gas (water vapor) to liquid (water droplets), making the correct answer:
+
+#### D
+
+Final answer: D","['CSZ_2006_5_CSZ10256', 'Mercury_182665', 'Mercury_180163', 'ACTAAP_2014_7_11', 'Mercury_SC_LBS10908']",False,874,236,1110,3.7765660285949707,0.00019979476928710938,3.776765823364258,2025-05-16T22:45:46.617409
+arc,random,NYSEDREGENTS_2010_8_42,"The force of an object, with a certain mass accelerating at a certain rate, can be determined by using the equation below. force = mass x acceleration Which object would have the greatest force?
+1. a 5-kg object accelerating at 10 m/s^2
+2. a 5-kg object accelerating at 20 m/s^2
+3. a 20-kg object accelerating at 4 m/s^2
+4. a 20-kg object accelerating at 3 m/s^2",2,"Let's analyze each option step-by-step using the formula:  
+**Force = mass × acceleration**
+
+**Option 1:**  
+Mass = 5 kg  
+Acceleration = 10 m/s²  
+Force = 5 × 10 = 50 N
+
+**Option 2:**  
+Mass = 5 kg  
+Acceleration = 20 m/s²  
+Force = 5 × 20 = 100 N
+
+**Option 3:**  
+Mass = 20 kg  
+Acceleration = 4 m/s²  
+Force = 20 × 4 = 80 N
+
+**Option 4:**  
+Mass = 20 kg  
+Acceleration = 3 m/s²  
+Force = 20 × 3 = 60 N
+
+Now, compare the forces:  
+- Option 1: 50 N  
+- Option 2: 100 N  
+- Option 3: 80 N  
+- Option 4: 60 N
+
+The greatest force is **100 N**, which occurs in **Option 2**.
+
+**Final answer:** #### 2","['TIMSS_2011_4_pg72', 'Mercury_7032813', 'Mercury_7216475', 'NCEOGA_2013_5_25', 'Mercury_7006178']",False,779,215,994,2.825789213180542,9.417533874511719e-05,2.825883388519287,2025-05-16T22:45:53.144592
+arc,random,NYSEDREGENTS_2010_8_13,"What are genes composed of?
+1. offspring
+2. DNA
+3. cells
+4. traits",2,"Let's analyze the question carefully.
+
+The question asks: ""What are genes composed of?""
+
+We are given four options:
+1. offspring
+2. DNA
+3. cells
+4. traits
+
+**Step 1: Recall what genes are.**  
+Genes are units of heredity that carry information from parent to offspring. They determine traits and are made up of a specific type of molecule.
+
+**Step 2: Understand the composition of genes.**  
+Genes are segments of DNA (Deoxyribonucleic acid). They are made of DNA sequences that encode instructions for building proteins.
+
+**Step 3: Match options to this understanding.**  
+- Offspring: Not correct; offspring are the result of reproduction, not what genes are made of.  
+- DNA: Correct; genes are segments of DNA.  
+- Cells: Not correct; cells contain genes, but genes are not composed of cells.  
+- Traits: Not correct; traits are characteristics influenced by genes, but traits are not what genes are made of.
+
+**Step 4: Conclusion.**  
+The best answer is that genes are composed of DNA.
+
+**Final answer:** 2
+
+#######","['Mercury_SC_LBS10908', 'Mercury_400096', 'Mercury_7114870', 'MEA_2016_5_1', 'NYSEDREGENTS_2009_4_19']",False,687,238,925,3.197042942047119,3.528594970703125e-05,3.197078227996826,2025-05-16T22:45:59.364632
+arc,random,NYSEDREGENTS_2015_4_29,"What is the main source of energy for all of the organisms in most food chains?
+A. sunlight
+B. water
+C. green plants
+D. decomposers",A,"This question asks about the primary energy source for most organisms in food chains. In most ecosystems, the base of the food chain is composed of producers, which are typically green plants or algae that perform photosynthesis. They use sunlight to produce energy-rich compounds, which then support herbivores and higher trophic levels. While green plants are the organisms that directly harness sunlight, they are also considered the main source of energy for the entire food chain.
+
+Let's analyze the options:
+
+A. sunlight — the ultimate energy source for producers.
+B. water — essential for life but not the primary energy source.
+C. green plants — the producers that convert sunlight into energy.
+D. decomposers — break down organic matter but are not the primary energy source.
+
+Between options A and C, both are related to energy flow, but the question asks for the main source of energy. The fundamental source is sunlight, which enables green plants to produce energy. Green plants are the organisms that directly utilize sunlight, making them the primary energy source for the food chain.
+
+Therefore, the best answer is **A. sunlight**.
+
+Final answer: #### A","['Mercury_7218645', 'Mercury_SC_401772', 'Mercury_7085190', 'MCAS_2009_5_6522', 'VASoL_2011_5_32']",False,680,226,906,3.2611539363861084,4.220008850097656e-05,3.2611961364746094,2025-05-16T22:46:03.626737
+arc,random,OHAT_2010_8_8,"Bass tapeworms attach to the gills and intestines of bass fish. These worms survive by taking nutrients from the bass. What type of relationship does this represent?
+A. predation
+B. parasitism
+C. mutualism
+D. commensalism",B,"This question describes a relationship where the tapeworms attach to the fish and take nutrients from them. The key points are:
+
+- The tapeworm benefits by obtaining nutrients.
+- The bass fish are harmed because they lose nutrients and may suffer health issues.
+- This is characteristic of a parasitic relationship, where one organism benefits at the expense of the other.
+
+Let's analyze each option:
+
+A. Predation – involves one organism hunting and killing another. The tapeworm does not kill the fish directly; it just takes nutrients. So, this is not predation.
+
+B. Parasitism – involves one organism benefiting while the other is harmed. This matches the description perfectly.
+
+C. Mutualism – both organisms benefit. Not applicable here, as the fish is harmed.
+
+D. Commensalism – one benefits, the other is unaffected. Since the fish is harmed, this is not the case.
+
+Therefore, the correct answer is B. parasitism.
+
+Final answer: #### B","['Mercury_7210175', 'Mercury_183138', 'Mercury_417467', 'Mercury_7240783', 'Mercury_401311']",False,668,200,868,3.5151500701904297,2.7894973754882812e-05,3.5151779651641846,2025-05-16T22:46:07.872241

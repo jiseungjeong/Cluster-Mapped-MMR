@@ -1,0 +1,47 @@
+{
+  "all_results_summary": {
+    "5": {
+      "commonsenseqa": {
+        "random": {
+          "count": 100,
+          "accuracy": 0.77,
+          "tokens": {},
+          "response_time": {
+            "mean": 1.6299388813972473,
+            "std": 0.5001424775980325
+          },
+          "selection_time": {
+            "mean": 2.2025108337402343e-05,
+            "std": 7.144748715202012e-06
+          },
+          "total_latency": {
+            "mean": 1.6299609065055847,
+            "std": 0.5001425691623923
+          }
+        }
+      }
+    }
+  },
+  "args": {
+    "dataset": "commonsenseqa",
+    "data_dir": "./data",
+    "num_test_samples": 300,
+    "num_repeats": 10,
+    "method": "random",
+    "num_examples": [
+      5
+    ],
+    "lambda_param": 0.7,
+    "n_clusters": 5,
+    "min_cluster_size": 5,
+    "min_samples": null,
+    "embedding_model": "all-mpnet-base-v2",
+    "force_recompute": false,
+    "gpt_model": null,
+    "gpt_temperature": null,
+    "gpt_max_tokens": null,
+    "experiment_name": "commonsenseqa_random_20250522_185936",
+    "results_dir": "./results"
+  },
+  "repeat_index": 0
+}

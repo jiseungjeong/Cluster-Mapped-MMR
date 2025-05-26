@@ -1,0 +1,47 @@
+{
+  "all_results_summary": {
+    "5": {
+      "combined": {
+        "similarity": {
+          "count": 300,
+          "accuracy": 0.8466666666666667,
+          "tokens": {},
+          "response_time": {
+            "mean": 3.7676358071962994,
+            "std": 34.71923073815569
+          },
+          "selection_time": {
+            "mean": 0.0017634677886962892,
+            "std": 0.0003598148830300949
+          },
+          "total_latency": {
+            "mean": 3.7693992749849956,
+            "std": 34.71922288377255
+          }
+        }
+      }
+    }
+  },
+  "args": {
+    "dataset": "combined",
+    "data_dir": "./data",
+    "num_test_samples": 300,
+    "num_repeats": 10,
+    "method": "similarity",
+    "num_examples": [
+      5
+    ],
+    "lambda_param": 0.7,
+    "n_clusters": 5,
+    "min_cluster_size": 5,
+    "min_samples": null,
+    "embedding_model": "all-mpnet-base-v2",
+    "force_recompute": false,
+    "gpt_model": null,
+    "gpt_temperature": null,
+    "gpt_max_tokens": null,
+    "experiment_name": "combined_similarity_20250523_130204",
+    "results_dir": "./results"
+  },
+  "repeat_index": 5
+}

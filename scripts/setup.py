@@ -1,0 +1,36 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="clustering-cot-selection",
+    version="1.0.0",
+    packages=find_packages(),
+    install_requires=[
+        "numpy>=1.24.0",
+        "pandas>=2.0.0",
+        "scikit-learn>=1.3.0",
+        "sentence-transformers>=2.2.0",
+        "openai>=1.6.0",
+        "matplotlib>=3.7.0",
+        "seaborn>=0.12.0",
+        "hdbscan>=0.8.30",
+        "umap-learn>=0.5.0",
+        "tqdm>=4.66.0",
+        "python-dotenv>=1.0.0",
+    ],
+    author="UNIST Data Mining Term Project, Jiseung Jeong",
+    author_email="wjdwltmd1151@unist.ac.kr",
+    description="Clustering-based Chain-of-Thought Example Selection for Enhanced Reasoning",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    keywords="CoT, Chain-of-Thought, clustering, MMR, example selection, LLM, reasoning",
+    python_requires=">=3.8",
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    ],
+)

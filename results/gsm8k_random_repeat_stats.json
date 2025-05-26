@@ -1,0 +1,14 @@
+{
+  "dataset": "gsm8k",
+  "method": "random",
+  "num_repeats": 10,
+  "timestamp": "2025-05-22T17:12:39.981013",
+  "statistics": {
+    "5": {
+      "min_accuracy": 0,
+      "max_accuracy": 0,
+      "avg_accuracy": 0.0,
+      "avg_selection_latency": 2.4243831634521486e-05
+    }
+  }
+}

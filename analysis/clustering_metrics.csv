@@ -1,0 +1,3 @@
+method,num_clusters,silhouette_score,davies_bouldin_score,calinski_harabasz_score
+K-means,5,0.07851346,4.113992503300131,71.419266
+HDBSCAN,4,0.09294769,2.177008330033273,48.273655

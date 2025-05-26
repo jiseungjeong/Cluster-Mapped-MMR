@@ -1,0 +1,127 @@
+[
+  {
+    "dataset": "arc",
+    "method": "random",
+    "question_id": "LEAP_2007_4_10280",
+    "question": "When Jake breathes out on a cold day, a cloud is formed. Which change occurs that lets Jake see his breath as a cloud?\nA. Gas changes to liquid.\nB. Solid changes to gas.\nC. Liquid changes to gas.\nD. Liquid changes to solid.",
+    "expected_answer": "A",
+    "response": "Let's analyze the process step-by-step:\n\n1. When Jake exhales, he releases warm, moist air into the cold environment.\n2. The warm, moist air contains water vapor in gaseous form.\n3. On a cold day, the temperature of the surrounding air is low enough that the water vapor cools rapidly.\n4. As the water vapor cools, it condenses into tiny water droplets or ice crystals, forming a visible cloud or \"breath.\"\n\nNow, considering the options:\n\nA. Gas changes to liquid.  \n- This describes condensation, which is what happens when water vapor cools and turns into tiny liquid droplets.  \n- This matches the process of forming Jake's breath cloud.\n\nB. Solid changes to gas.  \n- This describes sublimation or vaporization, which is not relevant here.  \n- The water vapor is condensing, not sublimating.\n\nC. Liquid changes to gas.  \n- This describes evaporation or boiling, which is the opposite process of condensation.  \n- Not what occurs when Jake's breath forms a cloud.\n\nD. Liquid changes to solid.  \n- This describes freezing, which is not happening in this scenario.\n\n**Conclusion:** The process that allows Jake to see his breath as a cloud is the condensation of water vapor into tiny liquid droplets.\n\n**Final answer:** A\n\n####",
+    "selected_examples": [
+      "Mercury_7217840",
+      "Mercury_7168683",
+      "Mercury_SC_400863",
+      "VASoL_2011_5_32",
+      "Mercury_7024168"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 817,
+      "completion_tokens": 268,
+      "total_tokens": 1085
+    },
+    "response_time": 4.5227460861206055,
+    "selection_time": 6.985664367675781e-05,
+    "total_latency": 4.522815942764282,
+    "timestamp": "2025-05-16T22:50:47.186531"
+  },
+  {
+    "dataset": "arc",
+    "method": "random",
+    "question_id": "NYSEDREGENTS_2010_8_42",
+    "question": "The force of an object, with a certain mass accelerating at a certain rate, can be determined by using the equation below. force = mass x acceleration Which object would have the greatest force?\n1. a 5-kg object accelerating at 10 m/s^2\n2. a 5-kg object accelerating at 20 m/s^2\n3. a 20-kg object accelerating at 4 m/s^2\n4. a 20-kg object accelerating at 3 m/s^2",
+    "expected_answer": "2",
+    "response": "Let's analyze each option using the formula:  \n**Force = mass × acceleration**\n\n**Option 1:**  \nMass = 5 kg  \nAcceleration = 10 m/s²  \nForce = 5 × 10 = 50 N\n\n**Option 2:**  \nMass = 5 kg  \nAcceleration = 20 m/s²  \nForce = 5 × 20 = 100 N\n\n**Option 3:**  \nMass = 20 kg  \nAcceleration = 4 m/s²  \nForce = 20 × 4 = 80 N\n\n**Option 4:**  \nMass = 20 kg  \nAcceleration = 3 m/s²  \nForce = 20 × 3 = 60 N\n\nNow, compare the forces:  \n- Option 1: 50 N  \n- Option 2: 100 N  \n- Option 3: 80 N  \n- Option 4: 60 N\n\nThe greatest force is **100 N**, which occurs in **Option 2**.\n\n**Final answer: #### 2**",
+    "selected_examples": [
+      "Mercury_7214270",
+      "Mercury_7283675",
+      "Mercury_7080938",
+      "MEA_2016_5_1",
+      "Mercury_7213150"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 843,
+      "completion_tokens": 212,
+      "total_tokens": 1055
+    },
+    "response_time": 3.359990119934082,
+    "selection_time": 5.2928924560546875e-05,
+    "total_latency": 3.3600430488586426,
+    "timestamp": "2025-05-16T22:50:51.246690"
+  },
+  {
+    "dataset": "arc",
+    "method": "random",
+    "question_id": "NYSEDREGENTS_2010_8_13",
+    "question": "What are genes composed of?\n1. offspring\n2. DNA\n3. cells\n4. traits",
+    "expected_answer": "2",
+    "response": "Let's analyze the question carefully.\n\nThe question asks: \"What are genes composed of?\"\n\nWe are given options:\n1. offspring\n2. DNA\n3. cells\n4. traits\n\n**Step 1: Recall what genes are.**  \nGenes are units of heredity that carry information from parent to offspring. They are segments of DNA that encode instructions for building proteins.\n\n**Step 2: Determine which option correctly describes the composition of genes.**  \n- Offspring: Not correct; offspring are organisms, not what genes are made of.  \n- DNA: Correct; genes are made of DNA sequences.  \n- Cells: Not correct; cells contain genes, but genes themselves are segments of DNA, not cells.  \n- Traits: Not correct; traits are characteristics expressed by genes, but traits are not what genes are composed of.\n\n**Step 3: Confirm the correct answer.**  \nSince genes are segments of DNA, the best choice is option 2.\n\n**Final answer:** 2\n\n####",
+    "selected_examples": [
+      "Mercury_7014368",
+      "Mercury_7228480",
+      "AKDE&ED_2008_8_25",
+      "Mercury_7069528",
+      "Mercury_7213080"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 685,
+      "completion_tokens": 205,
+      "total_tokens": 890
+    },
+    "response_time": 3.3829901218414307,
+    "selection_time": 2.4080276489257812e-05,
+    "total_latency": 3.38301420211792,
+    "timestamp": "2025-05-16T22:50:55.310462"
+  },
+  {
+    "dataset": "arc",
+    "method": "random",
+    "question_id": "NYSEDREGENTS_2015_4_29",
+    "question": "What is the main source of energy for all of the organisms in most food chains?\nA. sunlight\nB. water\nC. green plants\nD. decomposers",
+    "expected_answer": "A",
+    "response": "Let's analyze each question carefully, step-by-step, and explain the reasoning behind each answer.\n\n---\n\n**Question 1:** The body is able to detect pressure on its surface by which direct means?\n\n- **Option A:** Releasing hormones in skin — Hormones are chemical messengers, but they are not directly involved in sensing pressure.\n- **Option B:** Changing in volume of fat and muscle cells — Changes in volume are not the primary means of pressure detection.\n- **Option C:** Signaling by sensory neurons — Sensory neurons, specifically mechanoreceptors, detect pressure and convert it into electrical signals.\n- **Option D:** Changing of voltage in interneurons — Interneurons process signals but are not directly responsible for sensing pressure.\n\n**Conclusion:** The most direct means of detecting pressure is through sensory neurons that respond to mechanical stimuli.\n\n**Final answer:** **C**\n\n---\n\n**Question 2:** Which of these do scientists offer as the most recent explanation as to why many plants and animals died out at the end of the Mesozoic era?\n\n- **Option A:** Worldwide disease — While diseases can cause extinctions, current evidence points to a different cause.\n- **Option B:** Global mountain building — Mountain building affects climate but is not the primary explanation for the mass extinction.\n- **Option C:** Rise of mammals that preyed upon plants and animals — Predation pressure is a factor but not the main cause of the mass extinction.\n- **Option D:** Impact of an asteroid created dust that blocked the sunlight — Scientific evidence supports the asteroid impact hypothesis, which caused a \"nuclear winter\" effect, blocking sunlight and disrupting ecosystems.\n\n**Conclusion:** The most widely accepted recent explanation is the asteroid impact.\n\n**Final answer:** **D**\n\n---\n\n**Question 3:** Which list gives the correct order of substances from the lowest melting point to the highest?\n\n- **Option A:** oxygen, water, iron\n- **Option B:** water, iron, oxygen\n- **Option C:** oxygen, iron, water\n- **Option D:** iron, oxygen, water\n\n**Analysis:**\n\n- Noble gases like oxygen (O₂) have very low melting points.\n- Water (H₂O) melts at 0°C.\n- Iron (Fe) has a high melting point (~1538°C).\n\nOrder from lowest to highest melting point:\n\nOxygen < Water < Iron\n\n**Matching options:**\n\n- **Option A:** oxygen, water, iron — Correct.\n- **Option B:** water, iron, oxygen — Incorrect.\n- **Option C:** oxygen, iron, water — Incorrect.\n- **Option D:** iron, oxygen, water — Incorrect.\n\n**Final answer:** **A**\n\n---\n\n**Question 4:** The periodic table of the elements is systematically organized according to the\n\n- **Option A:** rate at which the elements chemically react — Not the primary basis.\n- **Option B:** hardness of the elements — No, this is not the organizing principle.\n- **Option C:** structure of the atoms of the elements — Correct. The periodic table is organized by atomic number, which relates to atomic structure.\n- **Option D:** radioactivity of the atoms of the elements — No, radioactivity is not the organizing principle.\n\n**Conclusion:** The periodic table is organized based on atomic structure, primarily atomic number.\n\n**Final answer:** **C**\n\n---\n\n**Question 5:** Which outcome is most likely if a person consumes more Calories than needed for daily activities?\n\n- **Option 1:** weight loss — Incorrect; excess calories lead to weight gain.\n- **Option 2:** weight gain — Correct; surplus energy is stored as fat.\n- **Option 3:** deficiency disease — Incorrect; excess calories do not cause deficiency.\n- **Option 4:** infectious disease — Incorrect; unrelated to calorie intake.\n\n**Conclusion:** Consuming more calories than needed results in weight gain.\n\n**Final answer:** **2**\n\n---\n\n**Question 6:** What is the main source of energy for all of the organisms in most food chains?\n\n- **Option A:** sunlight — Correct. Sunlight is the primary energy source for producers (green plants) which form the base of most food chains.\n- **Option B:** water — Not the main energy source.\n- **Option C:** green plants — They convert sunlight into energy, but sunlight is the ultimate source.\n- **Option D:** decomposers — They break down matter but are not the primary energy source.\n\n**Conclusion:** Sunlight is the main energy source for most food chains.\n\n**Final answer:** **A**\n\n---\n\n### Final summarized answers:\n\n#### C  \n#### D  \n#### A  \n#### C  \n#### 2  \n#### A",
+    "selected_examples": [
+      "Mercury_7239488",
+      "Mercury_7041615",
+      "Mercury_SC_LBS10244",
+      "MCAS_2000_8_25",
+      "NYSEDREGENTS_2011_8_24"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 737,
+      "completion_tokens": 949,
+      "total_tokens": 1686
+    },
+    "response_time": 13.893609046936035,
+    "selection_time": 1.9073486328125e-05,
+    "total_latency": 13.893628120422363,
+    "timestamp": "2025-05-16T22:51:09.890017"
+  },
+  {
+    "dataset": "arc",
+    "method": "random",
+    "question_id": "OHAT_2010_8_8",
+    "question": "Bass tapeworms attach to the gills and intestines of bass fish. These worms survive by taking nutrients from the bass. What type of relationship does this represent?\nA. predation\nB. parasitism\nC. mutualism\nD. commensalism",
+    "expected_answer": "B",
+    "response": "Let's analyze the relationship described: bass tapeworms attach to the gills and intestines of bass fish and take nutrients from the bass. This indicates that the tapeworm benefits by gaining nutrients, while the bass is harmed because it loses nutrients or suffers health issues.\n\nNow, consider the options:\n\n- **Predation**: This involves one organism hunting and killing another. Since the tapeworm does not kill the fish directly but harms it by taking nutrients, this is not predation.\n\n- **Parasitism**: This is a relationship where one organism benefits at the expense of the other, often harming it. The tapeworm benefits, and the fish is harmed, fitting parasitism.\n\n- **Mutualism**: Both organisms benefit. This is not the case here, as the fish is harmed.\n\n- **Commensalism**: One benefits, and the other is unaffected. Since the fish is harmed, this is not commensalism.\n\nTherefore, the relationship is **parasitism**.\n\nFinal answer: #### B",
+    "selected_examples": [
+      "NYSEDREGENTS_2014_8_12",
+      "Mercury_7006178",
+      "Mercury_7263113",
+      "Mercury_182035",
+      "Mercury_SC_400862"
+    ],
+    "correct": true,
+    "tokens": {
+      "prompt_tokens": 755,
+      "completion_tokens": 215,
+      "total_tokens": 970
+    },
+    "response_time": 3.25956392288208,
+    "selection_time": 2.002716064453125e-05,
+    "total_latency": 3.2595839500427246,
+    "timestamp": "2025-05-16T22:51:13.826919"
+  }
+]

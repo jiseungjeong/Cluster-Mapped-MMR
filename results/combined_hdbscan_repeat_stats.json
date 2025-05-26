@@ -1,0 +1,14 @@
+{
+  "dataset": "combined",
+  "method": "hdbscan",
+  "num_repeats": 10,
+  "timestamp": "2025-05-25T14:11:53.806719",
+  "statistics": {
+    "5": {
+      "min_accuracy": 0,
+      "max_accuracy": 0,
+      "avg_accuracy": 0.0,
+      "avg_selection_latency": 0.00026882020632425945
+    }
+  }
+}

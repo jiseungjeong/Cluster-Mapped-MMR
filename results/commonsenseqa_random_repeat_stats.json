@@ -1,0 +1,14 @@
+{
+  "dataset": "commonsenseqa",
+  "method": "random",
+  "num_repeats": 10,
+  "timestamp": "2025-05-22T19:38:02.032212",
+  "statistics": {
+    "5": {
+      "min_accuracy": 0,
+      "max_accuracy": 0,
+      "avg_accuracy": 0.0,
+      "avg_selection_latency": 2.319812774658203e-05
+    }
+  }
+}

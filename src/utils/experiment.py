@@ -265,3 +265,15 @@ class ExperimentManager:
                 )
 
         print("\n==============================")
+
+    def save_meta(self, meta_data: Dict[str, Any]):
+        """
+        Save meta information for the experiment
+
+        Args:
+            meta_data: Meta data dictionary to save
+        """
+        meta_path = os.path.join(self.experiment_dir, "meta.json")
+        with open(meta_path, "w", encoding="utf-8") as f:
+            json.dump(meta_data, f, ensure_ascii=False, indent=2)
+        logger.info(f"Meta data saved: {meta_path}")

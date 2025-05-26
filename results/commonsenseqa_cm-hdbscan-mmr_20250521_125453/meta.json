@@ -1,0 +1,45 @@
+{
+  "all_results_summary": {
+    "5": {
+      "commonsenseqa": {
+        "cm-hdbscan-mmr": {
+          "count": 100,
+          "accuracy": 0.75,
+          "tokens": {},
+          "response_time": {
+            "mean": 1.5558806920051576,
+            "std": 0.6672780946408745
+          },
+          "selection_time": {
+            "mean": 0.0008587002754211426,
+            "std": 0.0004583194994142051
+          },
+          "total_latency": {
+            "mean": 1.5567393922805786,
+            "std": 0.6673022566370079
+          }
+        }
+      }
+    }
+  },
+  "args": {
+    "dataset": "commonsenseqa",
+    "data_dir": "./data",
+    "num_test_samples": 100,
+    "method": "cm-hdbscan-mmr",
+    "num_examples": [
+      5
+    ],
+    "lambda_param": 0.7,
+    "n_clusters": 5,
+    "min_cluster_size": 5,
+    "min_samples": null,
+    "embedding_model": "all-mpnet-base-v2",
+    "force_recompute": false,
+    "gpt_model": null,
+    "gpt_temperature": null,
+    "gpt_max_tokens": null,
+    "experiment_name": "commonsenseqa_cm-hdbscan-mmr_20250521_125453",
+    "results_dir": "./results"
+  }
+}

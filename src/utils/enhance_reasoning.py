@@ -50,7 +50,7 @@ def parse_args():
     parser.add_argument(
         "--model",
         type=str,
-        default="gpt-4.1-nano",
+        default="gpt-3.5-turbo",
         help="사용할 OpenAI 모델 (기본값: gpt-4o)",
     )
     parser.add_argument(

@@ -1,0 +1,47 @@
+{
+  "all_results_summary": {
+    "5": {
+      "combined": {
+        "hdbscan": {
+          "count": 300,
+          "accuracy": 0.8433333333333334,
+          "tokens": {},
+          "response_time": {
+            "mean": 1.6065057333310444,
+            "std": 0.6886905738070589
+          },
+          "selection_time": {
+            "mean": 0.000333867073059082,
+            "std": 0.00023643661294552883
+          },
+          "total_latency": {
+            "mean": 1.6068396004041037,
+            "std": 0.6886997416275292
+          }
+        }
+      }
+    }
+  },
+  "args": {
+    "dataset": "combined",
+    "data_dir": "./data",
+    "num_test_samples": 300,
+    "num_repeats": 10,
+    "method": "hdbscan",
+    "num_examples": [
+      5
+    ],
+    "lambda_param": 0.7,
+    "n_clusters": 5,
+    "min_cluster_size": 5,
+    "min_samples": null,
+    "embedding_model": "all-mpnet-base-v2",
+    "force_recompute": false,
+    "gpt_model": null,
+    "gpt_temperature": null,
+    "gpt_max_tokens": null,
+    "experiment_name": "combined_hdbscan_20250525_122329",
+    "results_dir": "./results"
+  },
+  "repeat_index": 9
+}

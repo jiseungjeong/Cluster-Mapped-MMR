@@ -33,7 +33,7 @@ class GPTClient:
             raise ValueError("OPENAI_API_KEY is not set. Check your .env file.")
 
         # Model settings
-        self.model_name = model_name or os.getenv("GPT_MODEL", "gpt-4.1-nano")
+        self.model_name = model_name or os.getenv("GPT_MODEL", "gpt-3.5-turbo")
         self.temperature = (
             temperature
             if temperature is not None

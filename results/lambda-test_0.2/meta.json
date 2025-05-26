@@ -1,0 +1,45 @@
+{
+  "all_results_summary": {
+    "5": {
+      "combined": {
+        "mmr": {
+          "count": 300,
+          "accuracy": 0.8466666666666667,
+          "tokens": {},
+          "response_time": {
+            "mean": 1.6087302382787068,
+            "std": 0.7546275443310708
+          },
+          "selection_time": {
+            "mean": 0.007190318902333578,
+            "std": 0.0019910471159003107
+          },
+          "total_latency": {
+            "mean": 1.6159205571810404,
+            "std": 0.7547300874760461
+          }
+        }
+      }
+    }
+  },
+  "args": {
+    "dataset": "combined",
+    "data_dir": "./data",
+    "num_test_samples": 300,
+    "method": "mmr",
+    "num_examples": [
+      5
+    ],
+    "lambda_param": 0.2,
+    "n_clusters": 5,
+    "min_cluster_size": 5,
+    "min_samples": null,
+    "embedding_model": "all-mpnet-base-v2",
+    "force_recompute": false,
+    "gpt_model": null,
+    "gpt_temperature": null,
+    "gpt_max_tokens": null,
+    "experiment_name": "lambda-test_0.2",
+    "results_dir": "./results"
+  }
+}

@@ -36,7 +36,15 @@ def parse_args():
         "--methods",
         type=str,
         nargs="+",
-        choices=["kmeans", "hdbscan", "mmr", "random", "cm-mmr"],
+        choices=[
+            "kmeans",
+            "hdbscan",
+            "mmr",
+            "random",
+            "cm-mmr",
+            "cm-hdbscan-mmr",
+            "similarity",
+        ],
         default=["kmeans", "mmr", "random"],
         help="List of example selection methods to experiment with",
     )
@@ -107,6 +115,8 @@ def run_experiment(
         cmd.extend(["--n_clusters", "5"])
     elif method == "cm-mmr":
         cmd.extend(["--lambda_param", "0.7", "--n_clusters", "5"])
+    elif method == "cm-hdbscan-mmr":
+        cmd.extend(["--lambda_param", "0.7", "--min_cluster_size", "5"])
 
     # Run experiment
     try:

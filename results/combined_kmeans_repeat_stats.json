@@ -1,0 +1,14 @@
+{
+  "dataset": "combined",
+  "method": "kmeans",
+  "num_repeats": 10,
+  "timestamp": "2025-05-25T12:18:04.681962",
+  "statistics": {
+    "5": {
+      "min_accuracy": 0,
+      "max_accuracy": 0,
+      "avg_accuracy": 0.0,
+      "avg_selection_latency": 8.82755559608193e-05
+    }
+  }
+}

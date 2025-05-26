@@ -30,14 +30,14 @@ def parse_args():
     parser.add_argument(
         "--dataset",
         type=str,
-        choices=["gsm8k", "commonsenseqa"],
-        default="gsm8k",
+        choices=["gsm8k", "commonsenseqa", "combined"],
+        default="combined",
         help="평가할 데이터셋",
     )
     parser.add_argument(
         "--method",
         type=str,
-        choices=["kmeans", "mmr", "random"],
+        choices=["random"],
         default="random",
         help="예제 선택 방법",
     )
@@ -49,7 +49,7 @@ def parse_args():
         help="평가할 few-shot 예제 개수 목록",
     )
     parser.add_argument(
-        "--num_test_samples", type=int, default=50, help="테스트 샘플 수"
+        "--num_test_samples", type=int, default=300, help="테스트 샘플 수"
     )
     parser.add_argument(
         "--data_dir", type=str, default="./data", help="데이터 디렉토리 경로"
@@ -60,7 +60,7 @@ def parse_args():
     parser.add_argument(
         "--gpt_model",
         type=str,
-        default="gpt-4.1-nano",
+        default="gpt-3.5-turbo",
         help="사용할 GPT 모델",
     )
 
@@ -75,6 +75,7 @@ def run_single_experiment(
     data_dir: str,
     results_dir: str,
     gpt_model: str,
+    is_in_analysis_dir: bool = False,
 ):
     """
     단일 실험 실행
@@ -87,6 +88,7 @@ def run_single_experiment(
         data_dir: 데이터 디렉토리 경로
         results_dir: 결과 저장 디렉토리
         gpt_model: GPT 모델명
+        is_in_analysis_dir: src/analysis 디렉토리에서 실행 중인지 여부
 
     Returns:
         (실험 성공 여부, 실험 결과 파일 경로)
@@ -97,10 +99,31 @@ def run_single_experiment(
 
     logger.info(f"실험 실행: {dataset} / {method} / {num_examples} shots")
 
+    # 데이터셋 파일 존재 여부 확인
+    dataset_paths = {
+        "gsm8k": os.path.join(data_dir, "processed", "gsm8k_test.json"),
+        "commonsenseqa": os.path.join(data_dir, "processed", "commonsenseqa_test.json"),
+        "combined": os.path.join(data_dir, "processed", "combined_test.json"),
+    }
+
+    if dataset in dataset_paths:
+        dataset_path = dataset_paths[dataset]
+        if not os.path.exists(dataset_path):
+            logger.error(f"데이터셋 파일이 없습니다: {dataset_path}")
+            return False, None
+        else:
+            logger.info(f"데이터셋 파일 확인됨: {dataset_path}")
+
     # 명령어 구성
+    # 실행 위치에 따라 main.py 경로 결정
+    if is_in_analysis_dir:
+        main_py_path = "../main.py"  # src/analysis에서 실행 시
+    else:
+        main_py_path = "src/main.py"  # 프로젝트 루트에서 실행 시
+
     cmd = [
         "python",
-        "src/main.py",
+        main_py_path,
         "--dataset",
         dataset,
         "--method",
@@ -109,14 +132,6 @@ def run_single_experiment(
         str(num_examples),
         "--num_test_samples",
         str(num_test_samples),
-        "--data_dir",
-        data_dir,
-        "--results_dir",
-        results_dir,
-        "--experiment_name",
-        experiment_name,
-        "--gpt_model",
-        gpt_model,
     ]
 
     # 특정 방법에 따른 추가 인자
@@ -124,6 +139,13 @@ def run_single_experiment(
         cmd.extend(["--lambda_param", "0.7"])
     elif method == "kmeans":
         cmd.extend(["--n_clusters", "5"])
+
+    # combined 데이터셋인 경우, 예제 파일 경로 명시적 지정
+    if dataset == "combined":
+        examples_path = os.path.join(data_dir, "examples", "combined_examples.json")
+        if os.path.exists(examples_path):
+            cmd.extend(["--examples_file", examples_path])
+            logger.info(f"Combined 예제 파일 지정: {examples_path}")
 
     # 실험 실행
     try:
@@ -227,11 +249,32 @@ def plot_results(results: List[Dict], output_dir: str):
 
 def main():
     """메인 함수"""
+    # 현재 작업 디렉토리 확인 (프로젝트 루트에서 실행되어야 함)
+    cwd = os.getcwd()
+    script_path = os.path.abspath(__file__)
+    logger.info(f"현재 작업 디렉토리: {cwd}")
+    logger.info(f"스크립트 경로: {script_path}")
+
+    # 프로젝트 루트 디렉토리에서 실행 중인지 확인
+    is_in_analysis_dir = cwd.endswith("/src/analysis")
+    if is_in_analysis_dir:
+        logger.info("src/analysis 디렉토리에서 실행 중입니다.")
+    elif not (os.path.exists(os.path.join(cwd, "src", "main.py"))):
+        logger.warning("이 스크립트는 프로젝트 루트 디렉토리에서 실행해야 합니다.")
+        logger.warning("예: python src/analysis/fewshot_analysis.py")
+        logger.warning(f"현재 위치: {cwd}")
+
     args = parse_args()
+
+    # 실행 위치에 따라 결과 디렉토리 조정
+    results_dir = args.results_dir
+    if is_in_analysis_dir and results_dir == "./results":
+        results_dir = "../../results"
+        logger.info(f"실행 위치에 따라 결과 디렉토리를 조정합니다: {results_dir}")
 
     # 전체 결과 저장 디렉토리 생성
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_dir = os.path.join(args.results_dir, f"fewshot_analysis_{timestamp}")
+    output_dir = os.path.join(results_dir, f"fewshot_analysis_{timestamp}")
     os.makedirs(output_dir, exist_ok=True)
 
     # 각 shot 개수별로 실험 실행
@@ -246,6 +289,7 @@ def main():
             data_dir=args.data_dir,
             results_dir=output_dir,
             gpt_model=args.gpt_model,
+            is_in_analysis_dir=is_in_analysis_dir,
         )
 
         if success:

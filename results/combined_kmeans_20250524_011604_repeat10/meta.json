@@ -1,0 +1,47 @@
+{
+  "all_results_summary": {
+    "5": {
+      "combined": {
+        "kmeans": {
+          "count": 300,
+          "accuracy": 0.831081081081081,
+          "tokens": {},
+          "response_time": {
+            "mean": 1.4901484935670286,
+            "std": 0.6844958342305689
+          },
+          "selection_time": {
+            "mean": 0.00010825170053018105,
+            "std": 0.00023265118003006505
+          },
+          "total_latency": {
+            "mean": 1.4902567452675588,
+            "std": 0.6844958605527987
+          }
+        }
+      }
+    }
+  },
+  "args": {
+    "dataset": "combined",
+    "data_dir": "./data",
+    "num_test_samples": 300,
+    "num_repeats": 10,
+    "method": "kmeans",
+    "num_examples": [
+      5
+    ],
+    "lambda_param": 0.7,
+    "n_clusters": 5,
+    "min_cluster_size": 5,
+    "min_samples": null,
+    "embedding_model": "all-mpnet-base-v2",
+    "force_recompute": false,
+    "gpt_model": null,
+    "gpt_temperature": null,
+    "gpt_max_tokens": null,
+    "experiment_name": "combined_kmeans_20250524_011604",
+    "results_dir": "./results"
+  },
+  "repeat_index": 9
+}

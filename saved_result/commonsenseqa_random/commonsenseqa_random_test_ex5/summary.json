@@ -1,0 +1,21 @@
+{
+  "commonsenseqa": {
+    "random": {
+      "count": 100,
+      "accuracy": 0.77,
+      "tokens": {},
+      "response_time": {
+        "mean": 1.6288216996192932,
+        "std": 0.44079108518273336
+      },
+      "selection_time": {
+        "mean": 2.276897430419922e-05,
+        "std": 1.300141626675512e-05
+      },
+      "total_latency": {
+        "mean": 1.6288444685935974,
+        "std": 0.4407915441044293
+      }
+    }
+  }
+}

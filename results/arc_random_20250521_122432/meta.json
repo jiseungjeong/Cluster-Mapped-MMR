@@ -1,0 +1,45 @@
+{
+  "all_results_summary": {
+    "5": {
+      "arc": {
+        "random": {
+          "count": 100,
+          "accuracy": 0.96,
+          "tokens": {},
+          "response_time": {
+            "mean": 1.3021524691581725,
+            "std": 0.2973145122003343
+          },
+          "selection_time": {
+            "mean": 2.176046371459961e-05,
+            "std": 7.324986517802823e-06
+          },
+          "total_latency": {
+            "mean": 1.3021742296218872,
+            "std": 0.2973158669406256
+          }
+        }
+      }
+    }
+  },
+  "args": {
+    "dataset": "arc",
+    "data_dir": "./data",
+    "num_test_samples": 100,
+    "method": "random",
+    "num_examples": [
+      5
+    ],
+    "lambda_param": 0.7,
+    "n_clusters": 5,
+    "min_cluster_size": 5,
+    "min_samples": null,
+    "embedding_model": "all-mpnet-base-v2",
+    "force_recompute": false,
+    "gpt_model": null,
+    "gpt_temperature": null,
+    "gpt_max_tokens": null,
+    "experiment_name": "arc_random_20250521_122432",
+    "results_dir": "./results"
+  }
+}

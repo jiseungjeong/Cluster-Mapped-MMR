@@ -1,0 +1,47 @@
+{
+  "all_results_summary": {
+    "5": {
+      "gsm8k": {
+        "random": {
+          "count": 100,
+          "accuracy": 0.82,
+          "tokens": {},
+          "response_time": {
+            "mean": 1.4103239178657532,
+            "std": 0.5319532879999421
+          },
+          "selection_time": {
+            "mean": 2.4797916412353517e-05,
+            "std": 1.3049596462044625e-05
+          },
+          "total_latency": {
+            "mean": 1.4103487157821655,
+            "std": 0.5319554225719477
+          }
+        }
+      }
+    }
+  },
+  "args": {
+    "dataset": "gsm8k",
+    "data_dir": "./data",
+    "num_test_samples": 300,
+    "num_repeats": 10,
+    "method": "random",
+    "num_examples": [
+      5
+    ],
+    "lambda_param": 0.7,
+    "n_clusters": 5,
+    "min_cluster_size": 5,
+    "min_samples": null,
+    "embedding_model": "all-mpnet-base-v2",
+    "force_recompute": false,
+    "gpt_model": null,
+    "gpt_temperature": null,
+    "gpt_max_tokens": null,
+    "experiment_name": "gsm8k_random_20250522_163603",
+    "results_dir": "./results"
+  },
+  "repeat_index": 3
+}

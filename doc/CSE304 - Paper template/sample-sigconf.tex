@@ -1,0 +1,66 @@
+
+\documentclass[sigconf]{acmart}
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+\usepackage{lipsum}
+
+\setcopyright{acmlicensed}
+\copyrightyear{2018}
+\acmYear{2018}
+\acmDOI{XXXXXXX.XXXXXXX}
+\acmConference[Conference acronym 'XX]{Make sure to enter the correct
+  conference title from your rights confirmation email}{June 03--05,
+  2018}{Woodstock, NY}
+
+\acmISBN{978-1-4503-XXXX-X/2018/06}
+
+\begin{document}
+
+\title{\textcolor{blue}{The Name of the Title Is Hope}}
+
+\author{\textcolor{blue}{Kim Kim (20201111)}}
+\affiliation{%
+  \institution{UNIST}
+  \country{South Korea}
+}
+\email{kim@unist.ac.kr}
+
+\renewcommand{\shortauthors}{\textcolor{blue}{Kim et al.}}
+
+\begin{abstract}
+\textcolor{blue}{Insert abstract}
+\end{abstract}
+
+
+\settopmatter{printacmref=false} % Removes citation block in the first page
+\renewcommand\footnotetextcopyrightpermission[1]{} % Removes footnote with conference info
+
+
+
+\maketitle
+
+
+\section{INTRODUCTION}
+\lipsum[1]
+
+\section{RELATED WORK}
+\lipsum[1]
+
+\section{PROBLEM STATEMENT}
+\lipsum[1]
+
+\section{ALGORITHM}
+\lipsum[1]
+
+\section{EXPERIMENTS}
+\lipsum[1]
+
+\section{CONCLUSION}
+\lipsum[1]
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{reference}
+
+\end{document}

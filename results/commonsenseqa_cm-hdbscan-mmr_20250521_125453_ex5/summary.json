@@ -1,0 +1,21 @@
+{
+  "commonsenseqa": {
+    "cm-hdbscan-mmr": {
+      "count": 100,
+      "accuracy": 0.75,
+      "tokens": {},
+      "response_time": {
+        "mean": 1.5558806920051576,
+        "std": 0.6672780946408745
+      },
+      "selection_time": {
+        "mean": 0.0008587002754211426,
+        "std": 0.0004583194994142051
+      },
+      "total_latency": {
+        "mean": 1.5567393922805786,
+        "std": 0.6673022566370079
+      }
+    }
+  }
+}
