@@ -47,14 +47,26 @@ Thumbs.db
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data files (optional - uncomment if you want to ignore large data files)
-# data/raw/
-# *.csv
-# *.json
+# Large data files and directories
+data/raw/
+data/embeddings/
+results/
+plots/
+saved_result/
 
-# Model files
+# Large image files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Large model and data files
 *.pkl
 *.joblib
+*.h5
+*.hdf5
+*.parquet
 
 # Logs
 *.log
@@ -63,3 +75,7 @@ logs/
 # Temporary files
 tmp/
 temp/
+
+# Analysis output files (keep structure but ignore large files)
+analysis/*.csv
+analysis/*.json
