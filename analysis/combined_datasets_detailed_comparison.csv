@@ -1,0 +1,8 @@
+Method,GSM8K_Accuracy,GSM8K_SelectionTime,CommonsenseQA_Accuracy,CommonsenseQA_SelectionTime,ARC_Accuracy,ARC_SelectionTime
+Random,82.0%,197.591ms,77.0%,126.296ms,95.0%,165.609ms
+Similarity,84.0%,156.084ms,70.0%,95.622ms,99.0%,122.966ms
+MMR,87.0%,188.023ms,74.0%,96.049ms,96.0%,170.240ms
+K-means,84.0%,134.627ms,74.0%,95.361ms,97.0%,122.320ms
+HDBSCAN,82.0%,169.426ms,77.0%,105.555ms,96.0%,154.761ms
+CM-MMR (K-means),85.0%,176.582ms,75.0%,149.243ms,97.0%,246.432ms
+CM-MMR (HDBSCAN),81.0%,215.832ms,79.0%,123.391ms,97.0%,235.572ms

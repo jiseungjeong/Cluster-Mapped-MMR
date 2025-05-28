@@ -55,7 +55,6 @@ plots/
 saved_result/
 
 # Large image files
-*.png
 *.jpg
 *.jpeg
 *.pdf
@@ -75,7 +74,3 @@ logs/
 # Temporary files
 tmp/
 temp/
-
-# Analysis output files (keep structure but ignore large files)
-analysis/*.csv
-analysis/*.json

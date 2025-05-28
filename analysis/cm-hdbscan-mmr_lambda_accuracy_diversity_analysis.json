@@ -1,0 +1,6 @@
+{
+  "method": "CM-HDBSCAN-MMR",
+  "best_lambda_accuracy": 0.1,
+  "best_accuracy": 0.9,
+  "best_lambda_diversity": 0.1,
+  "best_diversity": 
